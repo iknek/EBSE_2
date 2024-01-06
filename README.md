@@ -1,9 +1,9 @@
 # Repo for our Course Project
 
 ## Tools Available
-1. **CountNumbOfClassifications.py** - Counts the number of each classification (code_debt, architecture_debt, non_debt, etc). Running it will prompt for you to choose from either (1) Pull Requests, (2) Code Comments, or (3) Commit Messages.
-2. **plotClassificationsPerPullReqs.py** - Plots a bar graph where the Y-axis is the number of total SATDs, and the X-axis is the number of Pull Requests/Z (where Z is the number of pull requests aggregated into one bar). Each bar is divided horizaontally (i.e.along the corresponding y height), to indicate the proportion of each classification. Running it will prompt for you to choose if non-debt should be included, and the Z value.
-3. **sortPullReqCSV.py** - Simply sorts the original pull request CSV into one ordered by PR number.
+1. **CountClassifications.py** - Counts the number of each classification (code_debt, architecture_debt, non_debt, etc). Running it will prompt for you to choose from either (1) Pull Requests, (2) Code Comments, (3) Commit Messages, or (4) Dataset Issues.
+2. **plotClassifications.py** - Plots a bar graph where the Y-axis is the number of total SATDs, and the X-axis is *either* the number of Dataset Issues or Pull Requests /Z (where Z is the number of either metric aggregated per one bar). Each bar is divided horizaontally (i.e. along the corresponding y height), to indicate the proportion of each classification. Running it will prompt for you to choose the metric, if non-debt should be included, and the Z value.
+3. **sortPRsOrIssues.py** - Simply sorts their the original pull request CSV, or the dataset issues CSV into a new CSV ordered by PR/Issue number.
 
 ## To run the files
 1. Install python
@@ -13,4 +13,8 @@
 - For example: 
 `
 ABSOLUTE_PATH_TO_FOLDER='C:/Users/Data/Desktop/satd-different-sources-data-main/tools/csv/'
+`
+4. Simply run a tool/class using:
+` 
+python 
 `
