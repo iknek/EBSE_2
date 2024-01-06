@@ -13,7 +13,7 @@ input_csv_path = os.path.join(absolute_path_to_folder, 'satd-dataset-pull_reques
 
 # Prompt user for settings
 include_non_debt = input("Include 'non_debt' classification? (yes/no): ").lower().startswith('y')
-group_size_input = input("Enter the number of pull requests per group (try 100!): ")
+group_size_input = input("Enter the number of pull requests per group (The Z value in the README): ")
 
 try:
     group_size = int(group_size_input)

@@ -3,7 +3,7 @@ from collections import defaultdict
 from dotenv import load_dotenv
 import os
 
-# Load environment variables from .env file
+# Load environment variable for PATH from .env file
 load_dotenv()
 
 def count_classifications(csv_file):
@@ -17,9 +17,22 @@ def count_classifications(csv_file):
 
     return classification_count
 
-# Replace 'path/to/your/csvfile.csv' with the path to your CSV file
 absolute_path_to_folder = os.getenv('ABSOLUTE_PATH_TO_FOLDER')
-csv_file_path = absolute_path_to_folder+'satd-dataset-commit_messages.csv'
+
+# Ask the user to choose the dataset
+data_choice = input("Count classifications for (1) Pull Requests, (2) Code Comments, or (3) Commit Messages? Enter 1, 2, or 3: ")
+
+if data_choice == '1':
+    csv_file_name = 'satd-dataset-pull_requests.csv'
+elif data_choice == '2':
+    csv_file_name = 'satd-dataset-code_comments.csv'
+elif data_choice == '3':
+    csv_file_name = 'satd-dataset-commit_messages.csv'
+else:
+    print("Invalid choice. Please run the script again and select a valid option.")
+    exit()
+
+csv_file_path = os.path.join(absolute_path_to_folder, csv_file_name)
 counts = count_classifications(csv_file_path)
 
 for classification, count in counts.items():
