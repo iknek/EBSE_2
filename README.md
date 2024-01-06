@@ -11,6 +11,6 @@
 - "pip install python-dotenv"
 3. Make a .env in the tools directory, and set the absolut path to the csv folder
 - For example: 
-```
-"ABSOLUTE_PATH_TO_FOLDER='C:/Users/Data/Desktop/satd-different-sources-data-main/tools/csv/'" 
-```
+`
+ABSOLUTE_PATH_TO_FOLDER='C:/Users/Data/Desktop/satd-different-sources-data-main/tools/csv/'
+`
