@@ -23,7 +23,7 @@ absolute_path_to_folder = os.getenv('ABSOLUTE_PATH_TO_FOLDER')
 data_choice = input("Count classifications for (1) Pull Requests, (2) Code Comments, (3) Commit Messages, (4) Dataset Issues? Enter 1, 2, 3, or 4: ")
 
 if data_choice == '1':
-    csv_file_name = 'satd-dataset-pull_requests.csv'
+    csv_file_name = 'combined_checkpoints.csv' # Uses updated combined checkpoints
 elif data_choice == '2':
     csv_file_name = 'satd-dataset-code_comments.csv'
 elif data_choice == '3':

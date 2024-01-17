@@ -1,0 +1,139 @@
+project,pull_number,pull_type,id,text,classification,indicator,repo_owner
+airflow,12530,review,528867848,"looks like it's calling `super().get_serialized_fields()`, so we should be good for ExternalTaskSensor",non_debt,-,apache
+storm,3381,summary,0,exclude org.glassfish.web:javax.servlet.jsp from storm-autocreds hbase-server dependency,non_debt,-,apache
+druid,10267,review,600967002,"I guessed it was because the metadata changed. By that, I mean the `org.apache.druid.segment.Metadata` object stored in the segment, which contains the TimestampSpec.
+It adds up, I think, since -1 character is the difference between the old default `timestamp` + `auto` (13 chars) and the new default `__time` + `millis` (12 chars).",non_debt,-,apache
+pulsar,4311,review,285428211,is this relevant to this PR?,non_debt,-,apache
+qpid-dispatch,1027,comment,777126228,This is the first part - creating a generic Q2 unblock handler.  Follow up commits will use this to enable Q2 backpressure on HTTP/1.x messages.,non_debt,-,apache
+spark,3778,review,22297307,to remove this if,non_debt,-,apache
+druid,2806,review,59071300,the default should be made a constant somewhere instead of being defined in multiple places,code_debt,low_quality_code,apache
+spark,19495,review,144992379,nit: extra line,code_debt,low_quality_code,apache
+hbase,2810,comment,751321209,"`executeProcedures()` is taken care of internally using `preExecuteProcedures()` I think, but feel free to include `clearSlowLogsResponses()`.
+Thanks @lujiefsi",non_debt,-,apache
+activemq-artemis,3104,comment,621179877,"I am not sure this is not a WARN at all... it happens all the time...
+-1000
+this is supposed to happen that way... the TransactionManager will commit the Transaction from its own session in a lot of instances.",non_debt,-,apache
+trafodion,1401,comment,358168176,"jenkins, retest",non_debt,-,apache
+camel-quarkus,1159,summary,0,deps: update kotlin to v1.3.72,non_debt,-,apache
+airflow,10947,review,497376687,I just pushed commit without it.,non_debt,-,apache
+incubator-pinot,5081,summary,0,[TE][subscription] Fix duplicate anomaly report issue and clean up subscription pipelines,non_debt,-,apache
+trafodion,405,description,0,"NATableDB is caching a pointer to a HiveClient_JNI object
+client disconnects.  Fixing this by keeping the HiveClient_JNI around
+across sessions.",non_debt,-,apache
+airflow,1435,comment,215288030,"Much thanks for the in-depth review!
+Is the scenario you are worrying about (two workers running the same task instance) already possible? For example if a worker's communication with the DB gets interrupted, then the scheduler assigns the task instance to a new worker, and then the communication between the initial worker and the DB resumes.
+This makes sense. I misspoke in the PR description though, SLAs should still be sent, the difference would be the SLA email would now omit task instances in the dagrun that didn't succeed for reasons other than depends_on_past not being met (e.g. a task that couldn't run because it's pool was full won't get reported in the email). I think I'm going to just include all tasks that don't have a successful status in the SLA miss email, even those stuck on depends_on_past to align with your criteria (if the task caused core_data to not be delivered by 9AM the task caused the DAG to miss it's SLA regardless of it's depends_on_past_dependency), plus is stops treating depends_on_past differently from the other dependencies like the pool being full. LMK what you think.
+Agreed about the efficiency, was going to look into caching if this causes perf issues.
+The newfound power of the force flag could be used instead of ignore_depends_on_past, but making ""force"" the default for every backfill could potentially be a bit dangerous as users could e.g. unintentionally force run over a large range of already successful tasks in a backfill or violate a pool constraint. If you have any ideas let me know.
+Agreed about not passing in a bunch of different flags. There is actually a TODO above that part of the code in the PR to use a context parameter instead (it will be addressed in this PR).
+For the flag upstream_failed I would prefer to leave the fix for another PR since it was an existing hack and the cope of this PR is already a bit dangerously large.",code_debt,low_quality_code,apache
+hive,1261,description,0,"Fixed Binary data type in beeline rows to encode to Base64
+https://issues.apache.org/jira/browse/HIVE-23856",non_debt,-,apache
+accumulo,368,review,165091158,You may be able to check expected parameters with easymock.,non_debt,-,apache
+systemds,963,comment,640634259,This is a temporary PR -- opened to verify if tests are passing.,non_debt,-,apache
+beam,12241,review,454528596,I would add a comment above to state the assumption. But it's minor though.,documentation_debt,low_quality_documentation,apache
+helix,653,review,362586939,I still think we should pass null if HelixParticipantProperty is not there. Having an object but no value does not really benefit us.,non_debt,-,apache
+kafka,1608,description,0,"Since current additivity setting of `kafkaAppender` is `true` (default value), This causes duplicated logs in the `kafkaAppender` and the `root` appender.  
+It would be better default log4j configuration for **production env** if the additivity value of `kafkaAppender` is `false`",non_debt,-,apache
+accumulo,371,description,0,"Added a check to the configuration sanity checker to ensure that, if a crypto module other than NullCryptoModule was selected, a
+SecretKeyEncryptionStrategy other than NullSecretKeyEncryptionStrategy must also be selected (and vice versa).",non_debt,-,apache
+geode-native,615,review,443683084,"I tend to always work in an IDE that supports project view (Visual Studio, Xcode), wherein I already know I'm working with a test project. Hence the Test suffix is a bit redundant. Also, we already have 4 tests in the new framework that don't use the Test suffix.",test_debt,expensive_tests,apache
+tvm,1973,review,243703973,"no switch is necessary, you can use pf->CallPacked",non_debt,-,apache
+airflow,4348,summary,0,[AIRFLOW-XXX] Add section to Updating.md regarding timezones,non_debt,-,apache
+drill,348,comment,177013054,+1 tested the change by swapping the 1.5 mongo storage plugin jar with the 1.4 one and it worked.,non_debt,-,apache
+arrow,2366,review,208745187,Moved it back. We should address de-unittest-ing the tests in a different PR if we want to do that,non_debt,-,apache
+incubator-pinot,484,comment,244438160,"Travis already came back clean, skipping Travis for just the file name change (non-functional) to address comments.",non_debt,-,apache
+flink,2807,summary,0,[FLINK-4631] Prevent some possible NPEs.,non_debt,-,apache
+thrift,139,summary,0,Implement Thrift.Protocol.prototype.skip() for JavaScript library,non_debt,-,apache
+ambari,2707,description,0,"Improve `KerberosDescriptorResourceProvider`:
+ * Return HTTP 409 if trying to create duplicate `kerberos_descriptor` instead of HTTP 500 with ugly stack trace
+ * Clarify message for incomplete request
+ * Clean up the unit test
+ * Minor clean-up in `KerberosDescriptorResourceProvider`
+https://issues.apache.org/jira/browse/AMBARI-25025
+Added test case in unit test.
+Tested manually:",code_debt,low_quality_code,apache
+hudi,360,comment,377576044,"@n3nash : Thanks. Added both Unused and Redundant Imports in checkstyle and corresponding code-style. If there are any other rules missing, we can add them in future PRs.",code_debt,low_quality_code,apache
+flink,1553,comment,191752181,"Sorry, I forgot a `groupBy()` in my example.
+It should be",non_debt,-,apache
+zookeeper,32,comment,110500112,"Fyi, https://issues.apache.org/jira/browse/ZOOKEEPER-2211",non_debt,-,apache
+tvm,1716,summary,0,[NNVM][KERAS] Fix keras model converter and improve tutorial,documentation_debt,low_quality_documentation,apache
+superset,6030,summary,0,Upgrade flask-appbuilder to latest.,non_debt,-,apache
+trafficserver,1717,comment,296241153,FreeBSD11 build *successful*! https://ci.trafficserver.apache.org/job/freebsd-github/1966/,non_debt,-,apache
+guacamole-client,375,review,261795640,"If this is the actual translation, it can stay, but this looks like an untranslated string?",non_debt,-,apache
+flink,10748,review,362788785,"That would violate our definition of begin well-defined; from the javadocs:
+`no 2 options exist for the same key with different descriptions/default values`
+The organization into separate classes that we have is only for developer convenience and readability only; it does not (and must not) have any semantics attached to it. Hence the containing class doesn't matter.
+The reason for this is simplicity; we don't have to worry about
+* options clashing in their default value, which is difficult to document in a good way and can lead to subtle issues when de-duplicating options
+* options clashing in their description, which is also difficult to document and usually leads to stale documentation at one place
+* options clashing in their type, which may result in a component being unusable when used in conjunction with another
+* users not being able to configure distinct values per option",non_debt,-,apache
+hadoop,1752,comment,566876917,"Thanks @bgaborg for testing and providing update.
+I can draft a release notes later, but to answer the question of what should we change to enable this:
+I'll address Steve's other comments in a new commit, and post testing results with different config settings in auth-keys.xml including default SSE config (AWS owned CMK), AWS managed CMK and customer managed AWS key.",non_debt,-,apache
+airflow,3773,comment,414979183,"K. Just getting a sense of urgency. We might have a 1.10.1 anyway, and if we do I'll pull this in to it.",non_debt,-,apache
+arrow,1744,comment,373059009,The Travis-CI failure is due to a regression in a Cython 0.28: https://github.com/cython/cython/issues/2148,non_debt,-,apache
+spark,10208,comment,164531611,yeah if it doesn't mean adding a dependency on HttpClient into core -- it may happen to come in transitively already,non_debt,-,apache
+trafficserver,276,description,0,"Fix [TS-3752](https://issues.apache.org/jira/browse/TS-3752).
+Approach: Collect all Header Block Fragments before decode with HPACK.",non_debt,-,apache
+incubator-doris,3513,review,422451684,"maybe use doc_value_mode is more suitable？
+in future, we can use different parser for _source or doc_value mode",non_debt,-,apache
+druid,2683,comment,198480289,Are these documented?,documentation_debt,outdated_documentation,apache
+ozone,702,comment,608511555,"The CI result shows green CI now, :).",non_debt,-,apache
+spark,23260,comment,446345304,"My understanding is that this allows pointing the Spark UI directly at the history server (old JHS or new ATS) instead of hardcoding the NM URL and relying on the NM redirecting you, since the NM may not exist later on.
+That does open up some questions though. The code being modified is in the AM, which means that the user needs to opt into this when he submits the app, when perhaps if there was a way to hook this up on the Spark history server side only, that may be more useful.
+I think someone tried that in the past but the SHS change was very YARN-specific, which made it kinda sub-optimal.",code_debt,low_quality_code,apache
+trafficserver,1946,review,117639097,"Interesting. We have an internal lib/ts/ink_base64.cc, I wonder if it'd be useful to have generic support for all the various Base\<nn\> flavors in the core, and expose those as TS APIs? Not saying this has to be done here, as part of this PR, but maybe it'd be generally useful to have long-term? Similar to how we have",non_debt,-,apache
+hawq,1290,comment,331820126,"LGTM, +1",non_debt,-,apache
+flink,13393,review,495556369,Ditto.,non_debt,-,apache
+spark,25585,comment,525012166,"alrighty!  things looking good.  the builds i broke (spark-master-test-sbt-*) are good, and i spot-checked one (https://amplab.cs.berkeley.edu/jenkins/job/spark-master-test-sbt-hadoop-3.2/324/) and the spark unit tests just started successfully:",non_debt,-,apache
+flink,10827,summary,0,[FLINK-15548] [table-runtime-blink] Make KeyedCoProcessOperatorWithWatermarkDelay extends KeyedCoProcessOperator instead of LegacyKeyedCoProcessOperator,non_debt,-,apache
+iceberg,1874,description,0,"This PR adds a stored procedure to expire snapshots.
+The main author of this change is @liukun4515. I took commits from #1819, rebased, and added more changes to match the current state of procedures.
+Resolves #1597.",non_debt,-,apache
+groovy,1266,summary,0,GroovyShell parse script use given context,non_debt,-,apache
+openwhisk,5061,description,0,"Manage New scheduler's invoker healthy management
+Design document: https://cwiki.apache.org/confluence/display/OPENWHISK/InvokerHealthyManager",non_debt,-,apache
+ambari,3151,comment,562590943,"Refer to this link for build results (access rights to CI server needed): 
+https://builds.apache.org/job/Ambari-Github-PullRequest-Builder/5605/
+Test PASSed.",non_debt,-,apache
+trafficcontrol,1572,comment,345855649,"Refer to this link for build results (access rights to CI server needed): 
+https://builds.apache.org/job/incubator-trafficcontrol-PR-trafficops-test/639/",non_debt,-,apache
+camel,1898,description,0,…ided by the camel-zipkin component,non_debt,-,apache
+flink,13348,review,485303631,"Tumble.over(lit(1).hour.on(orders.rowtime).alias(""hourly_window"")) -> Tumble.over(lit(1).hour).on(orders.rowtime).alias(""hourly_window"")",non_debt,-,apache
+ambari,1839,summary,0,Ambari-24331. Hide not restartable components from Service Auto Start,non_debt,-,apache
+incubator-pinot,3969,description,0,19961085-3969 description-0,non_debt,-,apache
+kafka,4672,comment,371973195,Merged to trunk and 1.1.,non_debt,-,apache
+beam,12232,review,455392148,I see. Thanks for clarification.,non_debt,-,apache
+shardingsphere,6062,review,440642573,refresh,non_debt,-,apache
+spark,5030,comment,96768974,Can one of the admins verify this patch?,non_debt,-,apache
+kafka,8103,review,414240204,Is this test useful? We don't set the header value in the test.,non_debt,-,apache
+nifi,1628,description,0,"Thank you for submitting a contribution to Apache NiFi.
+In order to streamline the review of the contribution we ask you
+to ensure the following steps have been taken:
+     in the commit message?",non_debt,-,apache
+beam,3287,comment,306643413,"But we shouldn't be updating DSL_SQL branch -- that requires force push, and may lose data.",non_debt,-,apache
+flink,10086,review,353592042,ditto,non_debt,-,apache
+druid,4139,comment,404134850,@drcrallen @jihoonson Travis is good enough. Now close this PR. Thanks for your comments. :+1:,non_debt,-,apache
+hudi,782,comment,515634785,@vinothchandar it worked without changes to /etc/hosts,non_debt,-,apache
+hadoop,316,description,0,This is PR for https://issues.apache.org/jira/browse/HADOOP-15124,non_debt,-,apache
+camel,2457,review,208259951,"this may be a breaking change. @davsclaus , @ffang  could you have a look?",non_debt,-,apache
+flink,15085,review,589279908,@rmetzger / @zentol can you please advise on which `TravisGroup` annotation I should apply?,non_debt,-,apache
+iceberg,1318,review,468870977,Fixed. Thanks!,non_debt,-,apache
+skywalking,4093,review,360375251,Get it.,non_debt,-,apache
+spark,26337,comment,551156015,let's go option 1 then,non_debt,-,apache
+spark,3141,comment,62226551,Can one of the admins verify this patch?,non_debt,-,apache
+beam,7737,comment,461523125,"@chamikaramj, I think we're ready for a review",non_debt,-,apache
+pulsar,7552,comment,661158943,/pulsarbot run-failure-checks,non_debt,-,apache
+nifi,2517,comment,375875600,"@MikeThomsen ok, sorry, I am too impatient :D",non_debt,-,apache
+openwhisk,1600,summary,0,Generalization of the WIP API gateway controller route for supporting system packages as API handlers,non_debt,-,apache
+spark,7569,comment,125282944,"OK, closing.",non_debt,-,apache
+accumulo,337,review,157819248,should also check have the following checks,non_debt,-,apache
+storm,2236,summary,0,STORM-2652: fix error in open method of JmsSpout,non_debt,-,apache
+spark,13546,comment,224956535,Agree! This has an external change. Just let me know if we can do it. Thanks!,non_debt,-,apache
+flink,7466,review,247049482,"Hi, I think it's correct now, here is the code view form my patch.",non_debt,-,apache
+kafka,586,description,0,@guozhangwang,non_debt,-,apache
+spark,1751,comment,51282152,Trying that right now,non_debt,-,apache
+spark,10106,comment,168844006,oh jira already closed. excellent :),non_debt,-,apache
+systemds,553,comment,313253989,Ping @mboehm7,non_debt,-,apache
