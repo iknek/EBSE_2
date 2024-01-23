@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+kafka,7255,review,318235376,non_debt,-,apache,1.0,Merged,9,25,
+spark,19607,comment,347107409,non_debt,-,apache,29.0,Closed,29,30,
+zeppelin,2079,comment,283460224,non_debt,-,apache,3.0,Closed,2,1,
+hive,2138,summary,0,non_debt,-,apache,12.0,Merged,3,0,tests passed
+carbondata,1714,summary,0,non_debt,-,apache,4.0,Closed,2,9,
+hadoop,2169,comment,663908887,non_debt,-,apache,1.0,Merged,1,0,
+incubator-heron,806,review,64695958,non_debt,-,apache,0.0,Merged,1,2,
+shardingsphere-elasticjob,1608,summary,0,documentation_debt,low_quality_documentation,apache,0.0,Merged,2,0,refactor
+nifi-minifi-cpp,807,review,452334340,non_debt,-,apache,41.0,Closed,22,30,
+tajo,618,comment,122178566,non_debt,-,apache,19.0,Closed,28,16,
+activemq-artemis,2272,review,213342991,non_debt,-,apache,0.0,Merged,1,5,
+incubator-mxnet,19725,summary,0,non_debt,-,apache,0.0,Merged,1,0,pr-awaiting-review
+spark,19143,comment,327427666,test_debt,lack_of_tests,apache,1.0,Closed,1,0,
+trafficserver,2578,comment,335346485,non_debt,-,apache,33.0,Merged,1,30,"Core, Cleanup"
+trafficserver,4894,comment,459190361,non_debt,-,apache,1.0,Merged,1,0,Network
+arrow,7994,review,478679324,non_debt,-,apache,75.0,Closed,30,30,
+spark,31198,comment,762392793,non_debt,-,apache,6.0,Closed,11,8,SQL
+airflow,11685,comment,716582827,non_debt,-,apache,11.0,Merged,1,0,"area:helm-chart, type:bug-fix"
+trafficserver,866,comment,240594556,code_debt,low_quality_code,apache,25.0,Merged,1,5,Logging
+couchdb,726,summary,0,non_debt,-,apache,44.0,Merged,1,3,
+samza,566,review,198292707,non_debt,-,apache,0.0,Closed,1,3,
+nifi-minifi-cpp,4,comment,234306309,non_debt,-,apache,64.0,Closed,6,0,
+avro,133,review,80818577,non_debt,-,apache,1193.0,Closed,1,4,Python
+pulsar,9096,review,563300245,non_debt,-,apache,26.0,Merged,15,30,component/tieredstorage
+incubator-heron,176,review,56283550,code_debt,low_quality_code,apache,1.0,Merged,6,17,
+spark,1114,comment,48992157,non_debt,-,apache,26.0,Closed,1,0,
+beam,13439,review,534645786,non_debt,-,apache,7.0,Merged,7,30,"build, website"
+spark,19222,review,147573040,non_debt,-,apache,204.0,Closed,30,30,
+spark,8531,review,48378751,code_debt,complex_code,apache,121.0,Closed,16,5,
+spark,9353,review,43474236,code_debt,complex_code,apache,4.0,Closed,12,24,
+druid,4313,comment,306859112,non_debt,-,apache,17.0,Merged,7,4,Design Review
+carbondata,3424,comment,547247341,non_debt,-,apache,2.0,Closed,2,1,
+nifi,3558,comment,507417670,non_debt,-,apache,3.0,Closed,1,0,
+carbondata,3876,comment,668424168,non_debt,-,apache,114.0,Closed,1,0,
+spark,13270,review,64482317,non_debt,-,apache,8.0,Closed,8,20,
+spark,6323,comment,104419014,non_debt,-,apache,1.0,Closed,4,0,
+beam,3790,comment,325988457,non_debt,-,apache,13.0,Closed,2,4,
+netbeans,320,summary,0,non_debt,-,apache,100.0,Merged,1,4,API Change
+ambari,1108,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+nifi-minifi-cpp,924,comment,732347261,build_debt,under-declared_dependencies,apache,59.0,Closed,4,2,
+superset,13210,review,582436382,code_debt,low_quality_code,apache,7.0,Merged,22,30,"size/XL, !deprecated-label:revisit:design-sys, explore:drag&drop"
+bigtop,555,comment,573495530,non_debt,-,apache,315.0,Closed,7,0,
+flink,6087,review,192733056,non_debt,-,apache,641.0,Closed,3,14,component=Runtime/Coordination
+accumulo,329,summary,0,non_debt,-,apache,2.0,Merged,2,0,
+spark,17608,comment,294076299,non_debt,-,apache,2.0,Closed,15,0,
+hive,1780,comment,761269576,code_debt,low_quality_code,apache,35.0,Merged,11,5,tests passed
+activemq-artemis,2716,comment,577397473,non_debt,-,apache,262.0,Closed,1,0,
+couchdb,1972,review,267940882,non_debt,-,apache,27.0,Merged,6,30,
+kafka,1995,review,82672441,non_debt,-,apache,5.0,Closed,9,30,
+ozone,894,summary,0,non_debt,-,apache,8.0,Merged,3,1,

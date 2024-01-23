@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+spark,7950,comment,128094701,non_debt,-,apache,75.0,Closed,1,0,
+nifi,4369,review,452304677,documentation_debt,low_quality_documentation,apache,12.0,Closed,6,20,
+iceberg,1143,comment,651924427,non_debt,-,apache,5.0,Closed,2,0,
+hawq,178,comment,163559468,non_debt,-,apache,0.0,Merged,1,0,
+beam,14057,summary,0,non_debt,-,apache,0.0,Merged,3,3,
+spark,1290,comment,67089972,non_debt,-,apache,404.0,Closed,30,19,
+tinkerpop,1309,comment,677678867,code_debt,low_quality_code,apache,13.0,Merged,30,1,
+spark,30257,comment,722126716,non_debt,-,apache,3.0,Closed,5,6,
+druid,2119,review,48119969,non_debt,-,apache,3.0,Merged,1,18,
+beam,235,review,61004234,non_debt,-,apache,2.0,Merged,5,9,
+spark,10152,comment,182591988,non_debt,-,apache,79.0,Closed,24,30,
+hbase,921,review,357310388,non_debt,-,apache,72.0,Closed,17,30,
+nifi,4460,description,0,non_debt,-,apache,214.0,Closed,3,10,
+spark,20217,review,160950460,non_debt,-,apache,2.0,Closed,4,30,
+incubator-dolphinscheduler,1633,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+druid,2883,comment,277517522,non_debt,-,apache,301.0,Closed,13,30,"Incompatible, Improvement"
+spark,22952,review,237314459,non_debt,-,apache,364.0,Closed,11,30,STRUCTURED STREAMING
+trafficserver,6241,review,537619263,non_debt,-,apache,455.0,Merged,1,13,Cleanup
+flink,12908,review,460758814,non_debt,-,apache,35.0,Merged,1,29,"review=description?, component=Connectors/Kafka, component=TableSQL/API"
+accumulo,1450,review,355582479,non_debt,-,apache,35.0,Merged,7,19,
+spark,17219,comment,288655605,non_debt,-,apache,14.0,Closed,27,30,
+beam,14395,summary,0,non_debt,-,apache,36.0,Merged,1,0,
+tvm,4747,review,368744581,non_debt,-,apache,14.0,Merged,1,10,status: accepted
+flink,13885,comment,734116774,non_debt,-,apache,36.0,Closed,1,30,"review=description?, component=Runtime/StateBackends, component=Runtime/Checkpointing, component=FileSystems"
+flink,9203,review,306633770,non_debt,-,apache,7.0,Closed,3,30,"review=description?, component=TableSQL/API"
+spark,13778,comment,227367173,non_debt,-,apache,43.0,Closed,12,30,
+fineract,502,description,0,non_debt,-,apache,45.0,Closed,1,0,
+cloudstack,3042,comment,441590415,non_debt,-,apache,5.0,Merged,4,9,component:api
+arrow,2973,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+couchdb,341,comment,137702151,non_debt,-,apache,0.0,Merged,1,0,
+spark,20737,description,0,non_debt,-,apache,1.0,Closed,1,0,
+flink,12991,summary,0,non_debt,-,apache,1.0,Closed,1,0,"review=description?, component=Runtime/Coordination"
+cloudstack,1813,comment,280281181,non_debt,-,apache,156.0,Merged,6,20,"component:XenServer, component:vmware"
+incubator-heron,712,review,63973193,non_debt,-,apache,0.0,Merged,13,15,
+nifi-minifi-cpp,770,review,428501369,non_debt,-,apache,27.0,Closed,7,10,
+tvm,4113,summary,0,non_debt,-,apache,2.0,Closed,1,0,
+trafficcontrol,626,description,0,non_debt,-,apache,8.0,Closed,23,0,
+airflow,6870,review,372647002,non_debt,-,apache,162.0,Closed,28,30,"stale, area:Scheduler"
+beam,9725,comment,542845583,non_debt,-,apache,12.0,Merged,4,4,
+storm,970,description,0,non_debt,-,apache,12.0,Merged,1,0,
+beam,6822,summary,0,non_debt,-,apache,0.0,Merged,3,0,
+spark,16088,review,90581819,non_debt,-,apache,1.0,Closed,6,10,
+kafka,4823,review,179269582,non_debt,-,apache,13.0,Closed,10,30,streams
+gobblin,2788,review,351428413,documentation_debt,low_quality_documentation,apache,,Not Closed or Merged,20,9,
+incubator-pinot,4047,review,288787662,documentation_debt,low_quality_documentation,apache,66.0,Merged,5,30,
+trafficserver,2874,description,0,non_debt,-,apache,0.0,Merged,1,0,Cleanup
+spark,31477,review,585673885,non_debt,-,apache,140.0,Closed,10,30,"SQL, Stale, DOCS"
+arrow,6202,review,371000560,non_debt,-,apache,27.0,Closed,29,20,
+cloudstack,222,comment,98250942,non_debt,-,apache,1.0,Closed,2,1,
+skywalking,4211,comment,572910646,non_debt,-,apache,0.0,Merged,3,0,documentation

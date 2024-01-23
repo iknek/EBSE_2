@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+beam,11500,comment,618010564,non_debt,-,apache,5.0,Merged,3,0,"build, runners, dataflow"
+druid,8857,comment,553427929,non_debt,-,apache,1.0,Merged,3,3,Area - Documentation
+calcite,1143,comment,479400812,non_debt,-,apache,1373.0,Closed,4,30,
+superset,4791,review,180883434,non_debt,-,apache,15.0,Closed,10,30,
+airflow,5661,review,307279581,documentation_debt,low_quality_documentation,apache,125.0,Closed,14,9,stale
+spark,1689,comment,55458226,non_debt,-,apache,57.0,Closed,7,9,
+incubator-mxnet,11320,comment,397914927,non_debt,-,apache,4.0,Merged,2,6,
+spark,31638,review,586286229,non_debt,-,apache,70.0,Closed,5,30,"SQL, STRUCTURED STREAMING"
+spark,19675,comment,372560208,non_debt,-,apache,1.0,Closed,2,2,
+airflow,2460,comment,435672834,non_debt,-,apache,1503.0,Closed,6,10,"pinned, AIP-39"
+kafka,815,comment,179419066,non_debt,-,apache,7.0,Closed,9,16,
+camel-quarkus,1149,summary,0,non_debt,-,apache,3.0,Merged,1,0,
+qpid-dispatch,1047,description,0,design_debt,non-optimal_design,apache,2.0,Closed,1,1,
+incubator-pinot,4253,review,290839617,non_debt,-,apache,29.0,Merged,4,30,
+superset,5664,comment,420773552,non_debt,-,apache,25.0,Closed,1,0,
+kafka,10121,description,0,non_debt,-,apache,0.0,Merged,1,0,
+flink,12283,review,431556916,non_debt,-,apache,13.0,Merged,2,30,"review=description?, component=Documentation, component=Connectors/FileSystem"
+tvm,7612,review,589839657,non_debt,-,apache,8.0,Closed,9,30,status: need review
+spark,1241,comment,53686699,non_debt,-,apache,64.0,Closed,1,30,
+incubator-mxnet,12157,review,212681251,non_debt,-,apache,16.0,Merged,14,30,
+arrow,8755,review,532731697,non_debt,-,apache,6.0,Closed,4,7,Component: C++
+tomee,713,comment,734780620,requirement_debt,requirement_partially_implemented,apache,25.0,Closed,7,0,
+carbondata,500,description,0,non_debt,-,apache,0.0,Merged,1,0,
+couchdb,1894,comment,459648857,non_debt,-,apache,5.0,Merged,3,0,
+beam,3124,comment,314234150,non_debt,-,apache,59.0,Closed,1,0,
+cloudstack,1578,comment,238838070,non_debt,-,apache,166.0,Merged,2,29,
+tvm,5365,description,0,non_debt,-,apache,0.0,Merged,1,0,
+flink,14070,comment,726970610,non_debt,-,apache,2.0,Closed,2,5,"review=description?, component=Documentation, component=Runtime/Configuration, component=CommandLineClient"
+flink,6236,review,241972720,code_debt,low_quality_code,apache,803.0,Closed,1,30,component=TableSQL/API
+incubator-pinot,103,description,0,non_debt,-,apache,1097.0,Closed,1,0,
+shardingsphere,3692,review,355335872,non_debt,-,apache,0.0,Merged,7,8,"type: enhancement, feature: pipeline"
+kafka,1884,review,95041682,non_debt,-,apache,113.0,Closed,27,30,
+reef,1117,description,0,non_debt,-,apache,4.0,Closed,4,13,
+dubbo,2822,review,235845838,non_debt,-,apache,31.0,Merged,27,12,
+calcite,2369,review,593096896,code_debt,low_quality_code,apache,1.0,Merged,1,13,LGTM-will-merge-soon
+ignite,7450,summary,0,non_debt,-,apache,0.0,Closed,30,0,
+pulsar,9799,review,589346299,non_debt,-,apache,6.0,Merged,10,16,"enhancement, doc"
+trafficserver,369,comment,164002946,non_debt,-,apache,6.0,Merged,1,0,
+accumulo,675,summary,0,non_debt,-,apache,0.0,Merged,3,1,
+fineract,1458,comment,718052221,design_debt,non-optimal_design,apache,11.0,Merged,1,0,
+reef,1402,description,0,non_debt,-,apache,7.0,Closed,1,2,
+incubator-pinot,857,description,0,non_debt,-,apache,0.0,Merged,1,0,
+incubator-mxnet,10696,review,195640524,non_debt,-,apache,133.0,Closed,30,30,
+druid,3889,summary,0,non_debt,-,apache,48.0,Merged,30,29,Performance
+pulsar,2613,description,0,non_debt,-,apache,12.0,Merged,4,10,component/function
+spark,22944,comment,437336856,non_debt,-,apache,8.0,Closed,5,30,
+tvm,7537,review,597102389,non_debt,-,apache,55.0,Closed,0,11,status: need review
+spark,9247,comment,150918873,non_debt,-,apache,4.0,Closed,3,2,
+druid,9422,review,448046112,non_debt,-,apache,124.0,Merged,1,9,"Bug, Compatibility, Area - SQL"
+beam,3833,review,139338762,non_debt,-,apache,15.0,Closed,5,18,

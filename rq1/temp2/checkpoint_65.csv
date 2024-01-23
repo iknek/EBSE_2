@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+incubator-mxnet,18315,comment,630422383,non_debt,-,apache,5.0,Merged,1,0,
+spark,9843,comment,160314300,non_debt,-,apache,17.0,Closed,3,20,
+druid,67,review,2830111,non_debt,-,apache,10.0,Closed,30,30,
+spark,837,comment,44756501,non_debt,-,apache,20.0,Closed,8,8,
+airflow,6449,review,339362280,non_debt,-,apache,0.0,Merged,1,9,
+gobblin,1135,description,0,non_debt,-,apache,0.0,Merged,1,0,
+airflow,12685,comment,735219234,non_debt,-,apache,8.0,Merged,1,24,"area:dev-tools, kind:documentation, full tests needed"
+cloudstack,2903,summary,0,non_debt,-,apache,0.0,Merged,1,0,"type:config, component:logging"
+iceberg,1128,review,443691512,code_debt,complex_code,apache,4.0,Merged,4,6,
+flink,4461,summary,0,non_debt,-,apache,5.0,Closed,3,2,component=Travis
+flink,1929,review,60927886,non_debt,-,apache,21.0,Closed,1,30,component=<none>
+cxf,272,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+spark,14082,comment,231715047,non_debt,-,apache,4.0,Closed,13,30,
+pulsar,1046,comment,356745986,non_debt,-,apache,14.0,Merged,1,9,"enhancement, type/feature"
+beam,12050,review,444838467,non_debt,-,apache,59.0,Merged,2,15,java
+samza,813,summary,0,non_debt,-,apache,0.0,Closed,30,3,
+spark,10832,summary,0,non_debt,-,apache,16.0,Closed,0,0,
+tvm,5320,review,408990283,non_debt,-,apache,2.0,Merged,10,21,status: accepted
+beam,2910,review,114929783,non_debt,-,apache,0.0,Closed,9,30,
+carbondata,810,comment,295074466,non_debt,-,apache,1.0,Closed,5,6,
+ignite,8840,review,586505404,non_debt,-,apache,24.0,Merged,30,30,
+nifi-minifi-cpp,788,review,428031207,code_debt,low_quality_code,apache,20.0,Closed,11,30,
+flink,14832,description,0,non_debt,-,apache,0.0,Closed,1,0,"review=description?, component=Deployment/Kubernetes"
+reef,157,review,28922004,non_debt,-,apache,0.0,Closed,4,25,
+tinkerpop,912,description,0,non_debt,-,apache,21.0,Merged,7,2,
+pulsar,4325,review,286153741,non_debt,-,apache,1.0,Merged,3,2,
+nifi,1884,comment,307099100,non_debt,-,apache,0.0,Closed,1,0,
+incubator-mxnet,10311,review,189448683,non_debt,-,apache,69.0,Merged,30,15,
+spark,21370,review,194292067,non_debt,-,apache,16.0,Closed,14,30,
+flink,6330,review,203302518,non_debt,-,apache,5.0,Closed,7,13,component=Runtime/REST
+gobblin,1862,description,0,code_debt,low_quality_code,apache,3.0,Merged,4,3,
+helix,478,review,325376537,code_debt,complex_code,apache,0.0,Merged,6,6,
+systemds,843,summary,0,non_debt,-,apache,5.0,Closed,1,0,
+flink,845,summary,0,non_debt,-,apache,1.0,Closed,1,0,component=Tests
+geode,3025,summary,0,non_debt,-,apache,1.0,Closed,10,1,
+kafka,3136,comment,303699786,non_debt,-,apache,27.0,Closed,8,0,
+beam,4096,review,150110429,non_debt,-,apache,9.0,Merged,30,30,
+superset,2547,review,109751124,non_debt,-,apache,0.0,Merged,1,2,
+parquet-mr,456,review,170675141,code_debt,low_quality_code,apache,92.0,Merged,10,30,
+beam,12938,review,550847398,code_debt,low_quality_code,apache,355.0,Closed,30,30,"java, go, build, website, model, infra, examples, io, extensions, runners, spark, sql, dataflow, direct, hadoop, hcatalog, core, flink, fn-execution, jet, local, portability, samza, euphoria, google-cloud-platform-core, jackson, join-library, protobuf, kotlin"
+tajo,651,comment,124796163,non_debt,-,apache,5.0,Closed,30,0,
+trafficserver,3876,comment,399461203,non_debt,-,apache,3.0,Merged,1,2,Commands
+commons-lang,19,summary,0,non_debt,-,apache,334.0,Closed,3,0,
+druid,5418,review,179293634,code_debt,low_quality_code,apache,42.0,Merged,12,30,"Area - Batch Ingestion, Improvement"
+airflow,12383,review,524536973,code_debt,complex_code,apache,1.0,Merged,1,16,full tests needed
+hbase,673,review,332390100,non_debt,-,apache,11.0,Merged,1,30,
+kafka,8918,review,451281466,non_debt,-,apache,114.0,Merged,6,11,connect
+phoenix,665,review,363534291,non_debt,-,apache,13.0,Closed,1,19,
+incubator-mxnet,20015,comment,797712366,non_debt,-,apache,2.0,Merged,7,3,pr-awaiting-merge
+incubator-mxnet,19987,summary,0,non_debt,-,apache,4.0,Merged,1,0,pr-awaiting-merge

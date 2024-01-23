@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+spark,5434,comment,92291279,code_debt,low_quality_code,apache,5.0,Closed,11,5,
+lucene-solr,1394,review,401749799,non_debt,-,apache,2.0,Merged,16,26,
+spark,20710,comment,370609796,non_debt,-,apache,3.0,Closed,11,16,
+arrow,2039,review,187847713,non_debt,-,apache,0.0,Closed,8,4,
+storm,44,comment,38187106,non_debt,-,apache,14.0,Merged,30,1,
+flink,4074,review,121618430,non_debt,-,apache,20.0,Closed,2,9,component=Deployment/Scripts
+carbondata,2628,comment,420569857,non_debt,-,apache,32.0,Closed,3,23,
+beam,1706,review,95843283,code_debt,low_quality_code,apache,49.0,Closed,1,30,
+carbondata,511,summary,0,non_debt,-,apache,4.0,Closed,8,14,
+bigtop,609,comment,592314776,non_debt,-,apache,0.0,Merged,1,0,
+beam,4185,review,153627791,documentation_debt,low_quality_documentation,apache,49.0,Merged,4,15,
+spark,31252,review,560703040,non_debt,-,apache,9.0,Closed,1,9,SQL
+skywalking,1318,summary,0,non_debt,-,apache,0.0,Merged,1,0,bug
+hbase,2099,comment,660626678,non_debt,-,apache,0.0,Closed,2,0,
+hudi,1810,review,453190335,non_debt,-,apache,28.0,Merged,7,30,
+shardingsphere,2416,description,0,non_debt,-,apache,0.0,Merged,11,0,
+carbondata,513,review,95326107,non_debt,-,apache,0.0,Closed,1,2,
+lucene-solr,1208,review,370881326,non_debt,-,apache,11.0,Merged,5,5,
+ignite,8490,review,591299549,non_debt,-,apache,128.0,Closed,30,30,
+incubator-brooklyn,1013,review,44434065,non_debt,-,apache,2.0,Merged,4,6,
+spark,12914,comment,217291600,non_debt,-,apache,104.0,Closed,12,5,
+carbondata,2406,comment,399857961,non_debt,-,apache,11.0,Closed,1,15,
+carbondata,2379,comment,398649225,non_debt,-,apache,1.0,Closed,2,21,
+shardingsphere,7704,review,501049860,non_debt,-,apache,2.0,Merged,2,17,"type: bug, in: SQL parse"
+pulsar,8367,comment,716102786,non_debt,-,apache,0.0,Merged,1,0,
+trafficserver,4764,comment,461578856,non_debt,-,apache,43.0,Merged,1,0,"Configuration, Logging"
+airflow,3992,review,224698969,non_debt,-,apache,420.0,Closed,13,30,stale
+drill,1561,review,239298502,non_debt,-,apache,2.0,Closed,2,12,
+incubator-dolphinscheduler,3069,description,0,non_debt,-,apache,1.0,Closed,4,0,
+spark,8153,comment,131457310,non_debt,-,apache,4.0,Closed,4,4,
+dubbo,2800,summary,0,non_debt,-,apache,2.0,Merged,12,0,
+kafka,2689,review,106283199,non_debt,-,apache,1.0,Closed,9,14,
+spark,14156,summary,0,non_debt,-,apache,23.0,Closed,1,0,
+beam,7905,comment,465772598,non_debt,-,apache,15.0,Merged,1,0,
+camel-quarkus,570,review,360695073,design_debt,non-optimal_design,apache,1.0,Merged,2,11,
+arrow,4258,comment,490781968,code_debt,slow_algorithm,apache,4.0,Closed,10,2,
+hadoop,1899,review,408627634,non_debt,-,apache,37.0,Merged,5,30,
+superset,798,summary,0,non_debt,-,apache,11.0,Merged,3,3,
+superset,8219,review,344937948,non_debt,-,apache,82.0,Merged,3,15,size/XL
+systemds,765,review,189691788,non_debt,-,apache,0.0,Closed,29,7,
+spark,29596,comment,683887778,non_debt,-,apache,0.0,Closed,3,1,"DOCS, PYTHON"
+beam,11564,review,419142387,non_debt,-,apache,8.0,Merged,24,30,learning
+spark,15970,comment,309166657,non_debt,-,apache,1154.0,Closed,10,0,"SQL, Stale"
+cloudstack,3758,comment,576731060,non_debt,-,apache,47.0,Merged,1,0,"type:bug, component:management-server"
+accumulo,1637,comment,656218117,non_debt,-,apache,19.0,Closed,4,8,
+tinkerpop,141,review,44267313,documentation_debt,low_quality_documentation,apache,15.0,Merged,5,2,
+trafficserver,970,description,0,non_debt,-,apache,0.0,Merged,1,0,
+spark,14623,comment,239541850,non_debt,-,apache,51.0,Closed,1,0,
+geode-native,433,description,0,non_debt,-,apache,0.0,Merged,1,0,
+superset,10224,review,448684392,non_debt,-,apache,0.0,Merged,5,10,size/XL

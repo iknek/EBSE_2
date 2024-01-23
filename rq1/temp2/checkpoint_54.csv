@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+netbeans,1453,review,316347120,non_debt,-,apache,1.0,Merged,2,2,
+kafka,4234,comment,345501432,non_debt,-,apache,0.0,Closed,0,0,
+beam,10732,review,374009189,non_debt,-,apache,3.0,Merged,3,8,
+camel,3934,comment,670323413,non_debt,-,apache,55.0,Merged,4,13,
+gobblin,2101,review,139617135,non_debt,-,apache,35.0,Closed,30,30,
+spark,23955,comment,469182241,non_debt,-,apache,1.0,Closed,4,8,
+druid,4143,comment,291628474,non_debt,-,apache,0.0,Merged,1,0,Improvement
+spark,1609,review,15541257,non_debt,-,apache,38.0,Closed,10,30,
+spark,186,comment,39081836,non_debt,-,apache,36.0,Closed,19,30,
+guacamole-client,546,review,511687968,non_debt,-,apache,118.0,Merged,5,30,
+incubator-brooklyn,545,comment,77748553,non_debt,-,apache,139.0,Closed,3,7,
+kafka,8105,review,379594069,design_debt,non-optimal_design,apache,9.0,Merged,1,30,"streams, kip"
+incubator-pinot,3121,comment,416713328,non_debt,-,apache,0.0,Merged,1,0,
+cxf,21,comment,218432577,non_debt,-,apache,1034.0,Closed,2,0,
+flink,8600,review,289982051,non_debt,-,apache,0.0,Closed,3,5,"review=description?, component=TableSQL/API"
+beam,5242,comment,388440426,non_debt,-,apache,25.0,Merged,9,30,
+bookkeeper,701,review,154556572,non_debt,-,apache,41.0,Closed,22,9,
+spark,6973,review,33601514,non_debt,-,apache,6.0,Closed,15,13,
+arrow,8122,review,492850490,non_debt,-,apache,17.0,Closed,10,5,
+flink,3600,summary,0,non_debt,-,apache,29.0,Closed,2,1,"component=Runtime/Coordination, component=CommandLineClient"
+flink,517,summary,0,non_debt,-,apache,1.0,Closed,1,0,component=<none>
+beam,7603,comment,457255545,non_debt,-,apache,1.0,Merged,1,0,
+zeppelin,3409,description,0,non_debt,-,apache,1.0,Closed,1,0,
+pulsar,5714,review,352358178,non_debt,-,apache,17.0,Merged,5,9,component/client
+apisix-dashboard,1576,review,597786636,non_debt,-,apache,10.0,Merged,15,15,
+flink,12574,review,438528714,non_debt,-,apache,0.0,Merged,4,11,"review=description?, component=Documentation, component=Formats, component=TableSQL/Ecosystem"
+couchdb,3192,comment,704052315,non_debt,-,apache,0.0,Merged,1,0,
+spark,15963,review,88906249,code_debt,complex_code,apache,7.0,Closed,3,2,
+spark,28197,comment,616372354,non_debt,-,apache,122.0,Closed,8,21,"SQL, Stale"
+spark,28271,comment,618105766,non_debt,-,apache,2.0,Closed,4,3,SQL
+carbondata,3014,comment,451990373,non_debt,-,apache,19.0,Closed,1,9,
+trafodion,701,comment,246909356,non_debt,-,apache,0.0,Merged,1,0,
+trafficcontrol,5716,description,0,non_debt,-,apache,3.0,Merged,1,0,
+couchdb,131,summary,0,non_debt,-,apache,0.0,Closed,2,0,
+attic-apex-malhar,676,comment,350005283,non_debt,-,apache,43.0,Merged,1,14,
+spark,17088,comment,284561791,non_debt,-,apache,79.0,Closed,10,27,
+spark,23284,review,240865741,non_debt,-,apache,2.0,Closed,4,13,
+spark,6445,comment,106097629,non_debt,-,apache,0.0,Closed,30,0,
+drill,1214,review,183982099,non_debt,-,apache,9.0,Closed,1,30,
+arrow,9397,review,571604769,requirement_debt,non-functional_requirements_not_fully_satisfied,apache,4.0,Closed,2,2,"Component: Rust, Component: Parquet"
+spark,22729,summary,0,non_debt,-,apache,9.0,Closed,1,1,
+storm,3322,comment,672260764,non_debt,-,apache,27.0,Merged,8,30,
+carbondata,2097,comment,377139528,non_debt,-,apache,33.0,Closed,1,4,
+carbondata,3986,review,510065227,non_debt,-,apache,13.0,Closed,1,30,
+incubator-brooklyn,61,review,14808432,non_debt,-,apache,4.0,Merged,8,13,
+airflow,2438,summary,0,non_debt,-,apache,1.0,Closed,1,0,
+phoenix,419,comment,452925088,non_debt,-,apache,28.0,Merged,16,30,
+spark,22006,review,207876249,code_debt,low_quality_code,apache,1.0,Closed,4,7,
+spark,13651,review,66885516,non_debt,-,apache,1.0,Closed,6,17,
+couchdb,1011,summary,0,non_debt,-,apache,24.0,Closed,1,0,

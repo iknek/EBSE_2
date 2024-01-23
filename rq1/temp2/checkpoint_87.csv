@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+carbondata,3774,comment,636062526,non_debt,-,apache,68.0,Closed,1,30,
+kafka,683,comment,167010840,design_debt,non-optimal_design,apache,22.0,Closed,30,12,
+trafficserver,3957,comment,404708724,non_debt,-,apache,1.0,Merged,1,0,Core
+ignite,8509,review,533248278,non_debt,-,apache,9.0,Merged,30,6,
+druid,10039,summary,0,non_debt,-,apache,0.0,Closed,30,0,
+ozone,1163,comment,657391415,non_debt,-,apache,8.0,Merged,4,7,
+zookeeper,953,comment,503348419,non_debt,-,apache,52.0,Closed,4,6,
+nifi-minifi-cpp,489,review,259901864,non_debt,-,apache,7.0,Closed,7,30,
+incubator-mxnet,14743,comment,485249309,non_debt,-,apache,6.0,Merged,3,4,pr-awaiting-review
+airflow,13929,review,570530609,code_debt,low_quality_code,apache,51.0,Merged,4,12,full tests needed
+thrift,602,comment,138420774,non_debt,-,apache,85.0,Closed,2,0,
+commons-lang,37,comment,62560062,non_debt,-,apache,104.0,Closed,3,2,
+cloudstack,4178,comment,650724813,non_debt,-,apache,192.0,Closed,4,1,"component:kvm, type:new-feature"
+samza,295,review,139497932,non_debt,-,apache,64.0,Closed,1,30,
+gobblin,1800,description,0,non_debt,-,apache,6.0,Merged,3,2,
+hadoop,787,review,282611587,non_debt,-,apache,33.0,Closed,2,5,"enhancement, fs/azure"
+spark,30138,review,511167105,non_debt,-,apache,3.0,Closed,7,30,
+hive,1470,comment,712424419,non_debt,-,apache,45.0,Merged,18,22,tests passed
+incubator-mxnet,16189,description,0,non_debt,-,apache,,Not Closed or Merged,17,0,
+pulsar,1903,comment,394860390,non_debt,-,apache,2.0,Merged,1,11,"enhancement, component/function"
+cloudstack,3251,comment,484031952,non_debt,-,apache,65.0,Merged,6,9,
+kafka,10310,description,0,non_debt,-,apache,0.0,Merged,1,0,kraft
+hbase,214,review,281063865,non_debt,-,apache,4.0,Merged,2,4,
+carbondata,2984,description,0,non_debt,-,apache,15.0,Closed,2,6,
+arrow,2501,comment,473802642,non_debt,-,apache,273.0,Closed,1,0,
+spark,1226,summary,0,non_debt,-,apache,6.0,Closed,5,0,
+spark,1841,review,15979883,non_debt,-,apache,0.0,Closed,1,1,
+spark,17161,review,104306047,non_debt,-,apache,81.0,Closed,2,7,
+kafka,2193,review,91697384,non_debt,-,apache,12.0,Closed,7,12,
+spark,17403,comment,288903865,non_debt,-,apache,0.0,Closed,1,0,
+airflow,4328,review,242232376,non_debt,-,apache,268.0,Closed,13,3,stale
+cloudstack,4543,comment,748986444,non_debt,-,apache,71.0,Closed,30,0,"component:marvin, python3"
+spark,19888,review,154857148,non_debt,-,apache,0.0,Closed,3,11,
+kafka,2910,review,114688209,non_debt,-,apache,11.0,Closed,30,30,
+arrow,2770,description,0,non_debt,-,apache,33.0,Closed,13,20,
+shardingsphere,5701,summary,0,non_debt,-,apache,0.0,Merged,4,0,in: example
+druid,5418,review,179293278,non_debt,-,apache,42.0,Merged,12,30,"Area - Batch Ingestion, Improvement"
+hawq,1349,review,177941676,non_debt,-,apache,6.0,Closed,3,11,
+pulsar,8988,review,549638842,non_debt,-,apache,12.0,Merged,1,7,component/function
+fluo,560,review,40940395,non_debt,-,apache,0.0,Merged,1,15,
+trafficcontrol,3534,review,336146327,non_debt,-,apache,293.0,Merged,30,30,"new feature, Traffic Ops, documentation, SSL"
+zookeeper,1085,description,0,non_debt,-,apache,64.0,Closed,1,2,
+superset,7770,comment,505962109,non_debt,-,apache,6.0,Merged,6,7,size/L
+spark,9257,summary,0,non_debt,-,apache,9.0,Closed,6,8,
+samza,1455,review,553059922,non_debt,-,apache,1.0,Merged,7,18,
+spark,14536,summary,0,non_debt,-,apache,21.0,Closed,2,0,
+spark,9773,comment,157865029,test_debt,lack_of_tests,apache,2.0,Closed,4,1,
+flink,1617,review,52468108,non_debt,-,apache,258.0,Closed,1,13,component=<none>
+fineract,726,comment,596234596,test_debt,flaky_test,apache,34.0,Closed,3,0,
+incubator-pinot,6640,review,586927835,non_debt,-,apache,4.0,Merged,5,12,

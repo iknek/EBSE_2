@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+trafficserver,4526,description,0,non_debt,-,apache,1.0,Merged,1,0,Cleanup
+cloudstack,4448,comment,724618330,design_debt,non-optimal_design,apache,5.0,Closed,1,0,type:enhancement
+gobblin,741,review,54046406,non_debt,-,apache,4.0,Merged,1,22,Bug:Generic
+spark,20619,description,0,design_debt,non-optimal_design,apache,4.0,Closed,3,8,
+beam,592,comment,259489198,non_debt,-,apache,336.0,Closed,11,30,
+spark,3074,comment,62652752,non_debt,-,apache,179.0,Closed,29,30,
+helix,834,review,395332428,non_debt,-,apache,21.0,Merged,3,30,
+kafka,2686,comment,286578364,non_debt,-,apache,317.0,Closed,1,0,
+superset,11418,review,544788506,non_debt,-,apache,53.0,Merged,30,30,size/XXL
+thrift,1834,summary,0,non_debt,-,apache,8.0,Merged,1,0,
+spark,28708,review,442609316,non_debt,-,apache,47.0,Closed,30,30,"SQL, KUBERNETES, CORE, DSTREAM"
+spark,2907,review,19663363,design_debt,non-optimal_design,apache,12.0,Closed,1,7,
+spark,15627,comment,259044378,non_debt,-,apache,9.0,Closed,5,8,
+guacamole-client,511,review,602658052,test_debt,expensive_tests,apache,312.0,Merged,1,16,
+airflow,11631,review,508137239,non_debt,-,apache,158.0,Closed,1,28,"stale, area:Scheduler, area:webserver, area:CLI"
+spark,25310,review,309068923,non_debt,-,apache,15.0,Closed,5,30,PROJECT INFRA
+tvm,4274,review,343909482,non_debt,-,apache,24.0,Merged,30,30,status: accepted
+beam,4953,comment,376330345,non_debt,-,apache,0.0,Merged,1,0,
+couchdb,3336,summary,0,non_debt,-,apache,1.0,Merged,7,0,
+hbase,774,review,340397832,non_debt,-,apache,1.0,Merged,1,16,
+kafka,1284,comment,215544073,non_debt,-,apache,0.0,Closed,4,0,
+airflow,1721,comment,240172723,non_debt,-,apache,83.0,Closed,1,3,
+arrow,6008,review,359538125,non_debt,-,apache,9.0,Closed,1,24,
+dubbo,5069,description,0,non_debt,-,apache,43.0,Closed,1,0,
+beam,8311,comment,487220917,non_debt,-,apache,11.0,Merged,9,12,
+pulsar,4040,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+spark,14916,review,77205359,non_debt,-,apache,10.0,Closed,1,3,
+druid,2524,review,81665494,code_debt,low_quality_code,apache,1107.0,Closed,3,30,"Discuss, stale"
+trafficserver,877,comment,240897067,non_debt,-,apache,25.0,Merged,4,5,Plugins
+kafka,4731,review,175421245,non_debt,-,apache,0.0,Merged,3,12,
+arrow,9626,review,587325457,design_debt,non-optimal_design,apache,5.0,Closed,3,4,"Component: C++, Component: Python"
+spark,15199,comment,249086274,non_debt,-,apache,0.0,Closed,1,0,
+spark,27873,review,390789651,non_debt,-,apache,0.0,Closed,1,4,
+beam,7093,review,235414200,non_debt,-,apache,0.0,Merged,1,6,
+thrift,11,description,0,non_debt,-,apache,0.0,Closed,1,0,
+couchdb,1596,summary,0,non_debt,-,apache,0.0,Merged,3,3,
+spark,18986,comment,323618879,architecture_debt,violation_of_modularity,apache,916.0,Closed,5,1,"SQL, Stale"
+spark,11901,description,0,non_debt,-,apache,1.0,Closed,28,0,
+hbase,1869,review,438941753,non_debt,-,apache,9.0,Merged,1,7,
+flink,8035,review,268481298,non_debt,-,apache,4.0,Merged,3,30,"review=description?, component=TableSQL/Planner"
+bookkeeper,1088,comment,364621361,non_debt,-,apache,86.0,Merged,5,30,"area/client, type/improvement, release/4.8.0"
+trafodion,1786,comment,458865276,non_debt,-,apache,2.0,Merged,1,12,
+skywalking,4368,comment,586702568,non_debt,-,apache,0.0,Merged,3,0,"core feature, backend"
+spark,3165,comment,62288954,documentation_debt,outdated_documentation,apache,1.0,Closed,1,3,
+storm,339,summary,0,non_debt,-,apache,31.0,Merged,8,3,
+pulsar,7590,summary,0,non_debt,-,apache,0.0,Merged,1,0,"doc, release/2.5.1"
+spark,20795,review,173997911,non_debt,-,apache,123.0,Closed,12,30,
+arrow,2239,review,202104769,non_debt,-,apache,9.0,Closed,30,30,
+storm,901,summary,0,non_debt,-,apache,1.0,Merged,1,0,
+spark,12146,review,59121792,non_debt,-,apache,5.0,Closed,30,30,

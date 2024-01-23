@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+trafodion,1475,comment,372915337,non_debt,-,apache,1.0,Merged,1,0,
+flink,9057,review,302544895,non_debt,-,apache,1.0,Closed,7,18,"review=description?, component=TableSQL/Planner"
+spark,19884,comment,350871930,non_debt,-,apache,16.0,Closed,17,30,
+ambari,39,comment,304184352,non_debt,-,apache,433.0,Closed,30,0,
+incubator-pinot,2062,review,148907373,non_debt,-,apache,0.0,Merged,4,4,
+arrow,898,review,130206222,code_debt,low_quality_code,apache,11.0,Closed,6,4,
+kafka,557,comment,185440297,non_debt,-,apache,403.0,Closed,1,0,
+superset,12873,review,568157907,non_debt,-,apache,6.0,Merged,15,26,"size/L, preset-io, need:merge"
+drill,1953,review,373533767,non_debt,-,apache,22.0,Merged,3,30,documentation
+skywalking,4987,comment,652475825,code_debt,slow_algorithm,apache,7.0,Merged,27,30,"backend, enhancement"
+storm,1480,comment,226404728,design_debt,non-optimal_design,apache,81.0,Closed,1,0,
+pulsar,43,review,82489542,non_debt,-,apache,13.0,Merged,1,30,enhancement
+couchdb,1605,review,222812034,non_debt,-,apache,76.0,Closed,6,30,
+flink,13354,summary,0,non_debt,-,apache,1.0,Closed,1,0,"review=description?, component=API/DataSet, component=API/DataStream"
+incubator-heron,2761,review,172425361,non_debt,-,apache,6.0,Merged,3,7,
+tvm,1181,review,194825932,non_debt,-,apache,16.0,Merged,12,30,status: accepted
+tvm,4934,review,383560367,non_debt,-,apache,0.0,Merged,7,8,status: accepted
+druid,2144,comment,166701946,non_debt,-,apache,0.0,Merged,1,0,
+reef,1054,review,68419655,code_debt,duplicated_code,apache,55.0,Closed,4,30,
+spark,18748,review,139141803,non_debt,-,apache,73.0,Closed,13,4,
+spark,28163,description,0,code_debt,slow_algorithm,apache,0.0,Closed,2,0,
+kafka,9720,review,540486098,non_debt,-,apache,47.0,Merged,20,30,"streams, kip"
+beam,1808,comment,275576811,non_debt,-,apache,21.0,Closed,2,2,
+daffodil,291,review,348540375,code_debt,low_quality_code,apache,20.0,Merged,1,30,
+cloudstack,732,comment,134135278,non_debt,-,apache,8.0,Closed,2,3,
+spark,14690,review,82707709,non_debt,-,apache,58.0,Closed,21,30,
+spark,2432,review,18315435,non_debt,-,apache,16.0,Closed,30,30,
+spark,26656,review,359262166,non_debt,-,apache,31.0,Closed,30,30,SQL
+spark,21442,comment,405148846,non_debt,-,apache,49.0,Closed,9,10,
+incubator-mxnet,14783,comment,492901200,non_debt,-,apache,21.0,Merged,10,0,"MKLDNN, pr-work-in-progress"
+flink,4213,comment,312696319,non_debt,-,apache,5.0,Closed,1,0,component=BuildSystem
+spark,17530,comment,291961397,non_debt,-,apache,122.0,Closed,18,0,
+kafka,6020,comment,447558662,non_debt,-,apache,24.0,Closed,2,2,streams
+openwhisk,1438,comment,256636239,non_debt,-,apache,1.0,Merged,1,0,"swift, runtime, pgapproved"
+druid,2225,description,0,non_debt,-,apache,0.0,Closed,1,0,
+spark,27267,review,369526132,non_debt,-,apache,5.0,Closed,11,30,SQL
+spark,14788,comment,256916341,non_debt,-,apache,190.0,Closed,17,30,
+nifi-minifi-cpp,791,review,435319933,non_debt,-,apache,40.0,Closed,14,30,
+pulsar,5043,comment,546989952,non_debt,-,apache,66.0,Merged,4,0,
+spark,25919,review,338633807,non_debt,-,apache,105.0,Closed,8,17,SQL
+zeppelin,1843,comment,270552773,non_debt,-,apache,0.0,Closed,2,0,
+jena,51,comment,91499263,non_debt,-,apache,20.0,Closed,30,0,
+thrift,1050,summary,0,non_debt,-,apache,2.0,Closed,1,0,
+flink,11944,review,417785164,non_debt,-,apache,0.0,Merged,3,11,"review=description?, component=Formats"
+cloudstack,1224,comment,164271374,design_debt,non-optimal_design,apache,39.0,Closed,1,0,
+beam,1100,description,0,non_debt,-,apache,4.0,Merged,8,4,
+spark,13300,comment,222043096,non_debt,-,apache,245.0,Closed,8,2,
+druid,3399,comment,252780216,non_debt,-,apache,45.0,Merged,8,22,Feature
+flink,839,comment,112161893,non_debt,-,apache,0.0,Closed,1,0,component=API/DataStream
+thrift,1401,comment,349099421,non_debt,-,apache,165.0,Merged,1,6,

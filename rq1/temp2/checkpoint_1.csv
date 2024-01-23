@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+iceberg,1772,comment,728256911,non_debt,-,apache,2.0,Merged,1,3,spark
+fineract,709,comment,583203509,non_debt,-,apache,2.0,Closed,1,0,
+carbondata,2691,comment,418741401,non_debt,-,apache,34.0,Closed,1,2,
+beam,1974,review,100887469,code_debt,low_quality_code,apache,6.0,Closed,6,8,
+geode,112,review,55901760,non_debt,-,apache,6.0,Closed,6,12,
+spark,8760,review,45791721,non_debt,-,apache,313.0,Closed,3,30,
+carbondata,2826,comment,432122362,non_debt,-,apache,9.0,Closed,1,4,
+spark,3649,comment,66556800,non_debt,-,apache,29.0,Closed,18,0,
+pulsar,5491,comment,552050267,non_debt,-,apache,14.0,Merged,15,30,component/client
+spark,20020,comment,353035963,non_debt,-,apache,9.0,Closed,9,22,
+incubator-mxnet,11047,comment,438531615,non_debt,-,apache,176.0,Merged,18,9,pr-awaiting-review
+nifi-minifi-cpp,926,review,508700255,non_debt,-,apache,7.0,Closed,6,27,
+flink,8446,review,285160885,build_debt,under-declared_dependencies,apache,12.0,Merged,7,30,"review=description?, component=Runtime/Coordination"
+hudi,1469,comment,634970887,non_debt,-,apache,312.0,Closed,1,30,pr:wip
+incubator-mxnet,15270,summary,0,non_debt,-,apache,30.0,Merged,1,0,"Build, pr-awaiting-review"
+spark,23266,review,240395676,non_debt,-,apache,4.0,Closed,2,29,
+flink,2363,comment,240791329,design_debt,non-optimal_design,apache,34.0,Closed,4,30,"component=Runtime/WebFrontend, component=Runtime/Metrics"
+spark,29795,review,493190061,code_debt,low_quality_code,apache,18.0,Closed,18,30,SQL
+druid,3958,summary,0,non_debt,-,apache,0.0,Merged,1,0,Bug
+trafficcontrol,5681,summary,0,non_debt,-,apache,1.0,Merged,17,20,"Traffic Ops, cdn-in-a-box, install, improvement, automation, dependencies"
+tinkerpop,144,summary,0,code_debt,slow_algorithm,apache,1.0,Merged,8,0,
+beam,2143,comment,283739463,non_debt,-,apache,1.0,Closed,1,0,
+flink,14084,review,554882968,requirement_debt,requirement_partially_implemented,apache,,Not Closed or Merged,3,9,"review=description?, component=TableSQL/API"
+kafka,1549,summary,0,non_debt,-,apache,3.0,Closed,2,0,
+spark,31905,comment,811106021,requirement_debt,non-functional_requirements_not_fully_satisfied,apache,121.0,Closed,19,30,SQL
+incubator-brooklyn,763,review,35646804,non_debt,-,apache,9.0,Merged,3,15,
+accumulo,332,comment,368365644,design_debt,non-optimal_design,apache,81.0,Merged,10,30,
+spark,20938,comment,383849805,non_debt,-,apache,26.0,Closed,20,27,
+incubator-brooklyn,174,review,17779614,non_debt,-,apache,1.0,Merged,1,4,
+druid,8287,review,314501737,non_debt,-,apache,9.0,Merged,5,18,"Area - Batch Ingestion, Improvement, Area - Streaming Ingestion"
+trafficcontrol,2952,review,227523969,non_debt,-,apache,1.0,Merged,1,2,"new feature, Traffic Ops"
+incubator-dolphinscheduler,4250,comment,746145200,non_debt,-,apache,1.0,Merged,11,0,
+superset,650,review,67918604,non_debt,-,apache,3.0,Merged,4,25,
+drill,1862,review,333560129,non_debt,-,apache,20.0,Merged,1,30,
+cloudstack,1705,summary,0,code_debt,low_quality_code,apache,22.0,Merged,1,0,
+rocketmq,376,comment,406472654,non_debt,-,apache,3.0,Merged,2,0,
+flink,4932,summary,0,non_debt,-,apache,471.0,Closed,5,0,component=Runtime/Metrics
+spark,15266,comment,254403378,non_debt,-,apache,28.0,Closed,2,8,
+spark,18567,comment,313762412,test_debt,low_coverage,apache,0.0,Closed,6,14,
+incubator-pagespeed-ngx,639,comment,37984712,non_debt,-,apache,1.0,Merged,2,0,
+flink,12917,review,462827759,non_debt,-,apache,26.0,Merged,7,30,"review=description?, component=Runtime/Coordination, component=Tests"
+incubator-pinot,5769,review,467200428,design_debt,non-optimal_design,apache,12.0,Merged,13,25,
+phoenix,244,summary,0,non_debt,-,apache,2279.0,Closed,1,0,
+dubbo,2217,comment,412890407,non_debt,-,apache,1.0,Merged,1,6,
+drill,640,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+pulsar,9443,comment,774180857,non_debt,-,apache,3.0,Merged,4,7,flaky-tests
+tvm,4280,review,349316135,non_debt,-,apache,14.0,Merged,23,10,status: accepted
+spark,1338,review,15431198,non_debt,-,apache,21.0,Closed,9,20,
+nifi,2516,summary,0,non_debt,-,apache,0.0,Closed,2,0,
+airflow,15174,review,606788324,non_debt,-,apache,3.0,Merged,1,9,okay to merge

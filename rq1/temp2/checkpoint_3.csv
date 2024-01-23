@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+netbeans,130,comment,338476937,non_debt,-,apache,14.0,Merged,1,0,
+trafficserver,1594,review,106927789,non_debt,-,apache,10.0,Merged,1,12,"TLS, TS API"
+spark,29026,comment,655306439,non_debt,-,apache,1.0,Closed,1,9,SQL
+storm,2865,summary,0,non_debt,-,apache,2.0,Merged,1,0,
+beam,5384,review,189163677,documentation_debt,low_quality_documentation,apache,4.0,Merged,1,12,
+calcite,2214,summary,0,non_debt,-,apache,18.0,Closed,1,0,LGTM-will-merge-soon
+flink,11554,comment,605457410,non_debt,-,apache,38.0,Closed,11,23,"review=description?, component=Runtime/Coordination"
+pulsar,9083,comment,752413384,non_debt,-,apache,9.0,Merged,13,23,"component/broker, release/2.7.1, cherry-picked/branch-2.7, release/2.6.4"
+spark,17468,comment,290152298,non_debt,-,apache,3.0,Closed,2,4,
+fineract,1564,summary,0,non_debt,-,apache,2.0,Merged,1,0,renovate
+spark,10411,summary,0,non_debt,-,apache,57.0,Closed,30,15,
+hudi,2500,comment,798849454,non_debt,-,apache,45.0,Merged,8,17,priority:critical
+camel,2206,review,165614505,non_debt,-,apache,17.0,Closed,1,25,
+parquet-mr,466,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+zeppelin,2706,comment,353205540,test_debt,flaky_test,apache,25.0,Closed,6,8,
+netbeans,276,summary,0,non_debt,-,apache,4.0,Merged,1,0,
+geode,230,summary,0,non_debt,-,apache,2.0,Closed,6,4,
+flink,12143,comment,628995582,non_debt,-,apache,1.0,Closed,5,2,"review=description?, component=Deployment/YARN, component=Client/JobSubmission"
+hadoop,1357,review,318728169,non_debt,-,apache,3.0,Closed,2,2,ozone
+incubator-doris,1610,review,315559959,non_debt,-,apache,17.0,Merged,4,30,
+druid,3939,review,102355893,code_debt,low_quality_code,apache,7.0,Merged,11,30,Bug
+spark,11179,review,52870230,non_debt,-,apache,10.0,Closed,3,6,
+spark,3009,comment,63914127,non_debt,-,apache,25.0,Closed,30,30,
+spark,12627,comment,218659906,non_debt,-,apache,24.0,Closed,23,9,
+pulsar,322,comment,294382800,non_debt,-,apache,445.0,Closed,21,16,enhancement
+dubbo,1705,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+reef,955,comment,212143854,non_debt,-,apache,4.0,Closed,2,10,
+airflow,3969,comment,425430405,non_debt,-,apache,0.0,Merged,1,0,
+fineract,1584,review,563163346,non_debt,-,apache,3.0,Merged,1,5,
+shardingsphere,4566,summary,0,non_debt,-,apache,0.0,Merged,3,0,"type: refactor, in: SQL parse"
+trafficserver,1482,comment,281828523,non_debt,-,apache,1.0,Merged,1,0,Core
+trafodion,115,summary,0,code_debt,dead_code,apache,2.0,Merged,6,10,
+arrow,5506,comment,535392580,non_debt,-,apache,0.0,Closed,1,0,
+daffodil,334,review,395809427,non_debt,-,apache,0.0,Merged,1,3,
+pulsar,6903,comment,632959266,non_debt,-,apache,27.0,Merged,19,16,type/feature
+ozone,1007,comment,637932167,non_debt,-,apache,0.0,Merged,1,0,
+spark,19525,review,149534129,non_debt,-,apache,55.0,Closed,4,18,
+kafka,2429,comment,275224539,non_debt,-,apache,7.0,Closed,9,30,
+camel,4687,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+pulsar,318,comment,290524380,non_debt,-,apache,3.0,Merged,7,24,
+incubator-pinot,2890,review,195580463,non_debt,-,apache,0.0,Merged,1,7,
+beam,13927,comment,775452670,non_debt,-,apache,368.0,Closed,1,0,stale
+pulsar,1788,summary,0,non_debt,-,apache,1.0,Merged,1,0,component/function
+spark,20068,review,158616591,non_debt,-,apache,141.0,Closed,6,12,
+trafodion,644,review,73953757,design_debt,non-optimal_design,apache,6.0,Merged,6,25,
+flink,5108,review,154299536,non_debt,-,apache,3.0,Closed,2,8,component=Connectors/Kafka
+openwhisk,4077,comment,433268766,non_debt,-,apache,7.0,Closed,1,0,"review, loadbalancer, discussion"
+madlib,439,comment,530095343,non_debt,-,apache,5.0,Merged,1,4,
+kafka,8491,review,408885908,non_debt,-,apache,0.0,Closed,2,2,
+spark,26108,review,334704586,design_debt,non-optimal_design,apache,28.0,Closed,8,30,STRUCTURED STREAMING

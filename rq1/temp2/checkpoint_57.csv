@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+kafka,2191,comment,268001461,non_debt,-,apache,19.0,Closed,7,1,
+beam,2246,comment,287187424,non_debt,-,apache,2.0,Closed,2,30,
+camel,2070,summary,0,non_debt,-,apache,6.0,Closed,8,16,
+spark,6090,summary,0,non_debt,-,apache,0.0,Closed,5,11,
+incubator-mxnet,13109,comment,438792906,non_debt,-,apache,15.0,Merged,6,0,"pr-awaiting-merge, CMake"
+spark,7580,review,35294849,non_debt,-,apache,14.0,Closed,23,30,
+arrow,4706,comment,505897550,non_debt,-,apache,0.0,Closed,1,0,
+helix,731,review,376166792,non_debt,-,apache,4.0,Merged,8,30,
+hudi,2106,review,503737912,documentation_debt,low_quality_documentation,apache,194.0,Closed,30,27,priority:major
+couchdb,1972,review,265677665,non_debt,-,apache,27.0,Merged,6,30,
+spark,14087,review,81610590,non_debt,-,apache,92.0,Closed,2,22,
+druid,5632,review,180936341,documentation_debt,low_quality_documentation,apache,0.0,Merged,6,2,"Performance, Area - Segment Balancing/Coordination"
+incubator-pagespeed-ngx,1028,review,43148618,documentation_debt,outdated_documentation,apache,1.0,Merged,1,4,
+incubator-pinot,425,description,0,non_debt,-,apache,0.0,Merged,1,15,
+pulsar,4062,review,277191942,non_debt,-,apache,42.0,Merged,24,30,type/feature
+spark,14562,summary,0,non_debt,-,apache,89.0,Closed,5,17,
+thrift,916,summary,0,non_debt,-,apache,0.0,Closed,3,0,
+spark,26533,comment,557886732,non_debt,-,apache,20.0,Closed,15,0,
+camel,1043,comment,227651822,non_debt,-,apache,4.0,Merged,2,3,
+drill,578,review,102303605,non_debt,-,apache,177.0,Closed,14,30,
+cloudstack,3003,comment,435941591,non_debt,-,apache,1.0,Merged,2,0,type:enhancement
+spark,31829,summary,0,non_debt,-,apache,57.0,Closed,2,16,"KUBERNETES, DOCS"
+beam,6830,summary,0,non_debt,-,apache,0.0,Merged,1,2,
+incubator-pinot,2068,review,149484084,code_debt,low_quality_code,apache,0.0,Merged,7,23,
+ozone,1870,comment,781711803,non_debt,-,apache,17.0,Merged,11,10,
+bookkeeper,2347,description,0,non_debt,-,apache,323.0,Closed,5,10,
+phoenix,749,review,402659415,non_debt,-,apache,21.0,Closed,1,30,
+spark,24116,comment,473683327,non_debt,-,apache,0.0,Closed,1,0,
+phoenix,855,description,0,non_debt,-,apache,6.0,Closed,1,0,
+kafka,2264,review,95306094,non_debt,-,apache,26.0,Closed,30,30,
+superset,9915,comment,634387543,non_debt,-,apache,0.0,Merged,3,0,size/M
+ignite,8940,review,603982014,non_debt,-,apache,3.0,Merged,9,12,
+avro,1070,review,578050603,non_debt,-,apache,249.0,Merged,4,2,C#
+shardingsphere,8604,review,546475778,non_debt,-,apache,7.0,Merged,4,20,"in: test, in: SQL parse"
+kafka,2824,comment,293434490,non_debt,-,apache,4.0,Closed,2,0,
+carbondata,1664,comment,450070857,non_debt,-,apache,,Not Closed or Merged,5,0,
+spark,28098,summary,0,non_debt,-,apache,40.0,Closed,1,0,
+couchdb,3127,review,485072389,non_debt,-,apache,11.0,Merged,3,30,
+skywalking,845,comment,376875153,non_debt,-,apache,43.0,Merged,15,12,"agent, feature"
+spark,19041,review,163041732,code_debt,low_quality_code,apache,532.0,Closed,1,30,
+kafka,4206,comment,344148911,non_debt,-,apache,8.0,Closed,4,20,
+spark,18301,review,122376556,non_debt,-,apache,15.0,Closed,12,30,
+spark,21200,review,185268813,non_debt,-,apache,3.0,Closed,30,30,
+carbondata,1524,comment,345426984,non_debt,-,apache,0.0,Closed,1,10,
+spark,7186,review,36114225,non_debt,-,apache,33.0,Closed,11,18,
+hbase,426,review,310130785,non_debt,-,apache,4.0,Merged,1,20,
+kafka,6538,review,274196345,non_debt,-,apache,6.0,Merged,2,3,
+samza,430,comment,367865351,non_debt,-,apache,0.0,Closed,1,0,
+madlib,389,comment,491443083,non_debt,-,apache,3.0,Closed,2,9,
+arrow,467,review,109291184,code_debt,complex_code,apache,68.0,Closed,7,11,

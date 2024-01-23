@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+kafka,2079,description,0,non_debt,-,apache,0.0,Closed,1,0,
+incubator-mxnet,19505,summary,0,non_debt,-,apache,0.0,Merged,1,0,pr-awaiting-review
+hadoop,1143,comment,514249120,non_debt,-,apache,2.0,Closed,1,0,ozone
+spark,29843,comment,727915423,non_debt,-,apache,29.0,Closed,20,30,"SQL, STRUCTURED STREAMING, BUILD, YARN, DOCS, CORE, INFRA, DSTREAM"
+commons-lang,182,comment,298031716,non_debt,-,apache,258.0,Closed,1,1,
+camel-quarkus,878,review,391477642,non_debt,-,apache,4.0,Merged,1,27,
+beam,3219,summary,0,non_debt,-,apache,1.0,Merged,1,0,
+incubator-mxnet,7983,description,0,non_debt,-,apache,0.0,Merged,8,0,
+nifi-minifi-cpp,481,description,0,non_debt,-,apache,0.0,Closed,1,0,
+beam,9098,review,304868969,non_debt,-,apache,56.0,Merged,7,30,
+hadoop,931,comment,508137612,non_debt,-,apache,47.0,Closed,2,12,ozone
+thrift,1219,description,0,non_debt,-,apache,0.0,Closed,1,0,
+arrow,3574,summary,0,non_debt,-,apache,136.0,Closed,1,29,
+iceberg,2294,review,596510752,code_debt,low_quality_code,apache,24.0,Merged,7,15,"API, core"
+spark,7769,comment,126424306,non_debt,-,apache,1.0,Closed,5,9,
+incubator-mxnet,2791,description,0,non_debt,-,apache,0.0,Merged,2,0,
+trafodion,464,comment,217017345,non_debt,-,apache,0.0,Merged,1,0,
+incubator-mxnet,6183,comment,300849702,non_debt,-,apache,5.0,Merged,5,17,
+kafka,3422,comment,310703708,non_debt,-,apache,0.0,Closed,6,4,
+kafka,6509,comment,479722213,non_debt,-,apache,7.0,Merged,3,3,
+carbondata,3584,review,389603171,code_debt,low_quality_code,apache,65.0,Closed,5,30,
+carbondata,933,comment,303107434,non_debt,-,apache,4.0,Closed,1,0,
+spark,1484,comment,69383220,non_debt,-,apache,199.0,Closed,16,30,
+spark,29715,comment,692354511,design_debt,non-optimal_design,apache,5.0,Closed,1,1,"SQL, STRUCTURED STREAMING"
+accumulo,279,review,126737922,non_debt,-,apache,8.0,Merged,1,30,
+incubator-mxnet,17793,review,390011098,non_debt,-,apache,30.0,Merged,4,7,Numpy
+beam,11291,comment,607929824,non_debt,-,apache,6.0,Closed,1,0,infra
+spark,31264,comment,766672542,non_debt,-,apache,8.0,Closed,4,8,SQL
+spark,22755,comment,434190727,non_debt,-,apache,13.0,Closed,1,5,
+ozone,856,summary,0,non_debt,-,apache,37.0,Merged,2,8,
+spark,1317,comment,48206949,non_debt,-,apache,0.0,Closed,1,0,
+spark,9991,comment,160691520,non_debt,-,apache,5.0,Closed,4,11,
+drill,381,review,54017535,non_debt,-,apache,833.0,Closed,1,5,
+superset,6563,comment,450139305,non_debt,-,apache,6.0,Merged,1,0,change:backend
+servicecomb-java-chassis,1013,review,238560805,non_debt,-,apache,7.0,Merged,3,22,
+qpid-dispatch,308,summary,0,non_debt,-,apache,1.0,Closed,1,0,
+kylin,1218,summary,0,non_debt,-,apache,25.0,Merged,15,3,
+spark,1749,summary,0,non_debt,-,apache,5.0,Closed,1,0,
+lucene-solr,2200,review,556614634,non_debt,-,apache,2.0,Merged,5,4,
+spark,3118,review,19986239,non_debt,-,apache,7.0,Closed,5,14,
+beam,13594,comment,749705019,non_debt,-,apache,17.0,Closed,1,0,python
+daffodil,3,review,148564978,code_debt,low_quality_code,apache,27.0,Closed,1,3,
+carbondata,691,comment,289054025,non_debt,-,apache,3.0,Closed,1,0,
+carbondata,3436,comment,557416915,non_debt,-,apache,85.0,Closed,2,30,
+arrow,7958,comment,673646755,non_debt,-,apache,0.0,Closed,3,6,"Component: Rust, Component: Rust - DataFusion"
+flink,3900,comment,301477442,non_debt,-,apache,0.0,Closed,1,2,component=Deployment/YARN
+tomee,142,review,207653483,non_debt,-,apache,13.0,Merged,3,3,
+apisix-dashboard,1102,review,564459527,non_debt,-,apache,35.0,Merged,30,20,
+beam,3459,comment,312008421,non_debt,-,apache,1.0,Merged,1,4,
+incubator-mxnet,8302,review,155828922,documentation_debt,outdated_documentation,apache,107.0,Merged,30,30,

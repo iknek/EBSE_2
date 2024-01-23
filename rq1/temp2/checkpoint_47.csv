@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+carbondata,2623,comment,413818682,non_debt,-,apache,19.0,Closed,2,15,
+spark,29950,review,503666896,non_debt,-,apache,62.0,Closed,12,30,SQL
+incubator-pinot,5987,comment,688946724,non_debt,-,apache,2.0,Merged,2,1,
+drill,720,review,96553793,non_debt,-,apache,168.0,Closed,4,2,
+spark,12376,comment,209828163,non_debt,-,apache,4.0,Closed,1,6,
+flink,4553,comment,322854404,non_debt,-,apache,0.0,Closed,3,0,component=BuildSystem
+carbondata,3272,review,292772374,non_debt,-,apache,2.0,Closed,2,4,
+incubator-dolphinscheduler,4896,review,584050628,code_debt,low_quality_code,apache,0.0,Merged,1,6,improvement
+kafka,1095,review,60755927,non_debt,-,apache,39.0,Closed,22,30,
+spark,24983,review,308947640,non_debt,-,apache,191.0,Closed,13,30,"SQL, Stale"
+ambari,2366,summary,0,non_debt,-,apache,2.0,Merged,2,5,ambari-commons
+airflow,730,review,85289615,architecture_debt,violation_of_modularity,apache,782.0,Closed,1,9,
+trafficserver,3903,comment,402768113,code_debt,low_quality_code,apache,11.0,Merged,2,0,Cleanup
+apisix-dashboard,379,review,471185309,non_debt,-,apache,0.0,Merged,7,1,
+spark,2922,comment,60553132,non_debt,-,apache,3.0,Closed,3,6,
+spark,5511,description,0,code_debt,low_quality_code,apache,1.0,Closed,4,2,
+carbondata,3131,comment,465625917,non_debt,-,apache,7.0,Closed,1,0,
+incubator-dolphinscheduler,528,summary,0,non_debt,-,apache,0.0,Merged,3,0,
+beam,123,review,58893436,non_debt,-,apache,17.0,Closed,2,30,
+shardingsphere,4215,summary,0,non_debt,-,apache,0.0,Merged,3,0,"type: refactor, in: SQL parse"
+dubbo,2282,description,0,non_debt,-,apache,1.0,Closed,1,0,
+airflow,2756,comment,343599537,non_debt,-,apache,54.0,Closed,16,0,
+beam,406,comment,224704830,non_debt,-,apache,9.0,Closed,1,1,
+lucene-solr,357,review,376935901,non_debt,-,apache,676.0,Merged,30,30,
+apisix,957,summary,0,non_debt,-,apache,0.0,Merged,2,0,
+spark,19813,review,156552741,non_debt,-,apache,18.0,Closed,24,30,
+spark,25785,comment,531497209,design_debt,non-optimal_design,apache,3.0,Closed,1,0,SPARK CORE
+airflow,2011,comment,274330617,non_debt,-,apache,10.0,Closed,3,0,
+drill,1593,description,0,non_debt,-,apache,4.0,Closed,3,12,
+trafficserver,3044,comment,365999726,non_debt,-,apache,41.0,Merged,1,0,"Build, Documentation"
+airflow,1562,comment,223208225,non_debt,-,apache,119.0,Closed,4,6,
+kafka,7994,review,373361209,code_debt,low_quality_code,apache,10.0,Merged,8,28,
+ozone,2130,description,0,non_debt,-,apache,0.0,Merged,1,0,
+apisix,3694,description,0,non_debt,-,apache,1.0,Merged,1,0,
+hadoop,1884,summary,0,non_debt,-,apache,73.0,Closed,30,9,HDFS
+hudi,1574,comment,633337641,non_debt,-,apache,14.0,Merged,2,7,
+gobblin,199,comment,118981706,non_debt,-,apache,0.0,Merged,2,2,
+flink,5593,comment,392814940,non_debt,-,apache,91.0,Closed,3,8,component=CommandLineClient
+airflow,67,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+hudi,1253,review,384914757,non_debt,-,apache,116.0,Closed,1,17,
+nifi,2940,comment,411414481,non_debt,-,apache,0.0,Closed,1,0,
+incubator-pinot,4777,review,344013968,code_debt,low_quality_code,apache,12.0,Merged,1,30,
+karaf,961,description,0,non_debt,-,apache,0.0,Merged,1,0,
+systemds,349,comment,274585312,non_debt,-,apache,5.0,Closed,7,1,
+carbondata,2396,comment,399415726,non_debt,-,apache,4.0,Closed,1,30,
+carbondata,1653,comment,351470763,non_debt,-,apache,2.0,Closed,1,14,
+kafka,937,comment,186170645,non_debt,-,apache,3.0,Closed,1,0,
+trafficserver,1033,comment,248191505,non_debt,-,apache,4.0,Merged,2,8,Network
+kafka,2950,comment,317639576,non_debt,-,apache,326.0,Closed,2,0,
+incubator-doris,1439,description,0,non_debt,-,apache,0.0,Merged,1,0,

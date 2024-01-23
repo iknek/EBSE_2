@@ -15,11 +15,11 @@ data_set_choice = input("Which dataset would you like to plot - (1) 'Pull Reques
 
 if data_set_choice == '1':
     data_column = 'pull_number'
-    input_csv_path = os.path.join(absolute_path_to_folder,'sortedPullRequests.csv')
+    input_csv_path = os.path.join(absolute_path_to_folder,'satd-dataset-pull_requests.csv')
     choice = "Pull Requests"
 elif data_set_choice == '2':
     data_column = 'issue_number'
-    input_csv_path = os.path.join(absolute_path_to_folder, 'sortedDatasetIssues.csv')
+    input_csv_path = os.path.join(absolute_path_to_folder, 'satd-dataset-issues.csv')
     choice = "Dataset Issues"
 else:
     print("Invalid dataset choice. Please enter '1' or '2'.")

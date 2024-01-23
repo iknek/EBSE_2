@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+samza,843,review,243703884,non_debt,-,apache,37.0,Closed,28,30,
+geode,3228,summary,0,non_debt,-,apache,2.0,Closed,7,0,
+madlib,142,comment,310788886,non_debt,-,apache,6.0,Closed,3,8,
+geode,2907,summary,0,non_debt,-,apache,1.0,Merged,3,12,
+beam,11162,review,395216164,non_debt,-,apache,1.0,Merged,1,6,"python, go, model, runners, dataflow, core"
+nifi,4767,review,561227339,code_debt,low_quality_code,apache,13.0,Closed,8,30,
+beam,4266,summary,0,non_debt,-,apache,38.0,Merged,1,0,
+pulsar,43,review,82681951,non_debt,-,apache,13.0,Merged,1,30,enhancement
+bookkeeper,1907,comment,456220683,non_debt,-,apache,0.0,Merged,4,0,"type/task, area/release, release/4.9.0, release/4.10.0"
+flink,8322,review,292929426,non_debt,-,apache,49.0,Merged,7,30,"review=description?, component=Runtime/Checkpointing"
+flink,966,comment,126706999,test_debt,flaky_test,apache,13.0,Closed,1,19,component=Runtime/Task
+trafficserver,3840,comment,397724591,non_debt,-,apache,10.0,Merged,1,0,Core
+skywalking,4987,review,450269014,non_debt,-,apache,7.0,Merged,27,30,"backend, enhancement"
+kafka,2501,comment,277423574,non_debt,-,apache,3.0,Closed,1,8,
+camel-quarkus,225,description,0,non_debt,-,apache,0.0,Merged,7,5,
+arrow,7030,review,416409859,non_debt,-,apache,291.0,Closed,3,30,"Component: Java, Component: C++"
+carbondata,2555,comment,408309734,non_debt,-,apache,3.0,Closed,1,0,
+spark,14537,comment,265352177,non_debt,-,apache,120.0,Closed,20,30,
+spark,15231,description,0,non_debt,-,apache,10.0,Closed,13,14,
+tvm,5151,summary,0,non_debt,-,apache,0.0,Merged,3,0,
+ignite,6392,summary,0,design_debt,non-optimal_design,apache,0.0,Merged,1,0,
+avro,158,comment,426640874,non_debt,-,apache,735.0,Merged,1,0,
+brooklyn-server,915,description,0,non_debt,-,apache,9.0,Merged,2,2,
+zeppelin,3186,description,0,non_debt,-,apache,0.0,Closed,1,0,
+spark,15146,summary,0,non_debt,-,apache,2.0,Closed,3,5,
+incubator-mxnet,19772,comment,786476224,non_debt,-,apache,36.0,Merged,29,6,pr-awaiting-merge
+hbase,2077,review,458520038,non_debt,-,apache,65.0,Merged,2,6,
+tvm,953,review,171908616,non_debt,-,apache,0.0,Merged,10,6,
+carbondata,2030,comment,370892543,non_debt,-,apache,3.0,Closed,30,0,
+spark,15851,comment,260038511,non_debt,-,apache,2.0,Closed,5,13,
+flink,507,summary,0,non_debt,-,apache,0.0,Closed,11,0,
+spark,22056,description,0,non_debt,-,apache,0.0,Closed,1,0,
+hbase,1482,review,416140357,documentation_debt,low_quality_documentation,apache,,Not Closed or Merged,1,14,
+airflow,5420,summary,0,non_debt,-,apache,14.0,Closed,1,1,
+trafficserver,2525,comment,329823741,non_debt,-,apache,0.0,Closed,3,0,
+flink,1588,comment,180753150,non_debt,-,apache,18.0,Closed,2,4,component=Deployment/YARN
+spark,326,comment,39626508,non_debt,-,apache,0.0,Closed,1,0,
+rocketmq,1393,description,0,non_debt,-,apache,641.0,Merged,1,0,"type/enhancement, module/acl"
+iceberg,1145,review,465458831,non_debt,-,apache,38.0,Merged,5,30,
+spark,21405,review,191372561,non_debt,-,apache,43.0,Closed,26,18,
+iceberg,416,review,317822579,non_debt,-,apache,1.0,Merged,8,24,
+spark,24807,comment,500879466,design_debt,non-optimal_design,apache,206.0,Closed,9,26,"SPARK CORE, Stale"
+spark,24041,comment,471500788,non_debt,-,apache,2.0,Closed,3,5,
+trafficcontrol,3380,review,264532031,non_debt,-,apache,6.0,Merged,8,30,"new feature, Traffic Router"
+skywalking,1256,comment,391530381,non_debt,-,apache,1.0,Merged,2,0,bug
+incubator-brooklyn,606,comment,94850687,non_debt,-,apache,3.0,Merged,2,8,
+kafka,3219,summary,0,non_debt,-,apache,2.0,Closed,1,1,
+spark,15397,comment,252392495,non_debt,-,apache,5.0,Closed,3,2,
+iceberg,2379,review,609298267,non_debt,-,apache,109.0,Closed,5,30,"API, spark, core, INFRA"
+beam,4071,description,0,non_debt,-,apache,29.0,Merged,1,0,

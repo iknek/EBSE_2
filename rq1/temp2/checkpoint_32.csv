@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+beam,3290,comment,306143926,non_debt,-,apache,1.0,Closed,2,1,
+spark,8467,review,38010586,non_debt,-,apache,0.0,Closed,1,7,
+attic-apex-malhar,330,review,72194687,non_debt,-,apache,49.0,Merged,1,30,
+spark,14362,review,72187942,non_debt,-,apache,0.0,Closed,1,7,
+skywalking,5413,review,479768165,non_debt,-,apache,0.0,Merged,5,9,"agent, feature, plugin"
+kafka,3652,comment,321495817,non_debt,-,apache,0.0,Closed,1,0,
+trafficserver,7281,description,0,non_debt,-,apache,126.0,Merged,1,15,Plugins
+spark,25811,review,324969028,code_debt,low_quality_code,apache,131.0,Closed,7,15,SPARK CORE
+calcite,1995,review,436380164,non_debt,-,apache,8.0,Closed,1,30,
+pulsar,2259,comment,409360529,non_debt,-,apache,5.0,Merged,2,8,component/function
+incubator-mxnet,13832,comment,455167506,non_debt,-,apache,6.0,Merged,1,0,pr-awaiting-merge
+cloudstack,2578,review,225156473,code_debt,low_quality_code,apache,285.0,Closed,3,30,"type:enhancement, component:management-server, component:api, status:work-in-progress, type:admin/housekeeping"
+myfaces-tobago,2,comment,369352423,non_debt,-,apache,0.0,Merged,4,3,
+arrow,1012,comment,327039669,non_debt,-,apache,161.0,Closed,3,30,
+kafka,3197,comment,305633218,non_debt,-,apache,0.0,Closed,1,0,
+activemq-artemis,134,summary,0,non_debt,-,apache,0.0,Merged,2,0,
+trafficcontrol,4518,review,419527713,non_debt,-,apache,145.0,Merged,30,30,"new feature, Traffic Ops, Traffic Ops ORT *DEPRECATED*, Traffic Portal, documentation"
+spark,13286,review,64966890,non_debt,-,apache,6.0,Closed,18,30,
+beam,9422,review,317321495,non_debt,-,apache,68.0,Closed,1,1,stale
+trafodion,1229,review,138769506,non_debt,-,apache,17.0,Merged,8,30,
+tajo,308,comment,67804082,code_debt,low_quality_code,apache,8.0,Closed,4,0,
+incubator-pagespeed-ngx,905,review,24528057,non_debt,-,apache,12.0,Closed,15,7,
+nifi,3547,review,302243043,non_debt,-,apache,16.0,Closed,2,20,
+spark,23721,comment,460687703,non_debt,-,apache,485.0,Closed,25,18,"SQL, Stale"
+spark,28909,comment,648623581,non_debt,-,apache,0.0,Closed,1,0,"ML, BUILD, R"
+spark,27366,comment,579209583,non_debt,-,apache,171.0,Closed,30,30,SQL
+hudi,1687,review,434265606,non_debt,-,apache,27.0,Merged,1,30,
+couchdb,302,comment,78156477,non_debt,-,apache,132.0,Merged,30,2,
+cloudstack,1703,comment,254682050,non_debt,-,apache,13.0,Closed,17,0,
+incubator-pinot,5940,description,0,non_debt,-,apache,0.0,Merged,1,0,
+spark,24374,review,290419898,non_debt,-,apache,50.0,Closed,18,30,
+beam,12881,review,494688827,non_debt,-,apache,15.0,Merged,3,30,python
+flink,12260,review,429716465,documentation_debt,low_quality_documentation,apache,6.0,Merged,2,5,"review=description?, component=TableSQL/Planner, component=TableSQL/Ecosystem"
+airflow,10956,review,498315428,non_debt,-,apache,24.0,Merged,30,30,"area:Scheduler, area:performance, area:serialization"
+airflow,12867,description,0,non_debt,-,apache,0.0,Merged,1,0,"area:dev-tools, okay to merge"
+spark,10904,comment,178286446,non_debt,-,apache,7.0,Closed,1,0,
+iceberg,2159,summary,0,non_debt,-,apache,8.0,Closed,6,13,AWS
+airflow,6809,comment,565637153,non_debt,-,apache,1.0,Merged,3,0,
+trafficserver,517,comment,193159857,non_debt,-,apache,0.0,Closed,1,0,
+trafficserver,7138,summary,0,code_debt,dead_code,apache,1.0,Merged,1,0,Cleanup
+spark,25029,review,300846882,non_debt,-,apache,10.0,Closed,7,30,SQL
+beam,2100,comment,282376576,non_debt,-,apache,0.0,Closed,2,2,
+incubator-pinot,2794,description,0,non_debt,-,apache,126.0,Closed,9,25,
+nifi-minifi-cpp,821,review,454397770,non_debt,-,apache,23.0,Closed,10,30,
+spark,23185,comment,443106579,non_debt,-,apache,0.0,Closed,1,0,
+cloudstack,4141,comment,664217085,non_debt,-,apache,558.0,Closed,30,30,"type:enhancement, component:virtual-router, status:needs-work, type:new-feature"
+couchdb,3347,review,566349531,non_debt,-,apache,6.0,Merged,6,11,
+storm,250,comment,63528271,non_debt,-,apache,549.0,Closed,1,5,
+zeppelin,3498,comment,549233652,non_debt,-,apache,,Not Closed or Merged,1,0,
+spark,13057,comment,219532924,non_debt,-,apache,9.0,Closed,16,19,

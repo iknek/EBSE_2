@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+activemq-artemis,2626,comment,484288172,non_debt,-,apache,5.0,Closed,1,0,
+arrow,6804,comment,607813046,non_debt,-,apache,8.0,Closed,12,30,
+beam,535,comment,228586262,non_debt,-,apache,0.0,Closed,1,0,
+spark,28442,comment,625187631,non_debt,-,apache,3.0,Closed,7,16,"SQL, STRUCTURED STREAMING, CORE, DSTREAM"
+arrow,2979,comment,440724090,non_debt,-,apache,5.0,Closed,6,7,
+activemq-artemis,2312,comment,429021094,non_debt,-,apache,94.0,Closed,1,8,
+zookeeper,924,review,299043313,code_debt,dead_code,apache,93.0,Closed,8,14,
+iceberg,2048,review,555974043,non_debt,-,apache,13.0,Merged,6,30,"spark, parquet, core"
+beam,12444,comment,669140081,non_debt,-,apache,20.0,Merged,4,14,"python, build, infra, learning"
+rocketmq,610,comment,448893600,non_debt,-,apache,93.0,Closed,4,1,type/enhancement
+spark,14753,review,76152607,non_debt,-,apache,3.0,Closed,12,30,
+druid,5492,review,203139893,non_debt,-,apache,145.0,Merged,30,30,"Area - Batch Ingestion, Release Notes, Design Review"
+ignite,8142,review,469236353,non_debt,-,apache,1.0,Merged,19,20,
+incubator-doris,283,review,231052560,non_debt,-,apache,0.0,Merged,1,4,
+superset,5946,description,0,code_debt,complex_code,apache,6.0,Merged,6,4,
+ambari,3208,comment,667902138,non_debt,-,apache,24.0,Merged,2,3,server
+spark,3099,review,20111063,documentation_debt,outdated_documentation,apache,7.0,Closed,30,30,
+skywalking,2056,comment,450463672,non_debt,-,apache,12.0,Merged,21,0,documentation
+openwhisk,1783,comment,276930895,non_debt,-,apache,16.0,Closed,3,9,"documentation, review"
+spark,9656,comment,157867300,non_debt,-,apache,6.0,Closed,5,0,
+couchdb,284,comment,64910702,non_debt,-,apache,1056.0,Closed,5,0,"api, bug, wontfix"
+incubator-mxnet,10450,comment,379818396,non_debt,-,apache,2.0,Merged,3,1,
+kafka,247,comment,143836715,non_debt,-,apache,0.0,Closed,3,8,
+incubator-mxnet,19154,review,488901945,non_debt,-,apache,2.0,Merged,1,21,
+camel,3018,comment,509512324,non_debt,-,apache,3.0,Closed,2,0,
+qpid-dispatch,288,summary,0,non_debt,-,apache,310.0,Closed,3,3,
+ambari,2848,comment,470072514,non_debt,-,apache,0.0,Merged,1,0,web client
+kafka,734,comment,191717397,non_debt,-,apache,58.0,Closed,5,14,
+airflow,4887,comment,471372376,non_debt,-,apache,35.0,Merged,11,30,
+phoenix,516,review,292095594,code_debt,low_quality_code,apache,21.0,Merged,2,5,
+servicecomb-java-chassis,846,review,208209539,non_debt,-,apache,8.0,Merged,2,12,
+incubator-mxnet,10375,comment,380219820,non_debt,-,apache,7.0,Merged,1,0,
+hadoop,802,review,291163702,code_debt,low_quality_code,apache,42.0,Closed,8,30,"enhancement, fs/s3"
+carbondata,1322,comment,328775869,non_debt,-,apache,13.0,Closed,1,4,
+kafka,7321,review,323386539,non_debt,-,apache,13.0,Merged,25,30,
+fluo,413,review,24015731,non_debt,-,apache,0.0,Merged,1,4,
+thrift,972,summary,0,non_debt,-,apache,735.0,Closed,11,3,
+ambari,3108,comment,546878696,non_debt,-,apache,5.0,Merged,2,0,
+guacamole-client,564,review,484444952,non_debt,-,apache,77.0,Merged,1,19,
+incubator-dolphinscheduler,4930,description,0,non_debt,-,apache,0.0,Merged,10,0,
+spark,5743,review,29453868,non_debt,-,apache,3.0,Closed,8,9,
+carbondata,2970,summary,0,non_debt,-,apache,23.0,Closed,2,10,
+spark,16228,comment,265945422,non_debt,-,apache,68.0,Closed,12,30,
+beam,2018,review,102343720,non_debt,-,apache,6.0,Closed,6,20,
+hive,1478,description,0,non_debt,-,apache,71.0,Closed,1,1,"tests passed, stale"
+spark,8040,comment,129081793,non_debt,-,apache,1.0,Closed,7,0,
+spark,9610,review,44743137,non_debt,-,apache,2.0,Closed,8,30,
+guacamole-client,375,review,261795920,non_debt,-,apache,214.0,Merged,4,30,
+spark,4188,review,24266009,non_debt,-,apache,13.0,Closed,2,2,
+incubator-mxnet,17956,description,0,non_debt,-,apache,2.0,Merged,5,2,pr-awaiting-review

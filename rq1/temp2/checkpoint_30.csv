@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+lucene-solr,134,comment,270461615,non_debt,-,apache,744.0,Closed,1,0,
+incubator-mxnet,14769,description,0,non_debt,-,apache,13.0,Merged,19,21,Clojure
+flink,4559,review,157693477,non_debt,-,apache,144.0,Closed,6,30,component=Runtime/Network
+gobblin,3099,review,487298251,non_debt,-,apache,6.0,Closed,2,3,
+incubator-mxnet,16881,comment,571043129,non_debt,-,apache,51.0,Merged,6,2,
+kafka,5093,comment,395983207,non_debt,-,apache,1136.0,Closed,2,0,
+flink,12268,review,430016877,code_debt,low_quality_code,apache,6.0,Closed,11,30,"review=description?, component=BuildSystem, component=BuildSystem/AzurePipelines"
+spark,6959,review,33198256,code_debt,low_quality_code,apache,6.0,Closed,14,30,
+incubator-mxnet,14136,comment,462960508,non_debt,-,apache,1.0,Merged,3,0,"Gluon, pr-awaiting-merge"
+kafka,413,review,43915597,non_debt,-,apache,0.0,Closed,2,8,
+druid,5649,comment,383651021,non_debt,-,apache,7.0,Merged,8,15,Area - Querying
+kafka,2405,review,97622033,code_debt,complex_code,apache,5.0,Closed,6,12,
+spark,27612,review,380444937,code_debt,low_quality_code,apache,0.0,Closed,4,1,
+kafka,1791,review,80134212,code_debt,low_quality_code,apache,82.0,Closed,19,30,
+daffodil,407,review,470752272,test_debt,low_coverage,apache,12.0,Merged,2,30,
+flink,3770,review,113919931,non_debt,-,apache,3.0,Merged,3,19,component=Runtime/StateBackends
+trafficcontrol,4786,description,0,non_debt,-,apache,4.0,Merged,12,2,"new feature, Traffic Ops, Traffic Portal"
+activemq-artemis,87,comment,122921574,non_debt,-,apache,0.0,Closed,1,0,
+thrift,520,summary,0,non_debt,-,apache,596.0,Closed,1,0,
+spark,1313,review,15563577,non_debt,-,apache,30.0,Closed,16,30,
+nifi,1523,comment,281262286,non_debt,-,apache,1.0,Closed,1,0,
+carbondata,1707,comment,354043499,non_debt,-,apache,12.0,Closed,2,8,
+druid,5102,review,158433249,architecture_debt,violation_of_modularity,apache,55.0,Merged,30,30,
+spark,4593,comment,75540678,design_debt,non-optimal_design,apache,3.0,Closed,1,0,
+spark,5350,review,28019159,design_debt,non-optimal_design,apache,12.0,Closed,30,30,
+skywalking,6187,comment,759157679,non_debt,-,apache,0.0,Merged,5,0,"bug, agent, plugin"
+cassandra,493,review,428233400,non_debt,-,apache,70.0,Closed,5,16,
+flink,15389,summary,0,code_debt,low_quality_code,apache,4.0,Closed,3,2,"review=description?, component=Runtime/Coordination"
+spark,30312,review,527995000,non_debt,-,apache,59.0,Closed,30,30,"SQL, ML, MLLIB, STRUCTURED STREAMING, KUBERNETES, WEB UI, MESOS, BUILD, SPARK SHELL, YARN, EXAMPLES, DOCS, CORE, INFRA, PYTHON, R, DSTREAM, AVRO"
+kafka,9100,review,477786630,code_debt,low_quality_code,apache,57.0,Merged,30,30,
+tvm,6274,review,483721402,non_debt,-,apache,56.0,Merged,30,30,
+calcite,2076,review,457807922,code_debt,dead_code,apache,7.0,Closed,1,6,slow-tests-needed
+reef,1412,comment,342832924,non_debt,-,apache,4.0,Closed,4,30,
+carbondata,3821,comment,653383759,non_debt,-,apache,0.0,Closed,1,2,
+spark,21322,comment,429410774,non_debt,-,apache,180.0,Closed,4,19,
+spark,11505,review,55262278,non_debt,-,apache,5.0,Closed,2,11,
+hbase,1747,description,0,non_debt,-,apache,1.0,Merged,1,10,
+superset,8629,summary,0,non_debt,-,apache,0.0,Merged,1,1,size/M
+beam,4254,comment,352141618,non_debt,-,apache,3.0,Merged,2,2,
+cloudstack,4397,comment,708437967,non_debt,-,apache,1.0,Merged,2,4,"type:enhancement, component:api"
+spark,27359,comment,579564520,non_debt,-,apache,4.0,Closed,4,27,"SPARKR, TESTS"
+flink,705,review,30817476,design_debt,non-optimal_design,apache,1.0,Closed,1,8,component=Runtime/Coordination
+ignite,7936,review,442743689,non_debt,-,apache,9.0,Closed,30,30,
+kafka,2822,comment,292657993,non_debt,-,apache,0.0,Closed,3,7,
+spark,28258,review,428693738,non_debt,-,apache,50.0,Closed,15,30,"DOCS, CORE"
+storm,2203,comment,346073151,non_debt,-,apache,194.0,Merged,30,30,
+gobblin,1226,review,76138754,non_debt,-,apache,4.0,Merged,5,14,
+bigtop,537,comment,519770209,non_debt,-,apache,28.0,Merged,4,11,
+incubator-pagespeed-ngx,436,description,0,non_debt,-,apache,0.0,Merged,1,0,
+incubator-mxnet,13362,review,239277593,non_debt,-,apache,39.0,Closed,6,26,"Operator, pr-awaiting-review"

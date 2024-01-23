@@ -3,6 +3,7 @@ import pandas as pd
 from datetime import datetime
 import os
 from dotenv import load_dotenv
+load_dotenv()
 
 def get_pr_duration_and_status(owner, repo, pr_number, token):
     """
@@ -50,7 +51,7 @@ def get_pr_duration_and_status(owner, repo, pr_number, token):
 temp_folder = 'temp_data'
 os.makedirs(temp_folder, exist_ok=True)
 absolute_path_to_folder = os.getenv('ABSOLUTE_PATH_TO_FOLDER')
-csv_file_path = os.path.join(absolute_path_to_folder, 'satd-dataset-pull_requests.csv')
+csv_file_path = os.path.join(absolute_path_to_folder, 'revised_satd_dataset_PR.csv')
 
 # Load CSV file
 data = pd.read_csv(csv_file_path)
@@ -108,7 +109,7 @@ for index, row in data.iterrows():
 updated_data = pd.DataFrame(updated_rows)
 
 # Save the final updated data to a single CSV file
-updated_csv_file_path = os.path.join(temp_folder, 'updated_data.csv')
+updated_csv_file_path = os.path.join(temp_folder, 'updated_data2.csv')
 updated_data.to_csv(updated_csv_file_path, index=False)
 
 print("Updated CSV file saved.")

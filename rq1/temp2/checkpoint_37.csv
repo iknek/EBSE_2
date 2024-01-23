@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+arrow,9358,comment,772311969,non_debt,-,apache,5.0,Closed,2,4,Component: C++
+streams,47,review,14477763,non_debt,-,apache,16.0,Merged,6,7,
+spark,32011,review,604739239,non_debt,-,apache,0.0,Closed,1,4,INFRA
+flink,1069,summary,0,non_debt,-,apache,1509.0,Closed,22,2,component=API/DataStream
+beam,11957,comment,644318238,non_debt,-,apache,6.0,Merged,1,2,"java, extensions, sql"
+spark,9422,comment,153500624,non_debt,-,apache,0.0,Closed,4,1,
+hbase,1849,summary,0,non_debt,-,apache,0.0,Merged,2,0,
+incubator-pinot,3832,summary,0,non_debt,-,apache,0.0,Merged,1,2,
+beam,1981,comment,279164853,non_debt,-,apache,2.0,Closed,2,4,
+cloudstack,3500,comment,514738510,non_debt,-,apache,7.0,Merged,1,12,"component:kvm, component:vxlan"
+tomee,763,review,585708625,non_debt,-,apache,8.0,Merged,2,3,
+spark,895,review,13469626,non_debt,-,apache,14.0,Closed,19,30,
+flink,9977,review,338932359,test_debt,lack_of_tests,apache,2.0,Closed,10,30,"review=description?, component=API/Python"
+spark,17746,comment,297098093,non_debt,-,apache,1.0,Closed,1,3,
+kafka,401,description,0,non_debt,-,apache,0.0,Closed,2,3,
+ignite,4639,review,215541102,non_debt,-,apache,13.0,Closed,7,25,
+kafka,8065,review,377929200,non_debt,-,apache,4.0,Merged,7,27,streams
+orc,380,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+flink,15051,description,0,code_debt,low_quality_code,apache,10.0,Closed,5,0,"review=description?, component=Connectors/Kafka"
+beam,6142,review,207951355,non_debt,-,apache,2.0,Merged,2,2,
+arrow,6005,review,358343712,non_debt,-,apache,57.0,Closed,1,30,
+cloudstack,1611,comment,319500833,non_debt,-,apache,382.0,Closed,1,6,
+beam,5229,description,0,non_debt,-,apache,0.0,Merged,1,0,
+druid,3928,review,106563776,code_debt,low_quality_code,apache,38.0,Merged,1,28,Feature
+camel,3381,comment,561470632,documentation_debt,low_quality_documentation,apache,0.0,Merged,1,0,
+incubator-mxnet,14295,comment,468806748,non_debt,-,apache,4.0,Merged,1,2,"Clojure, pr-awaiting-merge"
+flink,11047,review,379996777,code_debt,low_quality_code,apache,11.0,Closed,6,27,"review=description?, component=TableSQL/API"
+flink,14955,review,578192965,non_debt,-,apache,0.0,Closed,6,8,"review=description?, component=Runtime/Coordination"
+daffodil,289,review,346101694,test_debt,low_coverage,apache,10.0,Merged,1,30,
+trafficserver,5524,description,0,non_debt,-,apache,0.0,Merged,1,0,clang-analyzer
+trafficserver,1744,description,0,non_debt,-,apache,1.0,Merged,1,0,"Plugins, Cleanup"
+pulsar,9751,summary,0,design_debt,non-optimal_design,apache,0.0,Merged,1,0,component/transaction
+flink,15200,review,603203743,non_debt,-,apache,93.0,Merged,3,30,"review=description?, component=Runtime/StateBackends"
+airflow,143,description,0,non_debt,-,apache,0.0,Merged,1,0,
+carbondata,3663,comment,597691644,non_debt,-,apache,23.0,Closed,11,0,
+kafka,158,review,38986690,documentation_debt,outdated_documentation,apache,18.0,Closed,12,24,
+incubator-heron,1584,comment,265843582,non_debt,-,apache,9.0,Merged,7,6,enhancement
+incubator-mxnet,13549,review,246983078,code_debt,low_quality_code,apache,46.0,Merged,12,30,pr-awaiting-merge
+spark,16582,comment,272952834,non_debt,-,apache,12.0,Closed,4,13,
+beam,729,comment,267910051,non_debt,-,apache,146.0,Closed,1,0,
+trafficcontrol,4821,description,0,code_debt,slow_algorithm,apache,0.0,Merged,3,2,"low impact, cdn-in-a-box, improvement"
+tvm,1085,description,0,non_debt,-,apache,0.0,Merged,2,0,
+spark,20282,comment,358401766,non_debt,-,apache,1.0,Closed,6,1,
+shardingsphere,6187,review,448777753,non_debt,-,apache,14.0,Merged,20,30,mode: cluster
+storm,1472,review,68023943,non_debt,-,apache,16.0,Merged,1,2,
+spark,15009,review,106230108,code_debt,low_quality_code,apache,383.0,Closed,30,30,
+tvm,7406,summary,0,non_debt,-,apache,11.0,Merged,10,1,
+beam,12646,comment,681006444,non_debt,-,apache,5.0,Merged,4,0,learning
+activemq-artemis,1466,description,0,non_debt,-,apache,1.0,Closed,1,0,
+flink,12188,review,426150425,non_debt,-,apache,3.0,Merged,4,21,"review=description?, component=TableSQL/Client"

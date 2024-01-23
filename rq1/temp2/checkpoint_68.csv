@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+cloudstack,4250,comment,679976928,non_debt,-,apache,31.0,Closed,1,30,"component:vmware, status:work-in-progress, Severity:Critical, component:templates"
+spark,30212,comment,809028142,non_debt,-,apache,150.0,Closed,30,30,"SQL, DOCS"
+nifi,4759,description,0,non_debt,-,apache,4.0,Closed,8,9,
+hadoop,885,review,289591884,code_debt,low_quality_code,apache,4.0,Merged,5,30,ozone
+attic-apex-malhar,88,description,0,non_debt,-,apache,0.0,Closed,1,0,
+incubator-pinot,976,review,105290266,non_debt,-,apache,49.0,Merged,1,30,
+spark,22646,review,223168936,code_debt,low_quality_code,apache,458.0,Closed,2,18,"SQL, Stale"
+spark,10252,review,47457824,non_debt,-,apache,69.0,Closed,2,15,
+rocketmq,1682,description,0,non_debt,-,apache,0.0,Closed,4,0,
+incubator-heron,1431,description,0,non_debt,-,apache,8.0,Merged,5,1,"new feature, Yarn"
+tvm,6039,comment,660275132,non_debt,-,apache,9.0,Merged,7,2,status: accepted
+spark,2761,comment,58776141,code_debt,low_quality_code,apache,2.0,Closed,7,0,
+spark,1241,review,16760326,non_debt,-,apache,64.0,Closed,1,30,
+shardingsphere,4729,description,0,non_debt,-,apache,0.0,Merged,2,0,"type: bug, in: SQL parse"
+spark,20265,summary,0,non_debt,-,apache,3.0,Closed,4,30,
+spark,15432,comment,258138244,non_debt,-,apache,26.0,Closed,12,14,
+trafficserver,1209,comment,282382019,non_debt,-,apache,127.0,Merged,1,0,Cleanup
+skywalking,3956,description,0,non_debt,-,apache,0.0,Merged,3,0,CI settings
+incubator-mxnet,8034,review,140924608,non_debt,-,apache,1.0,Merged,3,10,
+spark,9229,review,56207992,non_debt,-,apache,161.0,Closed,14,30,
+trafodion,1645,comment,404802438,non_debt,-,apache,6.0,Merged,4,12,
+fineract,1384,comment,706692687,non_debt,-,apache,0.0,Merged,1,0,
+drill,1606,review,247444833,non_debt,-,apache,,Not Closed or Merged,10,30,
+zeppelin,60,comment,101208857,non_debt,-,apache,414.0,Closed,3,3,
+pulsar,1341,comment,370602899,non_debt,-,apache,0.0,Merged,1,0,component/build
+flink,4611,comment,325389996,non_debt,-,apache,0.0,Merged,2,0,component=Runtime/REST
+druid,3788,comment,268051850,test_debt,lack_of_tests,apache,1.0,Merged,1,0,Bug
+orc,448,description,0,non_debt,-,apache,4.0,Merged,1,0,dependencies
+hbase,2454,comment,702578836,non_debt,-,apache,13.0,Merged,1,30,
+servicecomb-java-chassis,514,review,162260357,non_debt,-,apache,1.0,Merged,2,13,
+druid,2926,review,62581331,non_debt,-,apache,18.0,Merged,30,30,"Incompatible, Improvement"
+spark,364,comment,40168409,non_debt,-,apache,3.0,Closed,21,7,
+hawq,392,review,54617226,code_debt,low_quality_code,apache,17.0,Merged,2,3,
+spark,28258,review,418488518,non_debt,-,apache,50.0,Closed,15,30,"DOCS, CORE"
+zeppelin,1875,comment,272051284,non_debt,-,apache,5.0,Closed,5,0,
+helix,1663,review,588774064,code_debt,low_quality_code,apache,14.0,Merged,7,30,
+spark,26261,comment,546601038,non_debt,-,apache,3.0,Closed,22,23,SQL
+tvm,7314,description,0,code_debt,slow_algorithm,apache,0.0,Merged,2,0,status: review in progress
+airflow,7007,comment,570477304,non_debt,-,apache,0.0,Merged,1,0,
+incubator-mxnet,20004,summary,0,non_debt,-,apache,2.0,Merged,1,5,pr-awaiting-review
+samza,235,review,124903942,design_debt,non-optimal_design,apache,13.0,Closed,2,15,
+kylin,140,comment,392261013,non_debt,-,apache,0.0,Merged,8,0,
+superset,11125,description,0,non_debt,-,apache,0.0,Merged,1,0,"size/M, !deprecated-label:org:preset"
+calcite,1825,review,383130171,code_debt,low_quality_code,apache,1.0,Merged,1,4,LGTM-will-merge-soon
+carbondata,1789,comment,357279619,non_debt,-,apache,6.0,Closed,1,0,
+incubator-mxnet,15511,summary,0,non_debt,-,apache,18.0,Closed,30,0,Numpy
+karaf,24,description,0,non_debt,-,apache,45.0,Closed,1,0,
+trafficserver,2304,review,129945358,non_debt,-,apache,13.0,Merged,1,30,New Feature
+druid,4223,description,0,non_debt,-,apache,10.0,Merged,1,0,
+beam,5422,comment,391486077,non_debt,-,apache,5.0,Merged,4,20,

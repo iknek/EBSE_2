@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+spark,18912,comment,321716909,non_debt,-,apache,0.0,Closed,1,0,
+arrow,4373,summary,0,non_debt,-,apache,9.0,Closed,3,0,
+hbase,1465,review,406331300,non_debt,-,apache,6.0,Closed,3,2,
+geode-native,27,review,102746696,non_debt,-,apache,1.0,Closed,2,30,
+druid,4162,review,111186559,non_debt,-,apache,1.0,Merged,3,9,Improvement
+incubator-doris,5033,review,538948912,non_debt,-,apache,6.0,Merged,3,6,"kind/feature, kind/datasource"
+nifi,3425,comment,482711295,non_debt,-,apache,33.0,Closed,1,0,
+trafficserver,1073,review,84208555,non_debt,-,apache,45.0,Closed,11,21,Manager
+geode,3983,description,0,non_debt,-,apache,1.0,Merged,1,0,
+couchdb,1765,description,0,non_debt,-,apache,0.0,Closed,2,1,
+iceberg,1321,summary,0,non_debt,-,apache,3.0,Merged,1,8,
+zookeeper,774,comment,454206605,non_debt,-,apache,0.0,Closed,1,0,
+spark,21169,comment,386474214,non_debt,-,apache,6.0,Closed,4,15,
+druid,1576,review,56544892,non_debt,-,apache,233.0,Merged,1,30,Feature
+lucene-solr,345,comment,379675351,non_debt,-,apache,296.0,Closed,30,28,
+spark,31119,review,559304940,non_debt,-,apache,2.0,Closed,4,18,SQL
+druid,10366,review,493174369,non_debt,-,apache,31.0,Merged,23,30,"Area - Querying, Design Review, Area - Cache"
+hive,964,summary,0,non_debt,-,apache,75.0,Closed,30,7,stale
+beam,13622,summary,0,non_debt,-,apache,2.0,Merged,1,2,java
+incubator-mxnet,9808,description,0,non_debt,-,apache,95.0,Merged,1,7,
+airflow,4535,summary,0,non_debt,-,apache,13.0,Merged,8,6,
+airflow,1488,comment,222606343,code_debt,low_quality_code,apache,163.0,Closed,1,5,
+spark,10989,review,51461171,non_debt,-,apache,4.0,Closed,27,16,
+trafficserver,1839,comment,300626875,non_debt,-,apache,0.0,Merged,1,0,Coverity
+spark,13877,description,0,non_debt,-,apache,0.0,Closed,1,4,
+spark,27767,comment,593810727,non_debt,-,apache,1.0,Closed,6,3,
+spark,24548,comment,490271765,non_debt,-,apache,3.0,Closed,15,9,
+druid,10891,summary,0,non_debt,-,apache,2.0,Merged,4,2,Area - Ingestion
+hudi,2309,review,549436300,non_debt,-,apache,408.0,Closed,18,17,schema-and-data-types
+skywalking,6183,review,556204702,non_debt,-,apache,24.0,Merged,2,30,core feature
+flink,11071,review,378317546,non_debt,-,apache,8.0,Closed,1,10,"review=description?, component=Benchmarks"
+zookeeper,307,review,127633626,non_debt,-,apache,,Not Closed or Merged,2,30,
+airflow,8962,comment,643526181,non_debt,-,apache,33.0,Merged,30,30,AIP-31
+spark,3173,comment,74416823,non_debt,-,apache,33.0,Closed,8,5,
+incubator-pinot,4397,review,307084550,documentation_debt,outdated_documentation,apache,26.0,Merged,10,30,
+spark,7711,comment,125508146,non_debt,-,apache,2.0,Closed,5,3,
+superset,8106,description,0,non_debt,-,apache,0.0,Merged,1,0,size/XS
+systemds,643,review,143645110,non_debt,-,apache,52.0,Closed,17,11,
+spark,28661,comment,635693433,code_debt,low_quality_code,apache,3.0,Closed,3,15,"SQL, PYTHON"
+beam,14026,summary,0,non_debt,-,apache,4.0,Merged,1,2,
+samza,583,review,210977975,non_debt,-,apache,34.0,Closed,5,30,
+nifi,914,review,75858615,code_debt,low_quality_code,apache,0.0,Closed,2,3,
+calcite,1917,review,410016516,non_debt,-,apache,39.0,Closed,2,9,LGTM-will-merge-soon
+tvm,4847,comment,584462639,code_debt,low_quality_code,apache,36.0,Merged,13,18,status: accepted
+spark,5851,review,29545347,non_debt,-,apache,1.0,Closed,2,30,
+kafka,3423,review,123887166,non_debt,-,apache,17.0,Closed,11,30,
+spark,24043,review,292472811,test_debt,lack_of_tests,apache,111.0,Closed,15,30,SQL
+carbondata,2494,comment,404423063,non_debt,-,apache,1.0,Closed,2,0,
+incubator-weex,1114,comment,381873245,non_debt,-,apache,11.0,Merged,2,0,
+spark,4677,review,25138912,non_debt,-,apache,6.0,Closed,8,30,

@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+spark,13410,review,65192185,code_debt,low_quality_code,apache,1.0,Closed,2,3,
+superset,6936,comment,485498379,non_debt,-,apache,58.0,Merged,3,0,!deprecated-label:bug
+carbondata,1359,review,139122030,non_debt,-,apache,165.0,Closed,1,29,
+trafficserver,6978,summary,0,non_debt,-,apache,122.0,Merged,3,6,Server Session
+spark,2919,comment,60703036,non_debt,-,apache,11.0,Closed,30,9,
+fineract,810,comment,623127986,documentation_debt,low_quality_documentation,apache,0.0,Merged,3,0,
+kafka,5049,comment,390888101,non_debt,-,apache,1.0,Closed,2,4,
+spark,22524,comment,423874035,non_debt,-,apache,13.0,Closed,6,20,
+spark,24057,comment,474356670,non_debt,-,apache,8.0,Closed,5,10,
+trafficcontrol,5643,review,596212676,non_debt,-,apache,4.0,Merged,14,29,"Traffic Ops, Traffic Portal, improvement"
+activemq-artemis,106,comment,127426120,non_debt,-,apache,0.0,Merged,2,0,
+spark,30392,comment,729168362,design_debt,non-optimal_design,apache,0.0,Closed,1,2,CORE
+drill,1749,review,339008196,non_debt,-,apache,196.0,Closed,1,30,enhancement
+spark,11071,comment,180201265,non_debt,-,apache,0.0,Closed,5,4,
+kafka,217,comment,142877943,non_debt,-,apache,24.0,Closed,3,28,
+spark,5267,comment,126521482,non_debt,-,apache,224.0,Closed,30,30,
+arrow,3416,review,252272868,non_debt,-,apache,15.0,Closed,22,1,
+hive,1221,summary,0,non_debt,-,apache,95.0,Closed,1,30,"tests passed, stale"
+spark,14638,comment,265441330,non_debt,-,apache,121.0,Closed,6,22,
+spark,24374,review,284258115,non_debt,-,apache,50.0,Closed,18,30,
+superset,3652,comment,336312708,non_debt,-,apache,5.0,Merged,1,14,
+beam,10767,review,393907154,non_debt,-,apache,72.0,Closed,13,30,"java, build, website, infra, io, gcp"
+spark,4588,review,26089697,code_debt,low_quality_code,apache,44.0,Closed,30,30,
+netbeans,2125,description,0,non_debt,-,apache,34.0,Closed,9,0,
+tvm,4586,description,0,non_debt,-,apache,0.0,Merged,1,0,
+streams,254,comment,135895944,non_debt,-,apache,0.0,Merged,2,0,
+arrow,4515,description,0,documentation_debt,outdated_documentation,apache,1.0,Closed,2,1,Component: R
+spark,26080,review,347911028,non_debt,-,apache,55.0,Closed,30,30,SQL
+nifi,2991,review,222560898,non_debt,-,apache,40.0,Closed,9,15,
+spark,4105,comment,103159431,code_debt,low_quality_code,apache,228.0,Closed,14,0,
+trafodion,21,comment,120188280,non_debt,-,apache,1.0,Merged,1,0,
+trafficcontrol,4106,comment,556237556,non_debt,-,apache,10.0,Merged,9,29,"new feature, tests, tools, automation"
+camel,4514,comment,738593426,non_debt,-,apache,44.0,Merged,1,8,
+ignite,6069,summary,0,test_debt,flaky_test,apache,9.0,Closed,4,0,
+tvm,1905,summary,0,code_debt,dead_code,apache,0.0,Merged,1,0,
+arrow,5451,review,329113827,code_debt,low_quality_code,apache,7.0,Closed,30,30,Component: R
+spark,26219,review,345304681,non_debt,-,apache,277.0,Closed,6,18,"SQL, Stale"
+trafficserver,2407,description,0,non_debt,-,apache,3.0,Closed,1,2,Network
+incubator-dolphinscheduler,4188,summary,0,non_debt,-,apache,0.0,Closed,9,0,
+kafka,2444,comment,276345941,non_debt,-,apache,6.0,Closed,1,0,
+arrow,3963,review,273177077,non_debt,-,apache,27.0,Closed,14,30,
+pulsar,5721,comment,557240314,non_debt,-,apache,0.0,Merged,3,0,"component/admin, release/2.4.3"
+spark,21031,review,182622583,non_debt,-,apache,22.0,Closed,8,29,
+druid,50,review,2541441,code_debt,low_quality_code,apache,0.0,Merged,3,2,
+ambari,2441,summary,0,non_debt,-,apache,6.0,Merged,2,4,
+couchdb,835,comment,331552644,non_debt,-,apache,3.0,Merged,1,2,
+cassandra,224,review,194812259,non_debt,-,apache,1406.0,Closed,30,30,
+nifi,3174,comment,439389815,non_debt,-,apache,151.0,Closed,1,7,
+flink,12042,review,422441179,code_debt,low_quality_code,apache,1.0,Merged,7,10,"review=description?, component=TableSQL/API"
+kafka,7389,review,379859074,non_debt,-,apache,143.0,Merged,30,30,

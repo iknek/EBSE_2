@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+bookkeeper,2281,summary,0,non_debt,-,apache,16.0,Merged,3,4,"type/bug, area/client, release/4.11.0"
+flink,7123,review,236347738,code_debt,low_quality_code,apache,23.0,Closed,4,8,component=Connectors/FileSystem
+incubator-heron,1728,comment,281558138,design_debt,non-optimal_design,apache,,Not Closed or Merged,5,17,"enhancement, Yarn"
+spark,848,review,12921552,non_debt,-,apache,0.0,Closed,6,6,
+netbeans,1197,comment,488337457,non_debt,-,apache,51.0,Closed,2,0,
+kafka,6837,summary,0,non_debt,-,apache,15.0,Closed,2,0,
+gobblin,2015,review,129176332,design_debt,non-optimal_design,apache,4.0,Closed,6,8,
+hadoop,802,review,289864413,non_debt,-,apache,42.0,Closed,8,30,"enhancement, fs/s3"
+spark,186,comment,39637660,non_debt,-,apache,36.0,Closed,19,30,
+beam,874,comment,243063941,non_debt,-,apache,12.0,Closed,1,0,
+storm,1595,review,72548331,non_debt,-,apache,111.0,Closed,1,17,
+accumulo,1497,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+kafka,6475,description,0,test_debt,flaky_test,apache,14.0,Merged,1,0,connect
+incubator-pinot,5708,review,456656111,non_debt,-,apache,6.0,Merged,1,2,
+spark,31818,comment,804210048,non_debt,-,apache,10.0,Closed,4,6,
+flink,5977,review,188205000,non_debt,-,apache,12.0,Closed,4,10,component=Connectors/Kafka
+bookkeeper,888,comment,352890209,design_debt,non-optimal_design,apache,30.0,Closed,22,30,"type/task, area/release, release/4.7.0"
+thrift,1318,comment,402135908,non_debt,-,apache,480.0,Closed,1,0,
+carbondata,2804,comment,434216599,non_debt,-,apache,28.0,Closed,2,28,
+spark,4229,comment,127370989,non_debt,-,apache,188.0,Closed,25,30,
+drill,283,review,46315590,non_debt,-,apache,26.0,Closed,9,30,
+kafka,7877,review,362646654,non_debt,-,apache,,Not Closed or Merged,6,29,
+trafficserver,1856,comment,300662944,non_debt,-,apache,3.0,Merged,1,12,Plugins
+drill,2046,summary,0,non_debt,-,apache,4.0,Merged,1,0,
+cloudstack,4490,description,0,requirement_debt,requirement_partially_implemented,apache,2.0,Closed,1,0,
+cloudstack,2058,review,139283005,code_debt,low_quality_code,apache,1050.0,Closed,1,8,"type:bug, component:usage-server"
+carbondata,3538,comment,573322241,non_debt,-,apache,49.0,Closed,1,30,
+airflow,3572,review,201043776,non_debt,-,apache,18.0,Closed,1,30,
+kafka,6645,review,282840393,non_debt,-,apache,14.0,Merged,2,30,"streams, kip"
+flink,3374,comment,285864664,non_debt,-,apache,23.0,Closed,2,0,component=Runtime/StateBackends
+trafficserver,2314,review,130437336,non_debt,-,apache,5.0,Closed,1,30,"Core, WIP, Performance"
+netbeans,2324,review,511329375,code_debt,low_quality_code,apache,87.0,Merged,12,30,LSP
+flink,8809,review,296590815,non_debt,-,apache,4.0,Closed,3,22,review=description?
+shardingsphere,1162,description,0,non_debt,-,apache,0.0,Merged,12,0,
+incubator-brooklyn,83,comment,49760955,documentation_debt,low_quality_documentation,apache,7.0,Merged,22,30,
+beam,13799,comment,768305516,non_debt,-,apache,4.0,Merged,2,2,
+nifi-minifi-cpp,146,review,144844644,non_debt,-,apache,11.0,Closed,1,22,
+cloudstack,1287,summary,0,non_debt,-,apache,108.0,Merged,5,2,
+tvm,6797,review,517257511,non_debt,-,apache,7.0,Merged,6,16,
+spark,20278,comment,358159762,non_debt,-,apache,0.0,Closed,1,4,
+spark,18036,comment,302795517,non_debt,-,apache,2.0,Closed,1,0,
+pulsar,8133,comment,698903199,non_debt,-,apache,3.0,Merged,2,0,"component/cli, component/admin, release/2.6.2"
+incubator-weex,1446,description,0,non_debt,-,apache,0.0,Merged,1,0,
+kafka,2438,comment,275340158,non_debt,-,apache,1.0,Closed,3,28,
+spark,16150,comment,265005796,non_debt,-,apache,3.0,Closed,6,11,
+ignite,8048,review,480182091,code_debt,low_quality_code,apache,385.0,Closed,6,30,
+spark,25616,description,0,non_debt,-,apache,6.0,Closed,2,6,SPARK CORE
+carbondata,1225,comment,320290275,non_debt,-,apache,3.0,Closed,3,0,
+zeppelin,2120,comment,288543338,non_debt,-,apache,25.0,Closed,3,0,
+spark,17765,review,113583392,non_debt,-,apache,5.0,Closed,8,14,

@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+hadoop,1790,review,386485353,non_debt,-,apache,77.0,Merged,23,30,
+openwhisk,2795,review,225473479,non_debt,-,apache,418.0,Merged,1,30,"performance, invoker, companion"
+incubator-mxnet,14614,comment,486274123,non_debt,-,apache,26.0,Merged,30,30,"MKLDNN, Quantization"
+drill,1562,review,239278308,non_debt,-,apache,1.0,Closed,1,8,
+pulsar,5191,summary,0,non_debt,-,apache,1.0,Merged,1,0,"bug, component/broker"
+hbase,1765,review,429547270,non_debt,-,apache,1.0,Closed,1,8,
+hudi,765,review,376978554,non_debt,-,apache,302.0,Closed,1,3,pr:wip
+carbondata,1998,comment,368413110,non_debt,-,apache,0.0,Closed,9,0,
+iceberg,529,review,337837687,non_debt,-,apache,33.0,Merged,8,30,
+helix,1208,review,464529958,documentation_debt,low_quality_documentation,apache,1.0,Merged,4,16,
+arrow,2890,review,230019538,code_debt,dead_code,apache,3.0,Closed,1,1,
+spark,14729,comment,241453606,non_debt,-,apache,3.0,Closed,4,0,
+spark,6415,comment,106154559,non_debt,-,apache,1.0,Closed,6,0,
+ozone,94,review,339823750,non_debt,-,apache,7.0,Merged,12,7,
+cloudstack,3374,comment,505694632,non_debt,-,apache,43.0,Merged,5,0,"component:kvm, component:templates"
+superset,8293,summary,0,non_debt,-,apache,96.0,Closed,1,0,"inactive, size/S"
+parquet-mr,769,review,397723382,non_debt,-,apache,13.0,Merged,16,30,
+carbondata,1639,comment,350636356,non_debt,-,apache,2.0,Closed,1,0,
+beam,2288,comment,288510782,non_debt,-,apache,0.0,Closed,2,5,
+druid,3570,review,87488947,code_debt,slow_algorithm,apache,68.0,Merged,17,30,Improvement
+beam,4253,comment,351757162,non_debt,-,apache,26.0,Merged,1,1,
+couchdb,67,comment,19819667,non_debt,-,apache,1368.0,Closed,1,21,
+spark,10583,summary,0,non_debt,-,apache,1.0,Closed,17,19,
+flink,7716,description,0,non_debt,-,apache,2.0,Closed,1,0,component=Runtime/Coordination
+spark,29438,review,470961136,non_debt,-,apache,5.0,Closed,6,12,SQL
+spark,4279,review,23827446,non_debt,-,apache,0.0,Closed,5,15,
+kylin,1106,summary,0,non_debt,-,apache,34.0,Closed,1,0,
+kafka,223,review,40055216,non_debt,-,apache,464.0,Closed,3,14,
+spark,1541,comment,49855865,design_debt,non-optimal_design,apache,64.0,Closed,1,0,
+incubator-heron,1678,summary,0,non_debt,-,apache,6.0,Merged,1,5,
+kafka,3148,comment,305072495,non_debt,-,apache,7.0,Closed,10,6,
+nifi-minifi-cpp,163,review,148353398,non_debt,-,apache,3.0,Closed,1,15,
+spark,9826,review,45293897,non_debt,-,apache,4.0,Closed,6,6,
+pulsar,3368,review,250433084,non_debt,-,apache,17.0,Merged,18,30,component/connector
+flink,2966,comment,267009842,non_debt,-,apache,5.0,Closed,3,8,component=Runtime/StateBackends
+arrow,3925,review,266510894,non_debt,-,apache,52.0,Closed,6,30,
+hadoop,2331,comment,702380473,non_debt,-,apache,8.0,Merged,4,0,
+servicecomb-java-chassis,450,review,159653095,non_debt,-,apache,22.0,Closed,2,29,
+druid,8197,comment,517065779,non_debt,-,apache,2.0,Merged,5,30,"Feature, Area - Querying"
+hudi,1215,comment,573509113,non_debt,-,apache,0.0,Merged,1,0,
+samza,122,review,113090448,non_debt,-,apache,13.0,Closed,14,30,
+drill,1652,review,259595997,non_debt,-,apache,13.0,Closed,7,30,
+kylin,477,comment,467040007,non_debt,-,apache,3.0,Closed,1,0,
+kafka,5436,summary,0,non_debt,-,apache,13.0,Merged,3,13,
+spark,928,comment,44719301,non_debt,-,apache,0.0,Closed,1,0,
+beam,5443,comment,391422222,non_debt,-,apache,3.0,Merged,2,6,
+incubator-heron,1969,review,122385823,code_debt,complex_code,apache,0.0,Merged,3,6,
+storm,1608,comment,240056822,non_debt,-,apache,18.0,Closed,0,30,
+flink,938,comment,125751865,design_debt,non-optimal_design,apache,2.0,Closed,3,0,component=<none>
+iceberg,2132,review,562258531,non_debt,-,apache,0.0,Merged,1,8,"spark, core"

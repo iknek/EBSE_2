@@ -1,0 +1,9 @@
+classification,count
+architecture_debt,6
+build_debt,5
+code_debt,245
+design_debt,60
+documentation_debt,48
+non_debt,2387
+requirement_debt,12
+test_debt,38

@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+ambari,1002,summary,0,non_debt,-,apache,2.0,Merged,1,0,
+spark,976,comment,45188866,non_debt,-,apache,0.0,Closed,1,0,
+hawq,1357,comment,388497218,non_debt,-,apache,18.0,Closed,3,3,
+samza,117,review,111880574,non_debt,-,apache,6.0,Closed,5,30,
+incubator-doris,3587,review,425210765,code_debt,low_quality_code,apache,3.0,Merged,4,2,"kind/fix, area/catalog"
+carbondata,2254,comment,386807053,non_debt,-,apache,5.0,Closed,14,30,
+spark,9118,comment,148409085,non_debt,-,apache,5.0,Closed,11,19,
+spark,6015,comment,100359571,non_debt,-,apache,0.0,Closed,5,2,
+spark,26477,comment,569146827,non_debt,-,apache,46.0,Closed,7,27,SQL
+spark,29089,comment,658349453,non_debt,-,apache,6.0,Closed,4,30,SQL
+beam,12490,review,469488264,non_debt,-,apache,14.0,Closed,7,30,"java, build, io"
+flink,8889,summary,0,non_debt,-,apache,9.0,Closed,2,3,"review=description?, component=Connectors/Hive"
+incubator-weex,1368,summary,0,non_debt,-,apache,16.0,Closed,1,0,
+incubator-mxnet,12740,summary,0,non_debt,-,apache,5.0,Merged,3,0,pr-awaiting-review
+spark,21498,comment,405398355,non_debt,-,apache,41.0,Closed,6,2,
+ambari,2868,summary,0,non_debt,-,apache,0.0,Merged,1,0,ssl
+tajo,781,comment,142859287,non_debt,-,apache,0.0,Closed,4,0,
+carbondata,1920,comment,373254604,non_debt,-,apache,76.0,Closed,3,2,
+airflow,12459,comment,729924740,non_debt,-,apache,0.0,Merged,2,10,"area:webserver, okay to merge"
+spark,11108,review,56434392,non_debt,-,apache,43.0,Closed,24,30,
+beam,1412,comment,272051002,non_debt,-,apache,83.0,Closed,1,30,
+spark,20194,review,161000312,code_debt,low_quality_code,apache,5.0,Closed,1,6,
+spark,1218,review,15828037,code_debt,dead_code,apache,69.0,Closed,27,30,
+flink,4364,review,128512830,code_debt,complex_code,apache,5.0,Closed,3,21,component=Runtime/Coordination
+spark,14553,comment,250657559,non_debt,-,apache,78.0,Closed,30,30,
+beam,13723,comment,762779925,non_debt,-,apache,21.0,Merged,8,0,python
+spark,29712,comment,691362271,non_debt,-,apache,3.0,Closed,5,24,SQL
+druid,3956,comment,281423634,requirement_debt,non-functional_requirements_not_fully_satisfied,apache,1005.0,Closed,2,1,"Discuss, Area - Streaming Ingestion, stale"
+trafficserver,6379,review,373984797,code_debt,low_quality_code,apache,54.0,Closed,3,3,"Plugins, Lua"
+arrow,4476,review,291815907,non_debt,-,apache,14.0,Closed,30,12,Component: JavaScript
+spark,7626,review,35370290,design_debt,non-optimal_design,apache,0.0,Closed,8,9,
+beam,2417,comment,294992173,non_debt,-,apache,20.0,Closed,1,30,
+incubator-pinot,6004,review,496927468,design_debt,non-optimal_design,apache,18.0,Merged,2,12,backward-incompat
+kafka,5451,review,209621584,non_debt,-,apache,12.0,Merged,18,30,streams
+spark,3082,comment,61603087,non_debt,-,apache,1.0,Closed,23,30,
+spark,11283,review,54821968,non_debt,-,apache,13.0,Closed,30,30,
+tvm,1695,review,219359481,non_debt,-,apache,14.0,Merged,10,30,status: accepted
+nifi,4303,review,432322027,documentation_debt,low_quality_documentation,apache,5.0,Closed,2,3,
+spark,5806,comment,97712608,non_debt,-,apache,8.0,Closed,30,5,
+kafka,4135,comment,339793030,non_debt,-,apache,86.0,Closed,3,11,
+spark,32053,comment,814607664,non_debt,-,apache,2.0,Closed,7,29,"SQL, EXAMPLES, DOCS, PYTHON"
+trafficserver,766,comment,229453154,non_debt,-,apache,26.0,Closed,1,5,Network
+ignite,4446,summary,0,non_debt,-,apache,13.0,Closed,10,0,
+flink,13316,review,491921585,non_debt,-,apache,27.0,Closed,4,30,"review=description?, component=Runtime/Task"
+brooklyn-server,722,comment,307025231,non_debt,-,apache,0.0,Merged,1,0,
+trafodion,916,comment,273313051,non_debt,-,apache,0.0,Merged,1,0,
+carbondata,3134,comment,471892216,non_debt,-,apache,23.0,Closed,2,3,
+incubator-mxnet,13201,summary,0,non_debt,-,apache,6.0,Merged,4,30,pr-awaiting-review
+spark,26918,comment,593960934,non_debt,-,apache,80.0,Closed,3,10,SQL
+beam,8429,comment,508841026,non_debt,-,apache,67.0,Closed,1,0,stale

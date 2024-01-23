@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+ozone,91,description,0,non_debt,-,apache,0.0,Merged,3,4,
+spark,24490,comment,488126326,non_debt,-,apache,40.0,Closed,11,23,
+rocketmq,1563,summary,0,non_debt,-,apache,8.0,Merged,1,1,type/enhancement
+kafka,2926,comment,297827982,non_debt,-,apache,5.0,Closed,5,8,
+incubator-pagespeed-ngx,1362,review,96928694,non_debt,-,apache,0.0,Merged,3,2,
+spark,26682,review,371318137,code_debt,low_quality_code,apache,51.0,Closed,30,30,SPARK CORE
+spark,12474,comment,211507927,design_debt,non-optimal_design,apache,92.0,Closed,1,0,
+carbondata,240,review,84475433,requirement_debt,requirement_partially_implemented,apache,6.0,Closed,5,30,
+kafka,6601,review,276552165,non_debt,-,apache,12.0,Merged,8,30,"streams, kip"
+incubator-pinot,1260,description,0,non_debt,-,apache,0.0,Merged,4,1,
+spark,19911,review,155335791,code_debt,low_quality_code,apache,6.0,Closed,2,30,
+reef,1473,review,198332781,code_debt,low_quality_code,apache,,Not Closed or Merged,7,30,
+reef,1487,review,258710277,non_debt,-,apache,,Not Closed or Merged,29,30,
+hbase,2392,comment,694938784,non_debt,-,apache,7.0,Merged,1,4,
+thrift,162,comment,49839795,non_debt,-,apache,41.0,Closed,1,0,
+tvm,7053,summary,0,non_debt,-,apache,1.0,Closed,6,17,
+spark,15329,comment,252432203,non_debt,-,apache,94.0,Closed,2,4,
+nifi-minifi-cpp,888,review,483008523,non_debt,-,apache,7.0,Closed,3,2,
+spark,8253,review,37247740,non_debt,-,apache,0.0,Closed,5,23,
+arrow,5969,review,363018200,non_debt,-,apache,36.0,Closed,3,4,
+hudi,1457,comment,611819504,non_debt,-,apache,19.0,Merged,1,30,
+tinkerpop,377,comment,239186446,non_debt,-,apache,1.0,Merged,3,0,
+iceberg,843,review,396016799,non_debt,-,apache,21.0,Merged,8,30,
+spark,11236,comment,189069233,design_debt,non-optimal_design,apache,8.0,Closed,1,0,
+nifi,2828,review,199534888,non_debt,-,apache,3.0,Closed,3,11,
+cloudstack,4141,comment,669956049,non_debt,-,apache,558.0,Closed,30,30,"type:enhancement, component:virtual-router, status:needs-work, type:new-feature"
+camel,2976,description,0,non_debt,-,apache,0.0,Closed,1,0,
+drill,159,review,39996293,non_debt,-,apache,16.0,Closed,2,30,
+gobblin,1283,review,80815984,non_debt,-,apache,3.0,Merged,4,30,
+zeppelin,3897,description,0,code_debt,dead_code,apache,6.0,Closed,14,0,
+kafka,5874,comment,435637476,non_debt,-,apache,13.0,Merged,3,1,streams
+systemds,1023,comment,728301245,code_debt,low_quality_code,apache,91.0,Closed,3,0,
+spark,30212,review,601172541,non_debt,-,apache,150.0,Closed,30,30,"SQL, DOCS"
+beam,13984,comment,778422690,non_debt,-,apache,0.0,Merged,1,0,
+flink,4684,review,139929465,non_debt,-,apache,5.0,Closed,8,2,"component=Deployment/YARN, component=Documentation"
+spark,31296,review,562868528,code_debt,low_quality_code,apache,108.0,Closed,5,30,"SQL, STRUCTURED STREAMING, Stale, CORE"
+hbase,2483,review,521531128,non_debt,-,apache,47.0,Merged,1,30,
+incubator-mxnet,12572,review,218248701,non_debt,-,apache,27.0,Merged,30,17,pr-awaiting-review
+airflow,3443,comment,400939280,non_debt,-,apache,181.0,Closed,1,0,
+spark,21127,comment,383582817,non_debt,-,apache,0.0,Closed,1,0,
+druid,2025,comment,166169384,non_debt,-,apache,284.0,Closed,1,14,
+airflow,2095,summary,0,non_debt,-,apache,0.0,Closed,8,0,
+arrow,7818,review,459082935,non_debt,-,apache,12.0,Closed,14,7,
+gobblin,2645,comment,497887473,non_debt,-,apache,24.0,Closed,1,1,
+cxf,713,description,0,non_debt,-,apache,8.0,Merged,2,4,
+geode-native,201,review,165239532,non_debt,-,apache,3.0,Merged,13,30,
+kafka,7421,comment,547852218,non_debt,-,apache,17.0,Merged,10,10,
+systemds,172,description,0,non_debt,-,apache,7.0,Closed,1,0,
+incubator-doris,3417,summary,0,non_debt,-,apache,5.0,Merged,5,0,kind/improvement
+airflow,1352,comment,309399231,requirement_debt,requirement_partially_implemented,apache,1.0,Merged,2,2,

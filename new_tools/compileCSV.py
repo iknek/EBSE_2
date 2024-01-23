@@ -38,11 +38,6 @@ def read_and_combine_csv_files(directory_path, output_file):
 
     combined_dataframe.to_csv(output_file, index=False)
 
-# Example usage
-    
-
-
-
 # Access environment variable
 absolute_path_to_folder = os.getenv('ABSOLUTE_PATH_TO_PROJ')
 

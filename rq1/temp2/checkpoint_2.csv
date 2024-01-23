@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+spark,28911,comment,661130435,non_debt,-,apache,71.0,Closed,30,30,CORE
+hadoop,2698,review,581200607,non_debt,-,apache,19.0,Closed,18,16,
+hbase,2459,comment,700412617,non_debt,-,apache,26.0,Closed,8,0,
+storm,1662,comment,243796241,non_debt,-,apache,1.0,Merged,1,0,
+spark,31052,review,553663753,non_debt,-,apache,12.0,Closed,0,30,SQL
+thrift,1309,review,127775849,non_debt,-,apache,5.0,Closed,9,17,
+beam,13137,review,522334301,code_debt,low_quality_code,apache,41.0,Merged,26,30,"java, io, gcp"
+druid,586,review,13470857,non_debt,-,apache,0.0,Merged,3,3,
+ignite,5484,review,235874251,non_debt,-,apache,11.0,Closed,25,30,
+flink,14138,comment,730796662,non_debt,-,apache,0.0,Merged,3,2,"review=description?, component=Documentation"
+superset,9378,summary,0,non_debt,-,apache,10.0,Merged,3,9,size/XS
+spark,19995,comment,352105632,non_debt,-,apache,2.0,Closed,2,0,
+skywalking,6220,review,559188687,non_debt,-,apache,2.0,Merged,28,30,"core feature, backend"
+activemq-artemis,1000,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+storm,3264,summary,0,non_debt,-,apache,1.0,Merged,1,0,
+spark,446,comment,43287373,non_debt,-,apache,27.0,Closed,4,6,
+spark,5867,comment,99559042,non_debt,-,apache,4.0,Closed,1,9,
+trafficserver,6486,review,388565991,non_debt,-,apache,0.0,Merged,1,4,"Configuration, Commands"
+spark,17293,comment,311412286,non_debt,-,apache,113.0,Closed,13,1,
+arrow,6103,summary,0,code_debt,low_quality_code,apache,0.0,Closed,1,0,
+groovy,480,comment,275655612,test_debt,lack_of_tests,apache,1.0,Merged,1,0,
+zookeeper,161,comment,278843293,non_debt,-,apache,8.0,Closed,1,0,
+beam,14404,comment,813101273,non_debt,-,apache,3.0,Merged,5,9,
+spark,19870,summary,0,non_debt,-,apache,1.0,Closed,3,3,
+airflow,8002,comment,605732413,non_debt,-,apache,103.0,Closed,1,0,stale
+spark,3663,comment,66551116,non_debt,-,apache,6.0,Closed,3,1,
+nifi,2778,review,194239526,non_debt,-,apache,1.0,Closed,3,10,
+spark,23445,review,247331027,non_debt,-,apache,20.0,Closed,10,24,
+hadoop,720,comment,481838904,non_debt,-,apache,0.0,Merged,1,0,ozone
+accumulo,256,review,116251656,non_debt,-,apache,14.0,Closed,12,30,
+spark,19893,comment,350759207,non_debt,-,apache,42.0,Closed,21,30,
+bookkeeper,3,comment,171381380,non_debt,-,apache,0.0,Closed,10,0,
+spark,1819,comment,52405112,non_debt,-,apache,11.0,Closed,12,9,
+incubator-pinot,6239,review,518275105,non_debt,-,apache,5.0,Merged,1,8,
+beam,13905,comment,774255477,non_debt,-,apache,0.0,Merged,1,0,
+zookeeper,419,review,151766248,non_debt,-,apache,,Not Closed or Merged,6,11,
+beam,7391,comment,451005714,non_debt,-,apache,5.0,Merged,1,0,
+flink,6129,review,193707442,non_debt,-,apache,36.0,Closed,3,7,component=Tests
+incubator-heron,320,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+helix,1390,comment,698625813,non_debt,-,apache,2.0,Merged,2,0,
+pulsar,3019,review,243864237,code_debt,low_quality_code,apache,50.0,Merged,1,2,component/broker
+tvm,654,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+nifi,2260,review,149995922,non_debt,-,apache,12.0,Closed,1,1,
+spark,16865,comment,278796046,non_debt,-,apache,10.0,Closed,1,5,
+tvm,6699,review,506719578,non_debt,-,apache,2.0,Merged,18,10,status: accepted
+shardingsphere,6462,summary,0,non_debt,-,apache,0.0,Merged,1,0,in: document
+trafficcontrol,3979,summary,0,non_debt,-,apache,0.0,Merged,1,0,"Traffic Ops, tests"
+flink,9980,comment,545849540,non_debt,-,apache,2.0,Closed,4,0,"review=description?, component=TableSQL/Planner, component=TableSQL/LegacyPlanner"
+geode-native,152,review,151284670,non_debt,-,apache,1.0,Merged,3,27,
+ignite,8104,review,463530051,non_debt,-,apache,37.0,Merged,27,17,

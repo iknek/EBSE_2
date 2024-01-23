@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+hawq,929,review,80166393,non_debt,-,apache,3.0,Closed,3,8,
+drill,1666,review,261613484,non_debt,-,apache,14.0,Closed,1,25,
+hudi,1149,comment,657946414,non_debt,-,apache,216.0,Merged,12,30,
+skywalking,2935,review,296469085,non_debt,-,apache,7.0,Merged,28,16,test
+hudi,625,comment,480006882,non_debt,-,apache,8.0,Closed,1,0,
+zeppelin,1929,comment,276875597,non_debt,-,apache,13.0,Closed,4,2,
+spark,31766,review,592084726,non_debt,-,apache,4.0,Closed,2,15,SQL
+druid,6430,review,267088298,non_debt,-,apache,200.0,Merged,30,30,"Feature, Release Notes"
+flink,10388,comment,561631987,test_debt,lack_of_tests,apache,2.0,Closed,1,30,"review=description?, component=TableSQL/API"
+spark,11356,comment,188613807,non_debt,-,apache,0.0,Closed,4,6,
+carbondata,3293,comment,503188255,non_debt,-,apache,2.0,Closed,1,8,
+drill,1799,review,289393173,non_debt,-,apache,9.0,Merged,1,12,
+streams,5,summary,0,non_debt,-,apache,0.0,Closed,3,0,
+geode,4189,comment,544634796,test_debt,flaky_test,apache,0.0,Merged,1,0,
+incubator-hop,136,summary,0,non_debt,-,apache,0.0,Merged,3,0,
+carbondata,310,review,94093632,non_debt,-,apache,49.0,Closed,5,27,
+spark,23208,comment,448728287,non_debt,-,apache,43.0,Closed,7,30,
+arrow,9017,comment,751325986,non_debt,-,apache,1.0,Closed,5,3,Component: Rust
+spark,29082,review,460624604,non_debt,-,apache,247.0,Closed,2,30,"SQL, ML, MLLIB, STRUCTURED STREAMING, KUBERNETES, WEB UI, DEPLOY, GRAPHX, MESOS, BUILD, SPARK SHELL, YARN, EXAMPLES, DOCS, CORE, WINDOWS, INFRA, PYTHON, R, DSTREAM, AVRO"
+beam,13435,comment,747291549,code_debt,dead_code,apache,39.0,Merged,2,7,"java, runners, core"
+spark,27249,review,367778667,non_debt,-,apache,3.0,Closed,17,18,SQL
+incubator-mxnet,19892,description,0,non_debt,-,apache,2.0,Closed,1,0,pr-awaiting-review
+spark,11300,comment,187079024,non_debt,-,apache,0.0,Closed,1,0,
+spark,8744,review,39581040,code_debt,dead_code,apache,165.0,Closed,7,30,
+airflow,3127,comment,374799488,non_debt,-,apache,5.0,Closed,1,0,
+superset,7751,description,0,non_debt,-,apache,127.0,Closed,2,1,"inactive, size/XS"
+cloudstack,1446,comment,198795359,non_debt,-,apache,1447.0,Closed,1,0,
+spark,4525,review,24634640,code_debt,low_quality_code,apache,19.0,Closed,3,27,
+ignite,5506,description,0,non_debt,-,apache,,Not Closed or Merged,4,0,
+flink,4369,comment,317411393,non_debt,-,apache,91.0,Closed,7,0,component=Runtime/Coordination
+incubator-mxnet,11076,description,0,design_debt,non-optimal_design,apache,1.0,Merged,6,0,
+spark,25178,review,305176094,non_debt,-,apache,6.0,Closed,2,12,ML
+spark,1313,comment,49215361,non_debt,-,apache,30.0,Closed,16,30,
+carbondata,1634,comment,350923807,non_debt,-,apache,3.0,Closed,2,0,
+hadoop,840,comment,499279608,design_debt,non-optimal_design,apache,6.0,Closed,1,0,ozone
+arrow,3576,summary,0,non_debt,-,apache,131.0,Closed,1,0,Component: Python
+flink,10767,summary,0,non_debt,-,apache,1.0,Merged,1,0,review=description?
+spark,13078,summary,0,documentation_debt,low_quality_documentation,apache,3.0,Closed,4,5,
+beam,3618,comment,317188356,non_debt,-,apache,17.0,Closed,14,30,
+arrow,7430,comment,644410813,non_debt,-,apache,2.0,Closed,3,0,
+spark,22074,comment,412227375,non_debt,-,apache,0.0,Closed,1,0,
+kafka,5797,review,224996320,non_debt,-,apache,0.0,Merged,2,2,
+flink,3502,comment,285672241,non_debt,-,apache,147.0,Closed,19,0,component=TableSQL/API
+rocketmq,63,comment,280247176,non_debt,-,apache,40.0,Closed,1,0,
+kylin,961,review,352444230,code_debt,low_quality_code,apache,9.0,Merged,3,8,
+flink,5224,review,160946952,non_debt,-,apache,9.0,Closed,14,8,component=CommandLineClient
+spark,9297,review,46203981,design_debt,non-optimal_design,apache,29.0,Closed,22,30,
+pulsar,5767,review,352337822,non_debt,-,apache,18.0,Merged,6,20,"bug, component/broker"
+spark,28841,review,463960973,test_debt,lack_of_tests,apache,155.0,Closed,30,30,"SQL, EXAMPLES, DOCS, PYTHON, R"
+spark,16944,review,103047268,code_debt,low_quality_code,apache,21.0,Closed,1,30,

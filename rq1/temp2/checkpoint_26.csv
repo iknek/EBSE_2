@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+cloudstack,4776,comment,806067992,non_debt,-,apache,160.0,Merged,3,7,"type:enhancement, component:api, Severity:Trivial"
+incubator-pinot,3856,review,258720423,non_debt,-,apache,5.0,Merged,5,23,
+skywalking,3365,comment,526215529,non_debt,-,apache,1.0,Merged,13,12,"agent, feature, plugin"
+beam,10227,comment,558882339,design_debt,non-optimal_design,apache,0.0,Merged,2,0,
+beam,7844,comment,463755217,non_debt,-,apache,0.0,Merged,1,0,
+spark,8780,comment,140936357,non_debt,-,apache,49.0,Closed,6,4,
+beam,13112,comment,740158473,non_debt,-,apache,61.0,Merged,30,30,"java, build, examples"
+nifi-minifi-cpp,979,review,569451513,non_debt,-,apache,56.0,Closed,30,30,
+zookeeper,548,comment,402444134,non_debt,-,apache,34.0,Closed,6,19,
+spark,14355,review,72452143,non_debt,-,apache,6.0,Closed,5,11,
+servicecomb-java-chassis,1767,review,427921194,non_debt,-,apache,2.0,Merged,1,8,
+airflow,2372,review,140193220,code_debt,complex_code,apache,482.0,Merged,1,8,
+beam,12145,review,453061806,non_debt,-,apache,19.0,Merged,6,30,"python, java, build, website, docker, io, jdbc"
+spark,27664,comment,608282010,non_debt,-,apache,91.0,Closed,7,23,"SQL, STRUCTURED STREAMING"
+ambari,2330,comment,421452133,non_debt,-,apache,2.0,Merged,2,0,
+trafficcontrol,3688,review,330266503,non_debt,-,apache,104.0,Merged,8,30,"new feature, Traffic Ops, cache-config"
+couchdb,3414,comment,797069943,non_debt,-,apache,1.0,Merged,1,0,
+trafficserver,1863,comment,301370821,non_debt,-,apache,71.0,Merged,1,1,"DNS, Production"
+hadoop,582,comment,667318471,non_debt,-,apache,,Not Closed or Merged,2,0,
+spark,23747,review,269640058,code_debt,complex_code,apache,227.0,Closed,3,30,SQL
+hadoop,63,comment,519413862,non_debt,-,apache,,Not Closed or Merged,1,0,
+cloudstack,1578,review,77754965,code_debt,low_quality_code,apache,166.0,Merged,2,29,
+shardingsphere,912,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+carbondata,2417,comment,403277466,non_debt,-,apache,13.0,Closed,1,30,
+flink,11839,comment,624800779,non_debt,-,apache,26.0,Merged,4,26,"review=description?, component=Runtime/Configuration"
+flink,7696,review,257630219,non_debt,-,apache,5.0,Closed,3,8,component=API/TypeSerializationSystem
+openwhisk,2662,description,0,non_debt,-,apache,333.0,Closed,1,0,"deployment, review, wip"
+tinkerpop,330,comment,226003425,non_debt,-,apache,11.0,Closed,1,0,
+spark,450,review,11879995,non_debt,-,apache,4.0,Closed,1,12,
+spark,15237,review,90548133,code_debt,complex_code,apache,133.0,Closed,4,14,
+spark,29104,review,460275749,non_debt,-,apache,13.0,Closed,24,30,"SQL, CORE"
+hbase,1684,comment,626303991,non_debt,-,apache,1.0,Merged,4,12,
+superset,10385,summary,0,non_debt,-,apache,0.0,Closed,21,0,
+trafficserver,351,comment,199878590,non_debt,-,apache,537.0,Closed,4,4,"Plugins, CPP API"
+superset,11499,review,537844305,non_debt,-,apache,42.0,Merged,30,30,"size/XXL, !deprecated-label:org:preset"
+trafficcontrol,4423,review,391129633,non_debt,-,apache,24.0,Merged,8,7,"Traffic Ops, documentation, tech debt"
+druid,4885,description,0,non_debt,-,apache,563.0,Closed,2,7,stale
+phoenix,508,review,285231247,requirement_debt,requirement_partially_implemented,apache,19.0,Closed,1,13,
+spark,23647,comment,457541376,non_debt,-,apache,32.0,Closed,2,0,
+flink,10195,review,350633864,non_debt,-,apache,11.0,Merged,1,3,"review=description?, component=BuildSystem/Shaded"
+carbondata,3894,comment,675868683,non_debt,-,apache,15.0,Closed,1,8,
+iceberg,796,review,383089633,non_debt,-,apache,473.0,Closed,10,30,"spark, core"
+trafficcontrol,4547,summary,0,non_debt,-,apache,3.0,Merged,2,1,"Traffic Ops, improvement"
+geode,2916,description,0,non_debt,-,apache,1.0,Merged,1,0,
+flink,1813,review,58112951,non_debt,-,apache,111.0,Closed,10,30,component=Connectors/Common
+kafka,5044,comment,390452297,non_debt,-,apache,1683.0,Closed,1,30,"streams, kip"
+karaf,807,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+kafka,2382,comment,273980480,non_debt,-,apache,25.0,Closed,12,1,
+iceberg,1893,review,547982631,non_debt,-,apache,40.0,Merged,11,30,"API, spark, flink"
+incubator-mxnet,16215,comment,533361303,non_debt,-,apache,21.0,Merged,7,4,

@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+spark,20502,review,165847251,non_debt,-,apache,1.0,Closed,2,6,
+geode,5196,review,436309760,non_debt,-,apache,8.0,Merged,1,7,
+spark,411,comment,40448662,non_debt,-,apache,1.0,Closed,2,4,
+incubator-pinot,6262,review,525535130,non_debt,-,apache,10.0,Merged,1,13,
+zeppelin,3322,comment,470856893,non_debt,-,apache,3.0,Closed,1,0,
+arrow,4198,summary,0,non_debt,-,apache,48.0,Closed,8,0,
+reef,1205,comment,268099418,non_debt,-,apache,5.0,Closed,4,12,
+spark,26395,comment,553024056,non_debt,-,apache,8.0,Closed,2,1,SQL
+incubator-weex,741,description,0,non_debt,-,apache,0.0,Merged,2,0,
+storm,2433,review,152902841,code_debt,duplicated_code,apache,126.0,Merged,1,30,
+carbondata,1817,comment,358534297,non_debt,-,apache,12.0,Closed,1,0,
+spark,1561,comment,50182962,code_debt,low_quality_code,apache,1.0,Closed,4,26,
+spark,708,summary,0,code_debt,low_quality_code,apache,0.0,Closed,1,4,
+arrow,8067,review,478525557,non_debt,-,apache,4.0,Closed,4,6,
+storm,2204,comment,316832758,non_debt,-,apache,12.0,Merged,9,23,
+calcite,765,summary,0,non_debt,-,apache,,Not Closed or Merged,1,2,returned-with-feedback
+systemds,773,summary,0,non_debt,-,apache,1.0,Closed,5,0,
+carbondata,2488,review,202609488,non_debt,-,apache,6.0,Closed,1,9,
+spark,11041,comment,183879767,non_debt,-,apache,24.0,Closed,4,0,
+spark,18592,comment,328446316,non_debt,-,apache,63.0,Closed,7,17,
+nifi,3021,comment,428365005,non_debt,-,apache,16.0,Closed,1,0,
+cloudstack,2402,comment,356922073,non_debt,-,apache,39.0,Merged,1,0,"type:bug, component:XenServer, component:primary-storage"
+beam,7549,comment,455493852,non_debt,-,apache,0.0,Merged,1,0,
+kafka,7517,review,335607040,non_debt,-,apache,2.0,Merged,6,30,"streams, tests"
+kafka,4994,review,188192583,non_debt,-,apache,16.0,Merged,1,30,
+hadoop,2553,comment,753006191,non_debt,-,apache,15.0,Closed,28,0,
+netbeans,1581,description,0,non_debt,-,apache,0.0,Merged,1,0,
+samza,986,review,277919393,non_debt,-,apache,21.0,Closed,11,30,
+spark,12036,review,57815957,non_debt,-,apache,6.0,Closed,16,30,
+kafka,3010,comment,300525753,non_debt,-,apache,0.0,Closed,9,0,
+trafficcontrol,4014,summary,0,non_debt,-,apache,2.0,Merged,3,5,"Traffic Ops, tech debt"
+superset,9671,summary,0,non_debt,-,apache,6.0,Merged,1,0,size/S
+kafka,8265,review,391317111,non_debt,-,apache,2.0,Merged,6,15,
+cloudstack,4301,comment,684872369,non_debt,-,apache,2.0,Merged,1,0,"type:bug, component:kvm, Severity:Minor"
+carbondata,1808,comment,364020675,non_debt,-,apache,27.0,Closed,1,11,
+flink,14238,review,531619417,non_debt,-,apache,3.0,Closed,5,30,"review=description?, component=Deployment/YARN, component=Documentation"
+ignite,7830,description,0,non_debt,-,apache,,Not Closed or Merged,30,0,
+cloudstack,4447,review,518509360,non_debt,-,apache,6.0,Closed,2,11,"type:bug, component:XenServer, Severity:Major"
+storm,1131,comment,187287074,non_debt,-,apache,38.0,Merged,2,30,
+spark,12122,description,0,non_debt,-,apache,1.0,Closed,2,2,
+carbondata,1874,comment,362064998,non_debt,-,apache,2.0,Closed,2,2,
+arrow,4827,summary,0,non_debt,-,apache,9.0,Closed,11,9,
+spark,993,comment,48433227,non_debt,-,apache,53.0,Closed,30,30,
+spark,12102,review,58289671,non_debt,-,apache,3.0,Closed,5,18,
+spark,3237,comment,63824131,non_debt,-,apache,54.0,Closed,8,0,
+ozone,1516,comment,714884328,non_debt,-,apache,5.0,Merged,6,6,
+incubator-doris,2585,description,0,non_debt,-,apache,0.0,Merged,1,0,
+incubator-pinot,4924,comment,565638501,non_debt,-,apache,0.0,Merged,1,0,
+spark,50,comment,36947949,non_debt,-,apache,5.0,Closed,29,16,
+incubator-mxnet,7082,review,133588261,non_debt,-,apache,35.0,Merged,30,30,

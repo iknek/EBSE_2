@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+cloudstack,1523,comment,215447324,non_debt,-,apache,22.0,Merged,2,0,
+geode-native,590,description,0,non_debt,-,apache,12.0,Merged,1,0,
+storm,107,description,0,non_debt,-,apache,0.0,Closed,3,0,
+incubator-mxnet,10183,comment,375782120,non_debt,-,apache,21.0,Merged,30,28,
+carbondata,2390,comment,398931696,non_debt,-,apache,1.0,Closed,1,8,
+beam,4080,review,150063020,code_debt,complex_code,apache,82.0,Merged,2,30,
+phoenix,933,review,510479056,code_debt,low_quality_code,apache,29.0,Closed,3,6,
+incubator-brooklyn,877,comment,138606796,non_debt,-,apache,11.0,Merged,2,3,
+spark,15027,comment,258087561,non_debt,-,apache,53.0,Closed,2,3,
+hive,1280,review,468525216,non_debt,-,apache,37.0,Closed,1,30,tests passed
+netbeans,414,comment,366287008,non_debt,-,apache,8.0,Closed,1,0,
+calcite,2055,summary,0,non_debt,-,apache,1.0,Merged,1,0,
+pulsar,8996,comment,763411650,non_debt,-,apache,33.0,Merged,19,30,doc-complete
+hadoop,1572,comment,537701365,non_debt,-,apache,1.0,Merged,2,0,ozone
+systemds,204,review,73768209,code_debt,low_quality_code,apache,4.0,Closed,14,30,
+beam,1746,comment,270984320,non_debt,-,apache,0.0,Merged,1,0,
+spark,10667,comment,170158610,non_debt,-,apache,0.0,Closed,1,0,
+attic-apex-core,337,review,63920391,non_debt,-,apache,0.0,Merged,1,4,
+druid,5789,review,205683872,non_debt,-,apache,73.0,Merged,30,30,
+pulsar,1192,comment,363611803,non_debt,-,apache,0.0,Merged,4,2,bug
+airflow,2078,description,0,non_debt,-,apache,572.0,Closed,1,4,
+geode,5875,review,552244877,non_debt,-,apache,2.0,Merged,11,14,redis
+fluo,755,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+spark,6587,review,31883893,non_debt,-,apache,75.0,Closed,2,2,
+nifi-minifi-cpp,95,review,117498245,non_debt,-,apache,10.0,Closed,2,2,
+druid,5194,description,0,non_debt,-,apache,2.0,Merged,1,0,
+attic-apex-core,522,review,144998177,non_debt,-,apache,414.0,Merged,1,30,
+skywalking,4815,summary,0,non_debt,-,apache,0.0,Merged,1,0,"bug, backend"
+hudi,1186,description,0,non_debt,-,apache,0.0,Closed,12,2,
+airflow,12882,summary,0,non_debt,-,apache,30.0,Closed,3,0,"full tests needed, okay to merge"
+carbondata,2776,comment,425162096,non_debt,-,apache,6.0,Closed,1,0,
+druid,1936,review,45828055,non_debt,-,apache,50.0,Merged,1,30,
+camel,1266,comment,260025043,non_debt,-,apache,0.0,Closed,2,0,
+spark,24843,review,292663649,non_debt,-,apache,3.0,Closed,6,6,WEB UI
+netbeans,734,review,211586709,non_debt,-,apache,40.0,Merged,2,10,work-in-progress
+spark,19125,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+flink,3771,review,113471045,non_debt,-,apache,1.0,Closed,2,18,component=TableSQL/API
+hadoop,2353,review,507018462,non_debt,-,apache,98.0,Closed,16,19,fs/azure
+druid,8236,review,311358060,non_debt,-,apache,9.0,Merged,17,30,"Bug, Area - Batch Ingestion"
+camel-quarkus,115,comment,519659356,non_debt,-,apache,0.0,Merged,9,0,
+spark,563,comment,41485626,non_debt,-,apache,1.0,Closed,3,4,
+incubator-brooklyn,741,summary,0,non_debt,-,apache,4.0,Merged,1,12,
+openwhisk,681,comment,227222935,non_debt,-,apache,4.0,Closed,4,2,
+spark,21711,review,202536673,non_debt,-,apache,13.0,Closed,3,9,
+spark,7233,comment,127815741,non_debt,-,apache,29.0,Closed,1,0,
+spark,10534,review,49024620,non_debt,-,apache,7.0,Closed,13,13,
+kafka,2405,comment,273832031,non_debt,-,apache,5.0,Closed,6,12,
+carbondata,2083,review,177685409,non_debt,-,apache,13.0,Closed,2,15,
+spark,17941,comment,303256154,non_debt,-,apache,30.0,Closed,4,10,
+hadoop,2021,review,425329924,non_debt,-,apache,6.0,Merged,13,30,

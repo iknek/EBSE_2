@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+trafficcontrol,2548,comment,405349698,non_debt,-,apache,0.0,Merged,1,0,tests
+beam,4161,comment,346207393,non_debt,-,apache,0.0,Closed,2,0,
+rocketmq,1536,review,336341159,non_debt,-,apache,5.0,Merged,3,7,"type/bug, type/enhancement"
+flink,13477,summary,0,non_debt,-,apache,14.0,Merged,1,0,"review=description?, component=TableSQL/Planner"
+flink,8176,comment,484774952,non_debt,-,apache,3.0,Closed,7,3,"review=description?, component=TableSQL/Planner"
+cloudstack,2503,comment,385585396,non_debt,-,apache,117.0,Merged,1,30,
+zookeeper,361,comment,459616531,non_debt,-,apache,519.0,Closed,1,0,
+spark,13192,review,64440872,non_debt,-,apache,5.0,Closed,1,18,
+druid,7789,review,288693182,non_debt,-,apache,8.0,Merged,7,12,Security
+druid,9203,summary,0,non_debt,-,apache,0.0,Merged,1,0,Backport
+spark,27560,review,379244083,non_debt,-,apache,7.0,Closed,6,26,
+flink,2425,review,86549853,non_debt,-,apache,202.0,Closed,1,30,component=Runtime/Coordination
+carbondata,2932,comment,440594063,non_debt,-,apache,1.0,Closed,1,0,
+flink,14774,comment,768719211,non_debt,-,apache,1.0,Closed,4,0,"review=description?, component=API/Python"
+flink,12542,summary,0,non_debt,-,apache,15.0,Closed,4,12,"review=description?, component=TableSQL/Runtime"
+tinkerpop,1299,comment,651702036,non_debt,-,apache,14.0,Merged,30,1,
+ozone,1872,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+cloudstack,3241,comment,509613238,non_debt,-,apache,112.0,Merged,9,11,
+beam,2945,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+kafka,7463,review,333754419,non_debt,-,apache,6.0,Merged,2,29,streams
+spark,15571,comment,255263463,non_debt,-,apache,0.0,Closed,2,0,
+hbase,2448,comment,698750938,non_debt,-,apache,2.0,Merged,1,3,
+kafka,8541,review,414900861,non_debt,-,apache,4.0,Merged,12,30,
+attic-stratos,210,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+spark,9280,review,43116722,non_debt,-,apache,10.0,Closed,5,2,
+openwhisk,4921,review,448128928,non_debt,-,apache,38.0,Merged,4,30,"proposal, in-progress"
+spark,3651,review,21697554,code_debt,low_quality_code,apache,27.0,Closed,3,10,
+flink,6173,review,196042694,code_debt,low_quality_code,apache,2.0,Closed,4,9,component=Runtime/StateBackends
+beam,8280,comment,490157112,non_debt,-,apache,33.0,Merged,1,14,
+tvm,1406,review,201922072,non_debt,-,apache,4.0,Merged,3,8,status: accepted
+systemds,529,comment,316237640,non_debt,-,apache,1041.0,Closed,3,7,
+lucene-solr,2459,review,589262984,non_debt,-,apache,4.0,Closed,8,30,
+couchdb,1064,summary,0,non_debt,-,apache,2.0,Merged,1,0,
+netbeans,1477,comment,529485461,non_debt,-,apache,9.0,Merged,5,0,Need Squashing
+beam,11437,comment,629549669,non_debt,-,apache,33.0,Merged,1,4,"python, java, website, examples"
+flink,13957,summary,0,non_debt,-,apache,1.0,Merged,5,8,"review=description?, component=Connectors/FileSystem, component=Connectors/Hive, component=Formats, component=TableSQL/Ecosystem"
+trafodion,1064,comment,294060779,non_debt,-,apache,0.0,Merged,1,0,
+activemq-artemis,2012,comment,380818801,design_debt,non-optimal_design,apache,2.0,Closed,1,0,
+spark,25576,comment,524639817,non_debt,-,apache,5.0,Closed,1,1,ML
+beam,871,comment,241927745,non_debt,-,apache,100.0,Closed,1,3,
+ignite,7250,summary,0,non_debt,-,apache,570.0,Closed,1,0,
+kafka,2787,comment,291326176,non_debt,-,apache,2.0,Closed,28,0,connect
+camel,2023,comment,335785218,non_debt,-,apache,0.0,Closed,1,0,
+geode,2238,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+camel,2520,summary,0,non_debt,-,apache,0.0,Closed,30,0,
+iceberg,784,review,377400690,non_debt,-,apache,10.0,Merged,2,14,
+spark,14277,review,71648516,non_debt,-,apache,1.0,Closed,3,13,
+kafka,1908,comment,250894831,code_debt,low_quality_code,apache,4.0,Closed,14,15,
+superset,8464,comment,547571294,non_debt,-,apache,1.0,Merged,1,20,size/XL
+kafka,8683,comment,649518932,non_debt,-,apache,43.0,Merged,16,30,

@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+spark,10427,comment,175997712,non_debt,-,apache,49.0,Closed,12,27,
+flink,9866,review,333911282,code_debt,low_quality_code,apache,6.0,Closed,9,28,"review=description?, component=Connectors/HBase"
+jena,337,review,159239355,code_debt,low_quality_code,apache,4.0,Merged,30,28,
+airflow,11132,review,495856534,code_debt,low_quality_code,apache,10.0,Merged,6,10,area:upgrade
+pulsar,1029,review,164277238,non_debt,-,apache,26.0,Merged,14,23,type/feature
+zookeeper,983,comment,504269773,non_debt,-,apache,9.0,Closed,1,2,
+flink,1052,comment,134567455,code_debt,low_quality_code,apache,14.0,Closed,3,30,component=Runtime/Task
+spark,12601,review,67582037,non_debt,-,apache,157.0,Closed,29,30,
+spark,30671,description,0,non_debt,-,apache,0.0,Closed,1,0,"SQL, BUILD"
+carbondata,3091,comment,466028784,non_debt,-,apache,31.0,Closed,1,15,
+iceberg,1793,review,553700047,code_debt,low_quality_code,apache,54.0,Merged,18,30,"data, flink"
+druid,6911,comment,460336824,non_debt,-,apache,27.0,Merged,5,4,"Incompatible, Release Notes, Design Review"
+kylin,1538,review,555469177,non_debt,-,apache,12.0,Merged,7,14,
+flink,6076,review,192981069,code_debt,low_quality_code,apache,73.0,Merged,2,14,
+kafka,2054,comment,271061611,non_debt,-,apache,220.0,Closed,27,15,
+spark,29231,comment,710633885,non_debt,-,apache,0.0,Closed,3,0,CORE
+spark,25863,comment,533796440,non_debt,-,apache,108.0,Closed,11,30,"SQL, SPARK CORE"
+storm,1781,comment,262494323,design_debt,non-optimal_design,apache,139.0,Merged,1,6,
+flink,6924,review,230024940,non_debt,-,apache,12.0,Merged,1,30,component=Connectors/Kafka
+flink,11491,review,398874253,non_debt,-,apache,15.0,Closed,2,30,"review=description?, component=Runtime/Checkpointing"
+ignite,8456,description,0,non_debt,-,apache,17.0,Closed,15,27,
+incubator-doris,3369,review,421548232,non_debt,-,apache,20.0,Merged,20,26,"kind/improvement, area/load, area/catalog, approved"
+arrow,8890,review,540609789,non_debt,-,apache,3.0,Closed,2,3,Component: C++
+spark,11601,review,59323059,non_debt,-,apache,372.0,Closed,30,30,
+trafodion,1036,review,109077021,code_debt,low_quality_code,apache,19.0,Merged,3,2,
+carbondata,1515,comment,345413264,non_debt,-,apache,1.0,Closed,7,4,
+gobblin,1422,review,91768891,non_debt,-,apache,22.0,Merged,30,30,
+carbondata,1196,comment,318106840,non_debt,-,apache,1.0,Closed,6,0,
+hbase,3024,comment,791866049,non_debt,-,apache,10.0,Merged,2,7,
+openwhisk-wskdeploy,564,description,0,non_debt,-,apache,0.0,Merged,1,0,
+iceberg,1145,review,449363672,non_debt,-,apache,38.0,Merged,5,30,
+spark,4537,comment,97585868,non_debt,-,apache,79.0,Closed,23,20,
+flink,3715,review,126987096,non_debt,-,apache,91.0,Closed,9,30,component=TableSQL/API
+trafodion,1753,comment,443198539,non_debt,-,apache,54.0,Closed,3,5,
+kafka,5548,review,211911555,non_debt,-,apache,2.0,Merged,2,5,
+spark,24518,comment,489824088,non_debt,-,apache,5.0,Closed,8,24,
+hadoop,2470,review,534462323,non_debt,-,apache,51.0,Merged,3,30,
+druid,1576,review,53042783,non_debt,-,apache,233.0,Merged,1,30,Feature
+beam,812,review,75028654,non_debt,-,apache,7.0,Closed,4,30,
+carbondata,1483,description,0,non_debt,-,apache,3.0,Closed,1,0,
+openwhisk,871,review,70184998,non_debt,-,apache,11.0,Closed,1,16,ready
+activemq-artemis,2484,comment,451563907,non_debt,-,apache,16.0,Closed,1,7,
+druid,4271,summary,0,non_debt,-,apache,126.0,Merged,30,30,"Feature, Release Notes, Design Review"
+incubator-pinot,5021,summary,0,non_debt,-,apache,0.0,Merged,11,2,
+spark,1484,review,23672440,code_debt,low_quality_code,apache,199.0,Closed,16,30,
+flink,13795,comment,717237283,non_debt,-,apache,0.0,Closed,2,3,"review=description?, component=API/DataStream"
+trafficserver,3820,comment,396753626,non_debt,-,apache,1.0,Merged,2,0,"TLS, Backport"
+spark,28952,review,447482241,code_debt,low_quality_code,apache,1.0,Closed,3,2,SQL
+airflow,10103,comment,667608032,non_debt,-,apache,0.0,Merged,1,0,area:dev-tools
+hadoop,641,comment,477725418,non_debt,-,apache,2.0,Merged,4,7,ozone

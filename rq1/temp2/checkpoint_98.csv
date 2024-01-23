@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+flink,3380,comment,286807853,non_debt,-,apache,971.0,Closed,1,0,component=Runtime/StateBackends
+skywalking,5103,description,0,non_debt,-,apache,0.0,Closed,1,0,documentation
+ambari,860,comment,378632098,non_debt,-,apache,1.0,Merged,1,2,ambari-metrics
+cloudstack,1017,comment,152850429,non_debt,-,apache,0.0,Closed,1,0,
+apisix-dashboard,218,review,431547403,non_debt,-,apache,0.0,Merged,18,30,
+hudi,830,review,312762266,non_debt,-,apache,2.0,Merged,1,13,
+flink,3520,description,0,non_debt,-,apache,4.0,Closed,11,30,component=TableSQL/API
+spark,16452,comment,270048956,non_debt,-,apache,0.0,Closed,1,0,
+spark,3121,comment,62032343,non_debt,-,apache,11.0,Closed,18,30,
+reef,851,comment,187919912,non_debt,-,apache,9.0,Closed,17,30,
+spark,31522,review,580996896,non_debt,-,apache,165.0,Closed,30,30,"SQL, STRUCTURED STREAMING"
+beam,11053,comment,595046910,non_debt,-,apache,4.0,Closed,1,0,python
+openwhisk,3592,comment,384964071,non_debt,-,apache,5.0,Merged,1,0,"controller, review"
+airflow,4967,comment,477355709,non_debt,-,apache,61.0,Merged,6,18,
+spark,8600,comment,239015776,non_debt,-,apache,17.0,Closed,5,1,
+carbondata,2878,summary,0,code_debt,low_quality_code,apache,115.0,Closed,8,0,
+flink,15074,description,0,non_debt,-,apache,0.0,Closed,30,0,review=description?
+trafodion,631,comment,236953400,non_debt,-,apache,10.0,Merged,3,1,
+cloudstack,3984,comment,603825002,non_debt,-,apache,11.0,Merged,1,0,"type:bug, component:packaging"
+flink,9082,review,340395215,code_debt,low_quality_code,apache,1040.0,Closed,4,21,"review=description?, component=Library/MachineLearning"
+spark,18465,comment,312939982,non_debt,-,apache,9.0,Closed,2,0,
+tvm,629,comment,344140131,non_debt,-,apache,45.0,Merged,6,0,
+kafka,3812,review,138736632,non_debt,-,apache,12.0,Closed,30,30,connect
+spark,10047,review,46215657,non_debt,-,apache,0.0,Closed,2,1,
+incubator-mxnet,18525,comment,653954287,non_debt,-,apache,1.0,Merged,17,0,
+spark,23714,description,0,non_debt,-,apache,15.0,Closed,5,15,
+spark,5011,comment,78962544,non_debt,-,apache,0.0,Closed,2,0,
+pulsar,4815,description,0,non_debt,-,apache,0.0,Merged,1,0,"bug, component/function"
+calcite,2189,description,0,non_debt,-,apache,46.0,Merged,1,12,LGTM-will-merge-soon
+tvm,5186,review,403298913,non_debt,-,apache,5.0,Merged,28,23,status: accepted
+camel,1406,review,96633419,non_debt,-,apache,0.0,Closed,4,6,
+cloudstack,2190,comment,319162685,non_debt,-,apache,146.0,Closed,6,3,"type:bug, component:virtual-router"
+trafodion,813,review,86404383,non_debt,-,apache,4.0,Merged,4,13,
+drill,1892,review,393135561,non_debt,-,apache,160.0,Merged,1,30,"enhancement, documentation"
+arrow,5207,comment,528614954,non_debt,-,apache,12.0,Closed,11,21,
+druid,7647,review,283550456,documentation_debt,low_quality_documentation,apache,1.0,Merged,4,5,"Bug, Release Notes, Area - Lookups, Area - Web Console"
+storm,1726,comment,256511956,non_debt,-,apache,19.0,Merged,2,0,
+carbondata,4074,comment,767821108,non_debt,-,apache,18.0,Closed,1,7,
+nifi-minifi-cpp,979,review,576201597,non_debt,-,apache,56.0,Closed,30,30,
+beam,6101,comment,412692922,non_debt,-,apache,22.0,Merged,1,28,
+tvm,5689,comment,635675471,non_debt,-,apache,0.0,Merged,2,1,
+flink,4279,comment,314653963,non_debt,-,apache,5.0,Closed,4,9,component=TableSQL/API
+spark,26651,comment,558927022,non_debt,-,apache,2.0,Closed,3,6,SQL
+incubator-mxnet,10550,summary,0,non_debt,-,apache,7.0,Merged,3,27,Sparse
+druid,36,review,2270352,non_debt,-,apache,7.0,Merged,10,30,
+kafka,7984,review,372683286,code_debt,complex_code,apache,10.0,Merged,11,30,
+zeppelin,3100,comment,408333428,non_debt,-,apache,5.0,Closed,1,0,
+arrow,6156,comment,667456601,non_debt,-,apache,564.0,Closed,1,6,"Component: Java, needs-rebase"
+spark,9031,comment,147046856,non_debt,-,apache,4.0,Closed,5,18,
+cassandra,716,review,476606951,non_debt,-,apache,571.0,Closed,4,30,

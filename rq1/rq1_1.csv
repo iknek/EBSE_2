@@ -1,0 +1,10 @@
+classification,Closed,Merged,Not Closed or Merged,acceptance_rate
+architecture_debt,6,4,0,
+build_debt,5,3,0,
+code_debt,245,168,3,
+defect_debt,0,1,0,
+design_debt,60,31,2,
+documentation_debt,48,50,3,
+non_debt,2387,1849,40,
+requirement_debt,12,7,1,
+test_debt,38,29,1,

@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+carbondata,1889,comment,361674829,non_debt,-,apache,0.0,Closed,1,0,
+geode-native,481,description,0,non_debt,-,apache,0.0,Merged,1,0,
+ozone,140,description,0,non_debt,-,apache,0.0,Closed,2,0,
+carbondata,794,comment,294209058,non_debt,-,apache,5.0,Closed,1,0,
+ignite,7607,review,409054064,non_debt,-,apache,99.0,Closed,30,30,
+lucene-solr,1351,review,406046648,non_debt,-,apache,101.0,Merged,26,30,
+spark,13959,comment,302569371,non_debt,-,apache,323.0,Closed,8,0,
+spark,13262,comment,221354484,non_debt,-,apache,4.0,Closed,6,30,
+spark,22863,comment,433660183,non_debt,-,apache,0.0,Closed,2,1,
+spark,31595,review,581561966,non_debt,-,apache,6.0,Closed,17,30,SQL
+openwhisk,3388,comment,371279253,non_debt,-,apache,4.0,Merged,5,20,
+cassandra,730,review,485793488,code_debt,low_quality_code,apache,564.0,Closed,29,30,
+jmeter,627,review,495568930,non_debt,-,apache,7.0,Merged,27,9,
+nifi,2805,comment,399167717,non_debt,-,apache,0.0,Closed,4,19,
+incubator-heron,3541,description,0,non_debt,-,apache,0.0,Merged,1,0,ui
+pulsar,3377,description,0,non_debt,-,apache,0.0,Merged,1,0,"enhancement, component/client, component/security"
+spark,23208,review,239581374,non_debt,-,apache,43.0,Closed,7,30,
+incubator-heron,3479,comment,626232335,design_debt,non-optimal_design,apache,83.0,Closed,1,0,
+cloudstack,954,comment,150064890,non_debt,-,apache,6.0,Merged,1,0,
+superset,9837,description,0,non_debt,-,apache,0.0,Merged,3,0,"size/M, !deprecated-label:org:preset"
+flink,9717,review,327954939,non_debt,-,apache,17.0,Merged,5,30,"review=description?, component=Runtime/Task"
+airflow,5659,comment,581119882,non_debt,-,apache,306.0,Closed,1,14,area:dev-tools
+airflow,6073,comment,530132536,non_debt,-,apache,5.0,Closed,1,0,provider:google
+flink,8967,comment,508887383,non_debt,-,apache,61.0,Merged,4,4,"review=description?, component=Connectors/Cassandra"
+spark,28991,review,449456447,non_debt,-,apache,111.0,Closed,8,25,SQL
+zookeeper,1292,comment,602099491,non_debt,-,apache,51.0,Closed,2,0,
+flink,10105,review,344547802,non_debt,-,apache,13.0,Closed,29,30,"review=description?, component=TableSQL/Planner"
+incubator-mxnet,9552,review,176825148,requirement_debt,requirement_partially_implemented,apache,60.0,Merged,16,30,
+hbase,1860,comment,646896275,non_debt,-,apache,14.0,Merged,6,11,
+kafka,837,comment,177891645,non_debt,-,apache,,Not Closed or Merged,1,7,
+arrow,36,comment,339548456,non_debt,-,apache,955.0,Closed,30,3,
+netbeans,1392,comment,525818262,non_debt,-,apache,43.0,Merged,1,0,
+flink,11124,summary,0,non_debt,-,apache,223.0,Closed,1,0,review=description?
+pulsar,2617,comment,423583902,non_debt,-,apache,4.0,Merged,2,0,type/feature
+camel,3171,review,324231977,code_debt,low_quality_code,apache,3.0,Merged,4,7,
+flink,14052,review,526233564,non_debt,-,apache,7.0,Merged,2,20,"review=description?, component=Runtime/Network, component=Runtime/Checkpointing"
+airflow,4083,comment,495929466,non_debt,-,apache,234.0,Merged,4,10,
+airflow,4646,comment,464366589,non_debt,-,apache,23.0,Merged,1,0,
+accumulo,195,review,94623388,non_debt,-,apache,34.0,Closed,7,10,
+superset,6058,comment,430363331,non_debt,-,apache,7.0,Merged,4,1,
+flink,15045,description,0,documentation_debt,low_quality_documentation,apache,4.0,Merged,2,0,review=description?
+flink,8430,review,284183023,non_debt,-,apache,10.0,Closed,0,17,"review=description?, component=Runtime/Coordination"
+dubbo,5799,description,0,non_debt,-,apache,1.0,Merged,1,0,
+drill,530,review,73929975,non_debt,-,apache,49.0,Closed,1,13,
+incubator-pagespeed-ngx,1071,summary,0,non_debt,-,apache,5.0,Merged,1,0,
+skywalking,2470,summary,0,non_debt,-,apache,0.0,Merged,2,0,"bug, agent, plugin"
+systemds,688,review,147017845,non_debt,-,apache,4.0,Closed,19,29,
+phoenix,913,review,541363956,non_debt,-,apache,69.0,Merged,1,30,
+airflow,1830,review,90948950,code_debt,low_quality_code,apache,97.0,Closed,1,30,
+hadoop,1601,comment,541059565,non_debt,-,apache,9.0,Closed,5,4,

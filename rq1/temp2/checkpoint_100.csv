@@ -1,0 +1,44 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+hawq,1290,comment,331820126,non_debt,-,apache,0.0,Closed,1,0,
+flink,13393,review,495556369,non_debt,-,apache,34.0,Closed,7,29,"review=description?, component=Runtime/StateBackends"
+spark,25585,comment,525012166,non_debt,-,apache,0.0,Closed,1,0,PROJECT INFRA
+flink,10827,summary,0,non_debt,-,apache,2.0,Merged,1,0,"review=description?, component=TableSQL/Runtime"
+iceberg,1874,description,0,non_debt,-,apache,0.0,Merged,4,10,spark
+groovy,1266,summary,0,non_debt,-,apache,156.0,Closed,1,0,
+openwhisk,5061,description,0,non_debt,-,apache,46.0,Merged,1,30,scheduler
+ambari,3151,comment,562590943,non_debt,-,apache,0.0,Merged,1,0,
+trafficcontrol,1572,comment,345855649,non_debt,-,apache,6.0,Merged,2,0,Traffic Portal
+camel,1898,description,0,non_debt,-,apache,1.0,Closed,1,0,
+flink,13348,review,485303631,non_debt,-,apache,1.0,Closed,3,22,"review=description?, component=Documentation, component=API/Python"
+ambari,1839,summary,0,non_debt,-,apache,1.0,Closed,4,0,
+incubator-pinot,3969,description,0,non_debt,-,apache,0.0,Merged,1,2,
+kafka,4672,comment,371973195,non_debt,-,apache,0.0,Merged,1,0,
+beam,12232,review,455392148,non_debt,-,apache,22.0,Merged,22,30,"java, extensions, sql"
+shardingsphere,6062,review,440642573,non_debt,-,apache,0.0,Merged,5,2,mode: cluster
+spark,5030,comment,96768974,non_debt,-,apache,74.0,Closed,9,3,
+kafka,8103,review,414240204,non_debt,-,apache,,Not Closed or Merged,10,30,
+nifi,1628,description,0,non_debt,-,apache,0.0,Closed,1,0,
+beam,3287,comment,306643413,non_debt,-,apache,4.0,Closed,24,0,
+flink,10086,review,353592042,non_debt,-,apache,31.0,Closed,11,30,"review=description?, component=API/Python"
+druid,4139,comment,404134850,non_debt,-,apache,467.0,Closed,4,0,
+hudi,782,comment,515634785,non_debt,-,apache,14.0,Closed,1,0,pr:wip
+hadoop,316,description,0,non_debt,-,apache,,Not Closed or Merged,1,0,
+camel,2457,review,208259951,non_debt,-,apache,0.0,Merged,1,2,
+flink,15085,review,589279908,non_debt,-,apache,9.0,Merged,4,5,"review=description?, component=Connectors/Kinesis, component=TableSQL/Ecosystem"
+iceberg,1318,review,468870977,non_debt,-,apache,1.0,Merged,1,6,
+skywalking,4093,review,360375251,non_debt,-,apache,0.0,Merged,12,11,test
+spark,26337,comment,551156015,non_debt,-,apache,8.0,Closed,13,28,SQL
+spark,3141,comment,62226551,non_debt,-,apache,12.0,Closed,1,0,
+beam,7737,comment,461523125,non_debt,-,apache,64.0,Closed,3,26,
+pulsar,7552,comment,661158943,non_debt,-,apache,25.0,Merged,30,6,component/transaction
+nifi,2517,comment,375875600,non_debt,-,apache,42.0,Closed,3,30,
+openwhisk,1600,summary,0,non_debt,-,apache,2.0,Closed,8,13,"controller, review"
+spark,7569,comment,125282944,non_debt,-,apache,6.0,Closed,1,0,
+accumulo,337,review,157819248,non_debt,-,apache,9.0,Merged,19,30,
+storm,2236,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+spark,13546,comment,224956535,non_debt,-,apache,6.0,Closed,3,0,
+flink,7466,review,247049482,non_debt,-,apache,2.0,Closed,4,11,component=Documentation
+kafka,586,description,0,non_debt,-,apache,0.0,Closed,2,0,
+spark,1751,comment,51282152,non_debt,-,apache,2.0,Closed,6,2,
+spark,10106,comment,168844006,non_debt,-,apache,33.0,Closed,4,0,
+systemds,553,comment,313253989,non_debt,-,apache,21.0,Closed,2,30,

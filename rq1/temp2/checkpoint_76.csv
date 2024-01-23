@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+geode,3175,review,255775292,non_debt,-,apache,7.0,Merged,26,24,
+trafficserver,2229,description,0,non_debt,-,apache,0.0,Merged,1,0,UDP
+gobblin,104,comment,95396477,documentation_debt,low_quality_documentation,apache,0.0,Merged,4,8,
+beam,4751,comment,372546237,non_debt,-,apache,49.0,Closed,1,16,
+ignite,1082,comment,291875497,non_debt,-,apache,198.0,Closed,18,0,
+beam,11856,comment,696608739,non_debt,-,apache,127.0,Merged,1,18,"python, infra"
+beam,13282,comment,725210904,non_debt,-,apache,6.0,Merged,1,17,
+spark,17348,review,107335293,non_debt,-,apache,3.0,Closed,4,14,
+arrow,2978,review,234370685,non_debt,-,apache,143.0,Closed,3,7,"Component: R, ready-for-review"
+ignite,546,description,0,non_debt,-,apache,19.0,Closed,30,0,
+flink,1813,comment,229693884,documentation_debt,outdated_documentation,apache,111.0,Closed,10,30,component=Connectors/Common
+gobblin,2656,review,292076607,documentation_debt,outdated_documentation,apache,11.0,Closed,5,8,
+kafka,4138,description,0,design_debt,non-optimal_design,apache,0.0,Closed,1,0,
+couchdb,1842,review,246573811,non_debt,-,apache,15.0,Merged,2,21,
+airflow,4091,review,228726712,non_debt,-,apache,7.0,Merged,7,30,
+spark,7881,comment,127100344,non_debt,-,apache,0.0,Closed,4,0,
+kafka,6162,review,265995291,non_debt,-,apache,147.0,Closed,30,30,streams
+airflow,5274,description,0,non_debt,-,apache,1.0,Merged,1,0,
+spark,9193,review,42587435,code_debt,low_quality_code,apache,5.0,Closed,5,3,
+arrow,2406,comment,411551607,non_debt,-,apache,0.0,Closed,3,0,
+calcite,1518,comment,548171400,non_debt,-,apache,16.0,Closed,1,2,LGTM-will-merge-soon
+trafficserver,3711,description,0,non_debt,-,apache,0.0,Merged,1,0,"Plugins, Lua"
+spark,524,comment,41750424,non_debt,-,apache,11.0,Closed,21,0,
+spark,19424,review,144111358,non_debt,-,apache,8.0,Closed,3,16,
+jmeter,237,comment,269805400,non_debt,-,apache,37.0,Closed,3,5,
+spark,27208,summary,0,non_debt,-,apache,13.0,Closed,8,30,
+netbeans,2812,review,601675547,non_debt,-,apache,9.0,Merged,15,30,LSP
+trafficserver,7526,comment,810664610,non_debt,-,apache,0.0,Merged,1,0,Tools
+trafficserver,2570,comment,332364253,non_debt,-,apache,308.0,Closed,2,6,TLS
+incubator-pagespeed-ngx,261,comment,16283485,non_debt,-,apache,0.0,Merged,1,0,
+spark,21734,review,201258595,non_debt,-,apache,49.0,Closed,7,9,
+flink,15221,comment,810809614,non_debt,-,apache,15.0,Closed,6,22,"review=description?, component=Runtime/Task"
+spark,8864,review,40624641,non_debt,-,apache,17.0,Closed,2,6,
+incubator-mxnet,5430,description,0,non_debt,-,apache,0.0,Merged,1,0,
+carbondata,3244,comment,502949896,non_debt,-,apache,20.0,Closed,1,10,
+zeppelin,3240,review,236241046,non_debt,-,apache,55.0,Closed,30,30,
+fineract,366,comment,309149263,non_debt,-,apache,15.0,Merged,1,3,
+incubator-mxnet,3859,comment,261063209,non_debt,-,apache,0.0,Merged,2,0,
+pulsar,1663,summary,0,non_debt,-,apache,0.0,Merged,3,0,bug
+kafka,7389,review,377350027,non_debt,-,apache,143.0,Merged,30,30,
+calcite,1991,review,454539517,non_debt,-,apache,46.0,Closed,11,30,"LGTM-will-merge-soon, slow-tests-needed"
+beam,1230,comment,260433002,code_debt,low_quality_code,apache,29.0,Closed,8,9,
+spark,27946,review,395206016,non_debt,-,apache,1.0,Closed,2,9,"SQL, TESTS"
+spark,11796,comment,200517197,non_debt,-,apache,18.0,Closed,20,28,
+storm,1468,summary,0,non_debt,-,apache,867.0,Closed,1,1,
+druid,4284,comment,303822859,non_debt,-,apache,21.0,Merged,3,8,Area - Metrics/Event Emitting
+spark,16220,review,91646897,non_debt,-,apache,4.0,Closed,7,15,
+beam,2983,comment,300281555,non_debt,-,apache,1.0,Closed,1,0,
+airflow,7163,comment,659601976,non_debt,-,apache,55.0,Merged,1,30,"area:webserver, area:dev-tools"
+beam,9730,review,331592994,documentation_debt,outdated_documentation,apache,2.0,Merged,2,9,

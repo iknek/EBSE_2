@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+spark,31224,summary,0,non_debt,-,apache,0.0,Closed,1,0,"BUILD, CORE"
+accumulo,1759,description,0,non_debt,-,apache,5.0,Merged,6,7,
+spark,24155,comment,475524405,non_debt,-,apache,1.0,Closed,3,0,
+flink,12120,review,424557600,non_debt,-,apache,6.0,Merged,10,30,"review=description?, component=Runtime/Task"
+reef,183,comment,102267300,non_debt,-,apache,2.0,Closed,6,13,
+spark,1100,comment,46265829,non_debt,-,apache,1.0,Closed,2,1,
+cloudstack,3965,comment,640322672,non_debt,-,apache,87.0,Merged,1,0,"type:bug, component:management-server, Severity:Minor"
+spark,21018,review,183903195,non_debt,-,apache,15.0,Closed,7,26,
+incubator-pinot,3153,review,216405500,non_debt,-,apache,6.0,Merged,12,30,
+hive,345,review,189552180,non_debt,-,apache,775.0,Closed,3,30,stale
+carbondata,3787,review,486246357,non_debt,-,apache,97.0,Closed,1,30,
+flink,11725,review,425731246,non_debt,-,apache,34.0,Merged,5,30,"review=description?, component=API/DataStream, component=Connectors/Kafka"
+thrift,716,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+kafka,5492,comment,416127274,non_debt,-,apache,22.0,Closed,5,27,
+phoenix,153,review,58469369,non_debt,-,apache,176.0,Closed,14,30,
+incubator-dolphinscheduler,5104,comment,803699297,non_debt,-,apache,3.0,Merged,2,6,
+apisix,4,review,281085850,non_debt,-,apache,0.0,Merged,8,2,
+ignite,6420,review,273863106,design_debt,non-optimal_design,apache,4.0,Closed,7,4,
+spark,3976,review,23888565,non_debt,-,apache,24.0,Closed,14,30,
+beam,3852,review,139262810,non_debt,-,apache,8.0,Closed,2,29,
+kafka,9318,review,495932581,design_debt,non-optimal_design,apache,56.0,Merged,11,30,
+hawq,679,review,64878972,non_debt,-,apache,10.0,Closed,1,15,
+beam,8826,review,293177180,non_debt,-,apache,7.0,Merged,1,30,
+spark,26206,comment,545540968,non_debt,-,apache,124.0,Closed,2,10,"SPARK CORE, Stale"
+samza,1007,summary,0,non_debt,-,apache,0.0,Merged,2,0,
+shardingsphere,8075,summary,0,non_debt,-,apache,0.0,Merged,6,0,"type: refactor, in: kernel"
+spark,7753,description,0,non_debt,-,apache,322.0,Closed,30,30,
+druid,6215,review,212155874,non_debt,-,apache,26.0,Merged,7,6,Apache
+activemq-artemis,1867,comment,367475804,non_debt,-,apache,8.0,Closed,1,0,
+carbondata,2814,comment,483209226,non_debt,-,apache,182.0,Closed,3,26,
+hadoop,1001,review,296306101,non_debt,-,apache,10.0,Closed,2,4,ozone
+rocketmq,511,summary,0,non_debt,-,apache,5.0,Merged,2,0,type/enhancement
+incubator-pagespeed-ngx,170,description,0,non_debt,-,apache,0.0,Closed,30,0,
+incubator-mxnet,5518,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+beam,2512,review,111508679,non_debt,-,apache,2.0,Closed,5,4,
+flink,4473,comment,327681764,non_debt,-,apache,34.0,Closed,18,28,component=Connectors/Kinesis
+kafka,5630,comment,421338046,non_debt,-,apache,8.0,Merged,12,15,
+tvm,1251,review,195164394,non_debt,-,apache,14.0,Merged,30,30,status: accepted
+flink,2642,comment,254715930,non_debt,-,apache,2.0,Closed,5,0,component=Runtime/Task
+spark,15172,review,83513326,code_debt,low_quality_code,apache,51.0,Closed,30,30,
+spark,20640,review,169556816,non_debt,-,apache,596.0,Closed,14,23,"SCHEDULER, MESOS"
+superset,2138,comment,278523515,non_debt,-,apache,0.0,Merged,2,0,
+spark,6551,review,31416746,non_debt,-,apache,16.0,Closed,6,17,
+geode,4765,review,387347011,non_debt,-,apache,0.0,Merged,8,16,
+spark,13163,review,63943470,non_debt,-,apache,2.0,Closed,11,11,
+zeppelin,2323,comment,301308202,non_debt,-,apache,12.0,Closed,30,1,
+trafficserver,6721,review,418591026,non_debt,-,apache,4.0,Merged,2,2,"HTTP, Cleanup"
+fluo,541,description,0,non_debt,-,apache,0.0,Merged,1,0,
+flink,5448,comment,396135754,non_debt,-,apache,145.0,Closed,2,25,component=<none>
+flink,11794,comment,619004787,code_debt,low_quality_code,apache,4.0,Closed,3,3,"review=description?, component=TableSQL/API"

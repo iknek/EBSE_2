@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+openwhisk,3696,comment,391734844,non_debt,-,apache,0.0,Merged,1,0,
+carbondata,4045,comment,803626913,non_debt,-,apache,1063.0,Closed,1,0,
+kafka,1673,comment,235947414,non_debt,-,apache,0.0,Closed,1,0,
+ignite,4519,description,0,non_debt,-,apache,3.0,Closed,2,0,
+flink,15313,review,603262596,non_debt,-,apache,8.0,Closed,8,30,"review=description?, component=Runtime/Checkpointing"
+spark,17459,review,118818160,code_debt,low_quality_code,apache,64.0,Closed,14,30,
+hive,335,review,187593991,non_debt,-,apache,793.0,Closed,7,30,stale
+flink,6698,review,223291788,non_debt,-,apache,1064.0,Closed,3,30,component=Runtime/Network
+spark,19222,review,179397907,non_debt,-,apache,204.0,Closed,30,30,
+spark,11349,comment,189473112,non_debt,-,apache,2.0,Closed,1,3,
+netbeans,1021,comment,441019332,non_debt,-,apache,7.0,Merged,1,0,"PHP, CSL"
+hbase,809,review,344314816,code_debt,slow_algorithm,apache,7.0,Closed,1,30,
+kafka,2476,review,103751509,non_debt,-,apache,55.0,Closed,6,30,
+spark,17248,summary,0,non_debt,-,apache,108.0,Closed,1,0,
+spark,5361,summary,0,non_debt,-,apache,15.0,Closed,1,0,
+daffodil,19,comment,352417409,non_debt,-,apache,3.0,Merged,1,0,
+spark,4788,description,0,non_debt,-,apache,0.0,Closed,1,0,
+camel-k,2125,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+spark,1313,comment,50300190,non_debt,-,apache,30.0,Closed,16,30,
+activemq-artemis,1231,comment,297753130,non_debt,-,apache,7.0,Closed,1,1,
+thrift,1586,comment,450271533,non_debt,-,apache,144.0,Closed,12,20,enhancement
+spark,21473,comment,394487970,non_debt,-,apache,3.0,Closed,3,3,
+flink,11626,review,404654699,non_debt,-,apache,10.0,Merged,5,19,"review=description?, component=API/Python, component=Connectors/Cassandra, component=Connectors/HBase, component=Connectors/ElasticSearch"
+spark,2851,comment,70644262,non_debt,-,apache,361.0,Closed,30,30,
+spark,26738,comment,560665325,non_debt,-,apache,1.0,Closed,13,20,SQL
+tvm,5154,review,399416785,non_debt,-,apache,1.0,Merged,9,16,
+incubator-pinot,659,review,82649073,non_debt,-,apache,2.0,Merged,2,8,
+spark,16998,comment,281042949,non_debt,-,apache,39.0,Closed,5,0,
+incubator-mxnet,17465,comment,579535105,non_debt,-,apache,0.0,Merged,2,0,pr-awaiting-merge
+incubator-mxnet,14409,review,265662688,non_debt,-,apache,2.0,Merged,2,27,"Operator, pr-awaiting-review, Numpy"
+kafka,5428,review,208741696,non_debt,-,apache,46.0,Merged,30,30,streams
+incubator-mxnet,19896,comment,799899842,non_debt,-,apache,177.0,Merged,4,30,"MKLDNN, pr-awaiting-review"
+cloudstack,720,comment,132769493,non_debt,-,apache,153.0,Closed,1,0,
+flink,11671,review,407302559,non_debt,-,apache,8.0,Closed,7,23,"review=description?, component=Client/JobSubmission"
+tinkerpop,889,comment,408684427,non_debt,-,apache,47.0,Merged,13,14,
+hudi,2048,review,488345849,non_debt,-,apache,33.0,Merged,1,30,
+beam,6343,description,0,non_debt,-,apache,68.0,Closed,1,5,stale
+arrow,8503,review,510061337,non_debt,-,apache,7.0,Closed,1,20,"Component: Rust, Component: Rust - DataFusion"
+spark,28016,comment,604128330,non_debt,-,apache,1.0,Closed,7,17,SQL
+incubator-mxnet,5558,description,0,non_debt,-,apache,0.0,Merged,6,1,
+airflow,11589,review,516156770,non_debt,-,apache,17.0,Merged,13,29,"area:Scheduler, full tests needed"
+reef,858,description,0,non_debt,-,apache,38.0,Closed,1,0,
+incubator-brooklyn,525,comment,75658504,non_debt,-,apache,7.0,Merged,2,1,
+spark,27437,comment,581170246,non_debt,-,apache,0.0,Closed,1,0,"SPARKR, DOCUMENTATION"
+incubator-mxnet,8732,comment,347630910,non_debt,-,apache,55.0,Merged,30,30,
+kafka,4579,description,0,non_debt,-,apache,1.0,Merged,4,11,connect
+kafka,6234,comment,462503916,test_debt,flaky_test,apache,8.0,Closed,2,2,
+flink,2221,comment,233556343,non_debt,-,apache,10.0,Closed,1,0,component=TableSQL/API
+netbeans,1617,comment,549980784,non_debt,-,apache,3.0,Merged,2,2,
+spark,21356,review,189349209,code_debt,dead_code,apache,4.0,Closed,6,16,

@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+tvm,6536,summary,0,non_debt,-,apache,0.0,Merged,1,3,status: accepted
+guacamole-client,449,summary,0,non_debt,-,apache,0.0,Closed,1,11,
+incubator-doris,1931,review,332392011,non_debt,-,apache,9.0,Merged,4,13,
+drill,157,review,39443333,non_debt,-,apache,143.0,Closed,4,19,
+kafka,5379,review,204563539,code_debt,low_quality_code,apache,19.0,Merged,30,30,
+cloudstack,1412,comment,183277819,non_debt,-,apache,104.0,Closed,1,0,
+storm,132,comment,45357623,non_debt,-,apache,3.0,Merged,4,1,
+carbondata,3330,comment,512331407,non_debt,-,apache,67.0,Closed,1,0,
+iceberg,1587,review,520836248,non_debt,-,apache,42.0,Merged,17,30,build
+tvm,7518,review,602446660,non_debt,-,apache,133.0,Merged,1,30,status: need update
+ozone,1601,comment,744378432,non_debt,-,apache,25.0,Merged,22,11,datanode
+tomee,310,description,0,non_debt,-,apache,0.0,Merged,1,0,
+incubator-mxnet,8340,comment,337756930,non_debt,-,apache,9.0,Merged,24,10,
+beam,372,review,64155576,non_debt,-,apache,52.0,Closed,4,25,
+griffin,520,review,314097712,non_debt,-,apache,5.0,Closed,5,2,
+beam,9677,comment,569907506,non_debt,-,apache,103.0,Merged,30,30,
+tvm,1371,review,199972342,non_debt,-,apache,2.0,Merged,3,5,status: accepted
+spark,9399,review,43590281,documentation_debt,outdated_documentation,apache,1.0,Closed,9,17,
+cloudstack,2734,comment,404056575,non_debt,-,apache,19.0,Merged,1,3,component:console-proxy
+brooklyn-server,967,review,194659942,non_debt,-,apache,27.0,Merged,2,18,
+hadoop,200,review,107028894,non_debt,-,apache,361.0,Closed,7,30,
+ignite,5568,description,0,non_debt,-,apache,8.0,Closed,3,0,
+superset,12022,comment,749194174,non_debt,-,apache,25.0,Merged,12,3,
+nifi,2588,review,194380548,non_debt,-,apache,75.0,Closed,4,5,
+cloudstack,4182,comment,654655086,non_debt,-,apache,375.0,Closed,1,0,"type:bug, component:kvm, status:On Hold, platform:raspberrypi, status:wip"
+hive,935,description,0,non_debt,-,apache,0.0,Closed,1,0,
+netbeans,572,summary,0,non_debt,-,apache,76.0,Closed,1,0,
+flink,9363,comment,519560926,non_debt,-,apache,3.0,Merged,2,13,"review=description?, component=TableSQL/Planner"
+beam,6416,review,223210021,non_debt,-,apache,19.0,Merged,1,11,
+nutch,484,comment,555061506,test_debt,lack_of_tests,apache,15.0,Closed,2,5,
+beam,548,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+spark,15076,comment,247138433,non_debt,-,apache,1.0,Closed,3,2,
+spark,853,comment,43980689,non_debt,-,apache,2.0,Closed,17,14,
+kafka,2987,comment,299715337,non_debt,-,apache,1.0,Closed,1,0,
+apisix,2089,summary,0,non_debt,-,apache,3.0,Merged,2,3,
+spark,8267,comment,132333980,non_debt,-,apache,3.0,Closed,8,6,
+spark,16138,comment,274600744,non_debt,-,apache,64.0,Closed,30,30,
+ozone,1885,review,604637536,non_debt,-,apache,61.0,Closed,12,30,
+geode,3112,description,0,non_debt,-,apache,1.0,Merged,1,0,
+bigtop,188,review,108095450,non_debt,-,apache,5.0,Closed,1,16,
+spark,20793,comment,372094829,non_debt,-,apache,378.0,Closed,30,30,
+ignite,229,description,0,non_debt,-,apache,5.0,Closed,14,0,
+incubator-mxnet,4911,comment,278487688,non_debt,-,apache,17.0,Merged,11,1,
+drill,283,review,48051385,non_debt,-,apache,26.0,Closed,9,30,
+accumulo,1048,comment,475372461,non_debt,-,apache,4.0,Merged,3,5,
+hive,1716,review,532486047,non_debt,-,apache,4.0,Closed,8,30,tests unstable
+echarts,1813,description,0,non_debt,-,apache,1727.0,Closed,2,0,stale
+cloudstack,4430,comment,718225326,non_debt,-,apache,7.0,Merged,1,0,"type:bug, Severity:Major"
+tajo,1052,review,154543606,non_debt,-,apache,1.0,Closed,13,8,
+drill,520,review,106658488,code_debt,low_quality_code,apache,293.0,Closed,2,30,

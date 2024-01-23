@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+incubator-doris,2050,comment,555584339,non_debt,-,apache,27.0,Merged,9,30,kind/feature
+pulsar,2100,comment,402925739,non_debt,-,apache,1.0,Merged,4,0,"bug, component/client"
+trafficcontrol,365,comment,286793219,non_debt,-,apache,0.0,Closed,4,0,
+flink,4426,description,0,code_debt,dead_code,apache,2.0,Closed,2,0,"component=BuildSystem, component=API/DataSet"
+beam,11610,review,425548953,non_debt,-,apache,27.0,Merged,18,30,"java, extensions, sql"
+spark,25119,review,304750383,non_debt,-,apache,6.0,Closed,3,9,"SQL, PYSPARK, TESTS"
+nutch,184,comment,302673149,non_debt,-,apache,33.0,Merged,16,0,
+beam,7956,comment,479834196,non_debt,-,apache,38.0,Merged,1,0,
+beam,11203,review,399469457,non_debt,-,apache,7.0,Merged,4,30,"go, model, runners, core, flink, fn-execution, samza"
+spark,25628,review,319461063,requirement_debt,requirement_partially_implemented,apache,17.0,Closed,1,4,SPARK CORE
+spark,18974,description,0,non_debt,-,apache,4.0,Closed,3,0,
+brooklyn-server,835,review,142912453,code_debt,low_quality_code,apache,15.0,Merged,22,16,
+ambari,1151,description,0,non_debt,-,apache,1.0,Merged,1,0,web client
+spark,448,review,11813558,code_debt,low_quality_code,apache,18.0,Closed,3,30,
+spark,3659,comment,66415145,non_debt,-,apache,0.0,Closed,1,0,
+nifi,3850,description,0,non_debt,-,apache,515.0,Closed,1,2,
+airflow,1956,comment,268910016,non_debt,-,apache,0.0,Closed,1,1,
+tinkerpop,98,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+incubator-mxnet,13503,comment,443465456,non_debt,-,apache,2.0,Merged,23,0,"MKLDNN, pr-awaiting-review"
+incubator-mxnet,5886,review,112565730,non_debt,-,apache,6.0,Merged,15,19,Doc
+incubator-pinot,5200,review,408486325,non_debt,-,apache,14.0,Merged,3,8,
+tvm,6449,comment,692921717,non_debt,-,apache,6.0,Merged,23,28,status: review in progress
+storm,1958,comment,282003202,non_debt,-,apache,2.0,Merged,1,1,
+spark,21882,review,205935245,non_debt,-,apache,3.0,Closed,3,13,
+flink,13033,comment,721025672,non_debt,-,apache,109.0,Closed,1,1,"review=description?, component=Formats"
+apisix,3224,review,559854280,non_debt,-,apache,11.0,Merged,4,15,
+flink,6178,review,196555570,code_debt,low_quality_code,apache,3.0,Closed,30,30,component=Runtime/REST
+kafka,6977,review,298727205,code_debt,dead_code,apache,29.0,Merged,19,28,
+ambari,183,review,163852609,non_debt,-,apache,25.0,Merged,3,9,logsearch
+pulsar,7786,comment,674414727,non_debt,-,apache,8.0,Merged,3,3,"component/broker, release/2.6.2"
+tvm,4179,review,337872859,non_debt,-,apache,19.0,Merged,11,6,status: accepted
+tvm,7153,review,581353108,non_debt,-,apache,85.0,Merged,30,30,status: accepted
+flink,4851,review,145917513,code_debt,low_quality_code,apache,5.0,Closed,4,18,"component=API/DataStream, component=Runtime/StateBackends"
+cloudstack,29,summary,0,non_debt,-,apache,18.0,Closed,1,0,
+nifi,1849,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+airflow,5585,review,303217602,non_debt,-,apache,16.0,Merged,1,10,
+incubator-mxnet,2380,comment,225808811,non_debt,-,apache,5.0,Merged,7,0,
+spark,10162,comment,162268697,non_debt,-,apache,544.0,Closed,3,0,
+zeppelin,954,comment,223481561,non_debt,-,apache,4.0,Closed,1,0,
+beam,2974,comment,300015697,non_debt,-,apache,0.0,Closed,1,0,
+storm,1101,comment,183528417,non_debt,-,apache,5.0,Merged,1,0,
+beam,8162,comment,477866946,non_debt,-,apache,0.0,Merged,1,1,
+beam,12065,comment,650215296,non_debt,-,apache,34.0,Merged,2,5,"python, infra"
+kafka,1627,comment,235345722,non_debt,-,apache,32.0,Closed,28,30,
+spark,16706,review,98121245,code_debt,low_quality_code,apache,1.0,Closed,5,16,
+arrow,9610,review,588816147,non_debt,-,apache,4.0,Closed,28,30,"Component: R, Component: Parquet"
+flink,9766,review,329334111,non_debt,-,apache,4.0,Closed,4,24,"review=description?, component=API/Python"
+tvm,7021,comment,797529527,code_debt,slow_algorithm,apache,412.0,Closed,30,0,status: need review
+trafficcontrol,5570,comment,785250722,non_debt,-,apache,0.0,Merged,2,0,"tech debt, TC Client (python)"
+geode,3840,review,307057404,non_debt,-,apache,5.0,Merged,1,3,

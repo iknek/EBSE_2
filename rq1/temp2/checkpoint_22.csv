@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+attic-apex-core,512,comment,294055210,non_debt,-,apache,0.0,Merged,1,0,
+camel,594,description,0,non_debt,-,apache,0.0,Closed,1,0,
+zeppelin,3883,summary,0,non_debt,-,apache,0.0,Closed,16,0,
+kafka,1753,review,78307057,non_debt,-,apache,31.0,Closed,4,30,
+reef,300,comment,122118613,non_debt,-,apache,0.0,Closed,1,1,
+spark,27770,review,386955069,non_debt,-,apache,2.0,Closed,1,30,
+avro,60,description,0,non_debt,-,apache,69.0,Closed,2,0,
+ignite,8568,review,547207662,non_debt,-,apache,12.0,Merged,30,15,
+airflow,5178,comment,486870974,non_debt,-,apache,1.0,Merged,1,0,
+airflow,13461,comment,756467767,non_debt,-,apache,16.0,Merged,3,16,"provider:google, kind:documentation"
+zeppelin,2495,review,130212409,non_debt,-,apache,33.0,Closed,6,17,
+thrift,1223,description,0,non_debt,-,apache,1.0,Closed,3,0,
+incubator-mxnet,14145,summary,0,non_debt,-,apache,1.0,Merged,1,0,"Test, pr-awaiting-review"
+kafka,9007,summary,0,non_debt,-,apache,19.0,Merged,10,30,
+trafodion,704,comment,247092715,non_debt,-,apache,6.0,Merged,3,9,
+camel,2088,summary,0,non_debt,-,apache,3.0,Closed,1,0,
+hive,663,review,291371794,non_debt,-,apache,1.0,Closed,2,9,
+spark,26750,description,0,non_debt,-,apache,68.0,Closed,1,16,SQL
+spark,17090,comment,282962487,non_debt,-,apache,6.0,Closed,10,24,
+gobblin,1066,review,71230879,non_debt,-,apache,32.0,Merged,5,30,
+tvm,325,comment,322545894,non_debt,-,apache,0.0,Merged,14,4,
+spark,29810,comment,695416683,non_debt,-,apache,411.0,Closed,25,4,"SQL, CORE, PYTHON, R"
+flink,2063,comment,224066428,non_debt,-,apache,8.0,Closed,6,0,component=API/Python
+spark,25002,review,299768415,non_debt,-,apache,47.0,Closed,2,5,"SPARK CORE, PYSPARK"
+iceberg,2163,comment,770747783,non_debt,-,apache,8.0,Merged,3,6,MR
+incubator-brooklyn,820,comment,132144643,non_debt,-,apache,4.0,Merged,1,0,
+incubator-brooklyn,272,review,19438455,non_debt,-,apache,9.0,Merged,28,30,
+flink,7306,summary,0,non_debt,-,apache,4.0,Merged,3,0,
+flink,145,comment,58411645,non_debt,-,apache,0.0,Merged,1,0,component=Runtime/WebFrontend
+superset,3222,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+trafodion,845,comment,262056810,non_debt,-,apache,6.0,Merged,3,6,
+jena,568,comment,497097832,non_debt,-,apache,30.0,Merged,25,30,
+hbase,1726,comment,629892413,non_debt,-,apache,5.0,Closed,2,11,
+spark,19793,review,153080692,non_debt,-,apache,21.0,Closed,4,19,
+druid,279,comment,27363341,non_debt,-,apache,3.0,Closed,3,24,
+geode,5064,description,0,non_debt,-,apache,1.0,Closed,1,7,redis
+helix,219,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+druid,4815,review,146068538,test_debt,lack_of_tests,apache,62.0,Merged,14,30,"Release Notes, Area - Streaming Ingestion"
+geode,1855,description,0,non_debt,-,apache,0.0,Closed,1,0,
+pulsar,9215,comment,761581957,non_debt,-,apache,10.0,Merged,7,7,"release/2.7.1, cherry-picked/branch-2.7"
+calcite,2110,comment,675242513,non_debt,-,apache,401.0,Closed,1,9,breaking-change
+nifi-minifi-cpp,62,comment,285357651,non_debt,-,apache,7.0,Closed,3,30,
+cloudstack,3306,comment,490885118,non_debt,-,apache,63.0,Merged,2,3,"type:bug, component:UI"
+nifi,3843,review,363330803,non_debt,-,apache,564.0,Closed,3,28,Stale
+pulsar,9520,comment,774674468,non_debt,-,apache,0.0,Merged,2,5,"release/2.7.1, cherry-picked/branch-2.7, release/2.6.4"
+spark,20025,comment,359982527,non_debt,-,apache,35.0,Closed,4,9,
+ignite,1909,description,0,non_debt,-,apache,0.0,Closed,27,0,
+spark,5992,description,0,non_debt,-,apache,58.0,Closed,5,3,
+commons-lang,625,description,0,non_debt,-,apache,13.0,Merged,1,0,"dependencies, java"
+spark,3157,comment,67773705,non_debt,-,apache,47.0,Closed,1,30,

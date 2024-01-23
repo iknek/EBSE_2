@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+spark,25367,description,0,non_debt,-,apache,0.0,Closed,4,5,SQL
+openwhisk,4921,review,447727733,non_debt,-,apache,38.0,Merged,4,30,"proposal, in-progress"
+spark,15059,comment,246957960,non_debt,-,apache,5.0,Closed,5,8,
+camel-k,930,comment,529910322,non_debt,-,apache,0.0,Closed,3,0,
+superset,5753,summary,0,non_debt,-,apache,2.0,Merged,1,0,
+helix,1447,comment,704707243,test_debt,flaky_test,apache,1.0,Merged,5,16,
+spark,3144,comment,62077677,non_debt,-,apache,0.0,Closed,5,4,
+drill,1988,review,384897019,non_debt,-,apache,13.0,Closed,1,30,refactoring
+skywalking,6085,description,0,non_debt,-,apache,0.0,Merged,1,0,documentation
+kafka,6122,comment,469241170,non_debt,-,apache,,Not Closed or Merged,1,0,
+cloudstack,1659,comment,255777805,non_debt,-,apache,105.0,Merged,1,15,
+hbase,3001,review,594754063,non_debt,-,apache,17.0,Merged,1,11,
+spark,16989,review,115884613,non_debt,-,apache,94.0,Closed,6,30,
+shardingsphere,3158,review,329463176,design_debt,non-optimal_design,apache,2.0,Merged,21,30,in: test
+carbondata,613,review,103185123,non_debt,-,apache,0.0,Closed,2,2,
+flink,11536,comment,604555169,non_debt,-,apache,5.0,Merged,3,5,"review=description?, component=TestInfrastructure"
+openwhisk,3507,comment,396270670,non_debt,-,apache,87.0,Merged,3,30,review
+kafka,5101,review,213142665,non_debt,-,apache,99.0,Closed,25,30,
+druid,4388,review,121026129,non_debt,-,apache,0.0,Merged,3,2,Compatibility
+drill,819,review,113834302,test_debt,lack_of_tests,apache,18.0,Closed,1,30,
+kafka,2938,review,116911699,non_debt,-,apache,8.0,Closed,3,30,
+spark,10993,review,51332430,code_debt,dead_code,apache,11.0,Closed,1,30,
+kafka,5634,comment,420895699,non_debt,-,apache,2.0,Merged,2,1,
+bookkeeper,2355,comment,703966200,non_debt,-,apache,123.0,Closed,30,15,
+attic-apex-core,194,review,50607181,non_debt,-,apache,30.0,Closed,1,9,
+netbeans,1312,comment,517993362,non_debt,-,apache,82.0,Merged,1,18,
+druid,4634,review,132473645,non_debt,-,apache,14.0,Merged,9,30,Improvement
+madlib,29,comment,195613825,non_debt,-,apache,14.0,Closed,4,13,
+druid,6094,review,221371033,non_debt,-,apache,70.0,Merged,30,30,
+camel-quarkus,49,comment,509595442,non_debt,-,apache,0.0,Merged,1,0,
+incubator-heron,2496,comment,340094782,non_debt,-,apache,0.0,Merged,1,2,
+beam,9509,summary,0,non_debt,-,apache,5.0,Merged,2,7,
+incubator-mxnet,15820,review,312694681,non_debt,-,apache,3.0,Merged,5,2,Numpy
+spark,19616,review,241883955,non_debt,-,apache,451.0,Closed,16,30,
+kafka,7045,review,309475036,non_debt,-,apache,26.0,Closed,9,26,
+nifi-minifi-cpp,707,description,0,non_debt,-,apache,4.0,Closed,3,4,
+spark,19267,comment,337257920,non_debt,-,apache,452.0,Closed,4,0,
+druid,1862,review,43036861,non_debt,-,apache,1.0,Merged,2,15,
+flink,14839,review,586411292,code_debt,low_quality_code,apache,159.0,Closed,3,30,"review=description?, component=Runtime/StateBackends"
+nifi,3536,review,300057978,code_debt,dead_code,apache,48.0,Closed,25,30,
+cloudstack,768,review,39469736,code_debt,low_quality_code,apache,97.0,Merged,1,30,
+kafka,9628,review,535829042,non_debt,-,apache,20.0,Merged,9,30,
+flink,10146,comment,552447888,non_debt,-,apache,27.0,Closed,7,30,"review=description?, component=Runtime/Coordination"
+drill,1251,review,187210052,code_debt,dead_code,apache,4.0,Closed,1,30,
+spark,16728,description,0,non_debt,-,apache,0.0,Closed,1,0,
+incubator-mxnet,8279,comment,336701383,non_debt,-,apache,0.0,Closed,2,0,
+arrow,8961,summary,0,non_debt,-,apache,2.0,Closed,19,14,"Component: Rust, Component: Rust - DataFusion"
+flink,13475,review,494810110,non_debt,-,apache,1.0,Closed,2,13,"review=description?, component=API/Python"
+spark,16152,description,0,code_debt,low_quality_code,apache,0.0,Closed,1,0,
+cloudstack,2427,comment,360067539,non_debt,-,apache,0.0,Merged,1,4,"component:virtual-router, Severity:BLOCKER"

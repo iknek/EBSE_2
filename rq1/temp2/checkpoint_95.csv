@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+incubator-mxnet,12200,review,210763553,non_debt,-,apache,5.0,Merged,23,19,
+openwhisk,4790,review,585116849,non_debt,-,apache,,Not Closed or Merged,1,30,stale
+spark,1199,comment,47058601,non_debt,-,apache,0.0,Closed,1,0,
+cloudstack,4215,comment,806032946,non_debt,-,apache,439.0,Merged,2,2,"type:enhancement, component:management-server, component:api, status:needs-testing"
+hive,1095,review,443062664,non_debt,-,apache,42.0,Closed,30,30,tests failed
+druid,2015,comment,162950067,non_debt,-,apache,12.0,Merged,2,30,Release Notes
+flink,4146,review,124569928,non_debt,-,apache,14.0,Closed,11,18,component=Runtime/Network
+parquet-mr,289,summary,0,non_debt,-,apache,17.0,Closed,1,3,
+daffodil,332,review,389894439,non_debt,-,apache,16.0,Merged,1,30,
+beam,4136,review,153940130,non_debt,-,apache,48.0,Merged,18,30,
+kafka,5451,review,207679076,non_debt,-,apache,12.0,Merged,18,30,streams
+spark,3198,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+skywalking,3369,comment,526433732,non_debt,-,apache,3.0,Closed,14,10,"wontfix, agent, feature, plugin"
+spark,29437,comment,674582324,non_debt,-,apache,4.0,Closed,8,25,"SQL, AVRO"
+flink,1067,comment,135612599,non_debt,-,apache,6.0,Closed,1,0,component=Runtime/Coordination
+spark,228,comment,39641216,design_debt,non-optimal_design,apache,183.0,Closed,18,17,
+kafka,3278,review,121205276,non_debt,-,apache,11.0,Closed,6,7,
+pulsar,7200,summary,0,non_debt,-,apache,0.0,Merged,1,0,component/broker
+incubator-doris,3677,review,438517645,non_debt,-,apache,53.0,Merged,17,18,"kind/feature, approved, area/materialized-view"
+airflow,12096,review,517611582,code_debt,slow_algorithm,apache,67.0,Merged,18,15,"provider:amazon-aws, okay to merge"
+airflow,7170,review,368826713,non_debt,-,apache,58.0,Closed,8,4,
+iceberg,1669,comment,718305151,code_debt,slow_algorithm,apache,,Not Closed or Merged,2,7,flink
+spark,4214,review,25109930,documentation_debt,low_quality_documentation,apache,30.0,Closed,8,27,
+trafodion,696,comment,246499551,non_debt,-,apache,6.0,Merged,4,0,
+tinkerpop,119,comment,150828153,non_debt,-,apache,1.0,Merged,2,0,
+cassandra,447,description,0,non_debt,-,apache,759.0,Closed,1,0,
+airflow,7075,comment,571462616,non_debt,-,apache,54.0,Closed,7,2,stale
+nifi,2616,description,0,non_debt,-,apache,46.0,Closed,5,16,
+flink,13595,comment,719467007,test_debt,low_coverage,apache,22.0,Closed,5,30,"review=description?, component=Runtime/Network"
+beam,13296,comment,725072875,non_debt,-,apache,0.0,Closed,1,0,
+spark,15539,review,83991606,non_debt,-,apache,3.0,Closed,30,30,
+spark,6210,comment,102585249,non_debt,-,apache,0.0,Closed,4,0,
+camel-website,18,comment,465485591,non_debt,-,apache,0.0,Merged,1,0,
+cloudstack,1479,summary,0,non_debt,-,apache,4.0,Merged,1,1,
+spark,28370,comment,628792196,code_debt,low_quality_code,apache,21.0,Closed,21,30,"BUILD, CORE"
+beam,7710,comment,459934045,non_debt,-,apache,2.0,Merged,1,0,
+tvm,3491,comment,508968067,non_debt,-,apache,3.0,Merged,6,4,
+samza,606,review,215474507,non_debt,-,apache,24.0,Closed,30,30,
+cloudstack,4815,comment,802544883,non_debt,-,apache,4.0,Merged,2,2,component:unit-test
+beam,1464,review,91220228,non_debt,-,apache,370.0,Closed,1,30,
+incubator-doris,5219,review,559096882,code_debt,low_quality_code,apache,11.0,Merged,8,2,"area/catalog, approved"
+kafka,6236,summary,0,non_debt,-,apache,5.0,Closed,9,4,
+brooklyn-server,672,review,115984092,non_debt,-,apache,28.0,Merged,16,20,
+hudi,417,review,202487963,non_debt,-,apache,8.0,Merged,1,4,
+incubator-mxnet,5419,review,106336023,non_debt,-,apache,0.0,Merged,30,7,
+reef,531,description,0,non_debt,-,apache,0.0,Closed,1,0,
+superset,8814,description,0,non_debt,-,apache,1.0,Merged,2,0,"size/M, !deprecated-label:org:preset"
+spark,24762,review,289522137,non_debt,-,apache,1.0,Closed,7,16,SQL
+tvm,4251,summary,0,documentation_debt,low_quality_documentation,apache,0.0,Merged,1,0,
+openwhisk,2877,comment,344737281,non_debt,-,apache,27.0,Merged,10,18,"enhancement, error handling, controller, review"

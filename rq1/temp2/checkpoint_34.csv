@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+activemq-artemis,31,comment,112568121,non_debt,-,apache,0.0,Closed,1,2,
+carbondata,3352,comment,520113028,non_debt,-,apache,3.0,Closed,1,0,
+apisix-dashboard,979,review,543388564,code_debt,low_quality_code,apache,11.0,Merged,30,19,
+pulsar,7798,summary,0,non_debt,-,apache,13.0,Merged,1,0,release/2.6.2
+tinkerpop,1125,comment,500026710,non_debt,-,apache,3.0,Merged,1,0,
+usergrid,180,summary,0,code_debt,duplicated_code,apache,38.0,Closed,1,0,
+incubator-doris,3025,review,515603245,non_debt,-,apache,258.0,Closed,24,30,"kind/feature, area/storage"
+flink,3049,comment,271823497,non_debt,-,apache,27.0,Closed,1,6,component=BuildSystem
+jena,894,review,550824479,non_debt,-,apache,1.0,Merged,12,6,
+tinkerpop,1114,description,0,non_debt,-,apache,5.0,Merged,1,14,
+nifi,4824,review,576641177,code_debt,low_quality_code,apache,52.0,Closed,7,30,
+iceberg,933,review,411434730,code_debt,low_quality_code,apache,97.0,Closed,30,30,
+cloudstack,763,comment,136279211,non_debt,-,apache,0.0,Merged,1,0,
+accumulo,1651,comment,733152771,non_debt,-,apache,231.0,Closed,18,30,
+lucene-solr,892,summary,0,non_debt,-,apache,931.0,Closed,21,30,
+carbondata,1464,review,149005119,non_debt,-,apache,10.0,Closed,1,23,
+spark,15064,comment,247511475,non_debt,-,apache,20.0,Closed,5,6,
+spark,27165,comment,572924850,documentation_debt,low_quality_documentation,apache,11.0,Closed,6,23,"SQL, PYSPARK"
+trafficserver,763,comment,231514250,non_debt,-,apache,10.0,Closed,1,1,"HTTP/2, HTTP, Metrics"
+netbeans,2165,review,435792471,non_debt,-,apache,4.0,Merged,2,15,
+ozone,1010,summary,0,non_debt,-,apache,6.0,Merged,3,0,scm
+pulsar,1646,description,0,non_debt,-,apache,0.0,Merged,1,0,component/client
+flink,10667,comment,568953276,non_debt,-,apache,2.0,Closed,8,16,"review=description?, component=TableSQL/Planner"
+drill,996,review,146815141,code_debt,low_quality_code,apache,37.0,Closed,3,14,
+fineract,888,summary,0,non_debt,-,apache,1.0,Merged,1,0,
+arrow,73,review,62449714,non_debt,-,apache,2.0,Closed,5,14,
+spark,18317,review,131493469,non_debt,-,apache,94.0,Closed,21,30,
+calcite,688,comment,410285418,non_debt,-,apache,18.0,Closed,8,3,
+trafficserver,1002,summary,0,non_debt,-,apache,3.0,Merged,1,0,Network
+carbondata,2141,comment,379563248,non_debt,-,apache,10.0,Closed,1,12,
+shardingsphere,6041,summary,0,non_debt,-,apache,0.0,Merged,1,0,in: document
+airflow,14492,review,584304954,non_debt,-,apache,7.0,Merged,30,30,"kind:documentation, full tests needed, okay to merge"
+camel,1100,review,73126080,non_debt,-,apache,0.0,Closed,2,2,
+spark,13967,comment,229733872,code_debt,complex_code,apache,4.0,Closed,4,15,
+beam,9731,summary,0,non_debt,-,apache,5.0,Merged,1,13,
+airflow,4390,comment,450291500,non_debt,-,apache,14.0,Merged,5,8,
+dubbo,1741,description,0,non_debt,-,apache,9.0,Merged,1,0,
+spark,26461,comment,552643459,non_debt,-,apache,11.0,Closed,1,7,SQL
+spark,31059,comment,756507187,non_debt,-,apache,54.0,Closed,2,2,"BUILD, DOCS"
+geode,1697,review,178663133,non_debt,-,apache,21.0,Closed,23,12,
+superset,11778,summary,0,non_debt,-,apache,7.0,Merged,9,12,"size/M, assigned:polidea"
+trafodion,604,comment,234079094,code_debt,low_quality_code,apache,6.0,Merged,3,0,
+kafka,1206,comment,207585048,non_debt,-,apache,5.0,Closed,6,14,
+spark,18,comment,36728453,non_debt,-,apache,48.0,Closed,22,30,
+spark,20433,comment,374113076,non_debt,-,apache,407.0,Closed,3,30,
+flink,6676,review,216376586,non_debt,-,apache,10.0,Closed,3,7,component=Runtime/Metrics
+pulsar,557,comment,314549416,non_debt,-,apache,3.0,Merged,30,6,doc
+flink,5663,comment,371969548,build_debt,over-declared_dependencies,apache,7.0,Closed,1,0,component=<none>
+kafka,4001,comment,333581688,code_debt,low_quality_code,apache,2.0,Closed,2,3,
+incubator-heron,600,summary,0,non_debt,-,apache,0.0,Merged,2,0,

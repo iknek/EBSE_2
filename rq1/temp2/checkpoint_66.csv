@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+flink,760,review,31632977,non_debt,-,apache,1.0,Closed,2,6,component=Library/MachineLearning
+hadoop,1033,comment,513190749,non_debt,-,apache,30.0,Merged,10,16,ozone
+spark,7842,review,43212805,code_debt,complex_code,apache,1718.0,Closed,30,30,"MLLIB, Stale"
+spark,26840,comment,564766377,non_debt,-,apache,1.0,Closed,1,4,SQL
+spark,18887,review,140699378,test_debt,lack_of_tests,apache,49.0,Closed,14,30,
+spark,8785,review,48715367,code_debt,complex_code,apache,553.0,Closed,1,30,
+spark,27431,comment,581204072,non_debt,-,apache,17.0,Closed,1,0,SQL
+carbondata,1884,comment,361573546,non_debt,-,apache,0.0,Closed,1,0,
+spark,4018,comment,69773792,non_debt,-,apache,3.0,Closed,5,5,
+spark,21200,review,185664585,code_debt,low_quality_code,apache,3.0,Closed,30,30,
+carbondata,1299,comment,327213625,non_debt,-,apache,7.0,Closed,1,1,
+usergrid,265,summary,0,non_debt,-,apache,5.0,Merged,2,1,
+tvm,2477,comment,463320789,non_debt,-,apache,23.0,Merged,30,28,status: accepted
+beam,12698,comment,686530763,non_debt,-,apache,11.0,Merged,6,4,"python, infra"
+kafka,2929,review,113856373,build_debt,over-declared_dependencies,apache,85.0,Closed,11,30,
+hive,767,description,0,design_debt,non-optimal_design,apache,1.0,Closed,1,1,
+spark,29093,comment,657913561,non_debt,-,apache,0.0,Closed,1,0,SQL
+brooklyn-server,363,comment,298045628,non_debt,-,apache,,Not Closed or Merged,30,0,
+nifi,2968,summary,0,non_debt,-,apache,9.0,Closed,1,5,
+spark,13584,review,77271690,non_debt,-,apache,84.0,Closed,14,12,
+nifi,4753,review,561119292,code_debt,low_quality_code,apache,8.0,Closed,10,30,
+skywalking,4175,review,363077341,non_debt,-,apache,0.0,Merged,7,8,documentation
+spark,22375,review,217495874,design_debt,non-optimal_design,apache,32.0,Closed,7,30,
+flink,10254,comment,555794388,non_debt,-,apache,0.0,Closed,2,0,"review=description?, component=Client/JobSubmission"
+arrow,1062,comment,327658255,non_debt,-,apache,1.0,Closed,9,20,
+kafka,1664,review,77421658,architecture_debt,violation_of_modularity,apache,127.0,Closed,13,30,
+activemq-artemis,1486,comment,324314739,non_debt,-,apache,0.0,Merged,1,0,
+lucene-solr,2200,review,556698348,test_debt,flaky_test,apache,2.0,Merged,5,4,
+arrow,6105,review,373346495,non_debt,-,apache,71.0,Closed,30,30,
+cloudstack,4748,comment,790543546,non_debt,-,apache,19.0,Merged,6,9,component:templates
+kafka,9442,description,0,non_debt,-,apache,6.0,Merged,3,0,
+incubator-pinot,1890,review,141491163,non_debt,-,apache,14.0,Merged,9,16,
+kafka,3171,comment,305728085,non_debt,-,apache,17.0,Closed,4,15,
+hadoop,1587,comment,538112086,non_debt,-,apache,3.0,Closed,2,0,
+tvm,6297,review,472353682,non_debt,-,apache,22.0,Merged,11,30,status: review in progress
+spark,9867,review,46597229,code_debt,complex_code,apache,14.0,Closed,30,4,
+incubator-weex,1437,review,210464939,non_debt,-,apache,0.0,Merged,1,4,
+beam,6733,comment,430804819,non_debt,-,apache,6.0,Merged,1,0,
+flink,8721,comment,502049333,non_debt,-,apache,4.0,Closed,1,8,"review=description?, component=API/DataStream"
+bookkeeper,22,comment,196151999,non_debt,-,apache,5.0,Closed,1,0,
+spark,25651,comment,534813380,design_debt,non-optimal_design,apache,461.0,Closed,6,30,"SQL, Stale"
+incubator-mxnet,9111,description,0,non_debt,-,apache,45.0,Closed,30,2,
+superset,8037,description,0,non_debt,-,apache,7.0,Merged,3,2,"size/XS, v0.34"
+flink,8136,description,0,code_debt,dead_code,apache,5.0,Merged,1,0,"review=description?, component=Runtime/Network"
+carbondata,3136,comment,468114436,documentation_debt,low_quality_documentation,apache,18.0,Closed,1,6,
+kafka,5068,review,191512386,code_debt,low_quality_code,apache,7.0,Closed,12,30,connect
+airflow,442,comment,323134581,non_debt,-,apache,30.0,Closed,2,0,
+openwhisk-wskdeploy,103,description,0,architecture_debt,violation_of_modularity,apache,1.0,Merged,1,0,
+spark,25856,review,338886220,non_debt,-,apache,25.0,Closed,5,30,SPARK CORE
+spark,29403,review,496341174,test_debt,lack_of_tests,apache,51.0,Closed,7,27,SQL

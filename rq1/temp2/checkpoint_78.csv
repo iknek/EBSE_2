@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+trafficcontrol,3760,comment,516056868,non_debt,-,apache,9.0,Merged,6,7,"new feature, Traffic Portal"
+spark,9430,description,0,non_debt,-,apache,174.0,Closed,2,0,
+incubator-brooklyn,164,comment,56559915,non_debt,-,apache,8.0,Merged,2,3,
+pulsar,1821,comment,394024643,non_debt,-,apache,32.0,Merged,4,7,
+kafka,8883,summary,0,test_debt,flaky_test,apache,1.0,Merged,2,0,"streams, tests"
+tajo,426,review,26902968,non_debt,-,apache,7.0,Closed,1,7,
+ignite,6509,review,279779959,non_debt,-,apache,10.0,Closed,5,15,
+zookeeper,1506,summary,0,non_debt,-,apache,0.0,Closed,2,3,
+incubator-pinot,6451,review,559757218,non_debt,-,apache,1.0,Merged,4,9,
+flink,4561,comment,324585254,non_debt,-,apache,6.0,Closed,2,3,component=<none>
+spark,28874,comment,648303691,non_debt,-,apache,25.0,Closed,5,30,"SQL, WEB UI, MESOS, BUILD, YARN, EXAMPLES, DOCS, CORE, PYTHON, R"
+spark,21119,review,184839158,non_debt,-,apache,48.0,Closed,7,15,
+beam,9032,comment,510766791,non_debt,-,apache,102.0,Closed,8,28,stale
+spark,30144,review,605525533,non_debt,-,apache,170.0,Closed,30,30,"SQL, DOCS"
+incubator-brooklyn,866,comment,135365840,non_debt,-,apache,2.0,Merged,5,23,
+spark,28403,comment,621539070,non_debt,-,apache,0.0,Closed,1,0,INFRA
+zeppelin,2194,comment,289690375,non_debt,-,apache,0.0,Closed,1,0,
+beam,5217,summary,0,non_debt,-,apache,1.0,Merged,1,0,
+cassandra,716,review,476643686,non_debt,-,apache,571.0,Closed,4,30,
+helix,1494,review,515570884,non_debt,-,apache,4.0,Merged,8,30,
+shardingsphere,3619,description,0,non_debt,-,apache,0.0,Merged,7,0,"type: refactor, feature: pipeline"
+ignite,6554,review,341580318,non_debt,-,apache,809.0,Closed,30,30,
+carbondata,954,review,118870584,non_debt,-,apache,4.0,Closed,3,7,
+zookeeper,684,review,238789004,documentation_debt,outdated_documentation,apache,74.0,Closed,4,30,
+flink,11095,review,379828410,non_debt,-,apache,3.0,Closed,2,9,"review=description?, component=Runtime/StateBackends, component=Runtime/QueryableState"
+flink,11393,comment,599385217,non_debt,-,apache,10.0,Merged,1,2,"review=description?, component=API/Core"
+flink,9363,description,0,code_debt,low_quality_code,apache,3.0,Merged,2,13,"review=description?, component=TableSQL/Planner"
+shardingsphere,9687,summary,0,non_debt,-,apache,0.0,Merged,1,0,"type: refactor, in: kernel"
+spark,157,comment,37761089,non_debt,-,apache,5.0,Closed,7,0,
+superset,13090,review,575157301,non_debt,-,apache,3.0,Merged,7,2,"size/M, preset-io"
+carbondata,1386,comment,333775342,non_debt,-,apache,552.0,Closed,1,4,
+trafficserver,5000,comment,464885742,non_debt,-,apache,22.0,Merged,1,0,Tools
+spark,29686,comment,689199606,non_debt,-,apache,1.0,Closed,6,15,"SQL, BUILD, DOCS, PYTHON"
+pulsar,2120,summary,0,non_debt,-,apache,0.0,Merged,2,2,component/build
+arrow,2202,comment,401787754,non_debt,-,apache,0.0,Closed,1,0,
+cloudstack,4131,comment,707804396,non_debt,-,apache,220.0,Closed,10,0,"type:healthcheckrun, status:wip"
+kafka,6680,description,0,code_debt,complex_code,apache,3.0,Merged,9,1,
+attic-apex-malhar,24,comment,140223786,non_debt,-,apache,1.0,Merged,1,0,
+spark,17130,review,104006906,code_debt,low_quality_code,apache,58.0,Closed,22,30,
+incubator-doris,1297,review,293240865,non_debt,-,apache,0.0,Merged,5,7,
+tvm,4138,comment,544311340,non_debt,-,apache,13.0,Merged,8,19,status: need review
+trafficserver,7279,description,0,design_debt,non-optimal_design,apache,158.0,Merged,1,2,Logging
+spark,17250,comment,285797389,non_debt,-,apache,13.0,Closed,1,30,
+spark,10469,review,49408899,non_debt,-,apache,36.0,Closed,9,30,
+servicecomb-java-chassis,947,review,225761072,non_debt,-,apache,12.0,Merged,8,30,
+trafficserver,6001,comment,539771774,documentation_debt,outdated_documentation,apache,62.0,Merged,1,5,"Tests, New Feature"
+storm,1761,description,0,non_debt,-,apache,3.0,Merged,1,0,
+pulsar,9292,review,566071650,non_debt,-,apache,685.0,Closed,4,7,"component/broker, doc-label-missing, lifecycle/stale"
+ozone,1870,comment,771303816,non_debt,-,apache,17.0,Merged,11,10,
+carbondata,3142,comment,470833635,non_debt,-,apache,10.0,Closed,1,0,

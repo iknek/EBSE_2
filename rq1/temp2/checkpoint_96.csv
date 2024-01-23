@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+guacamole-client,280,review,188524055,non_debt,-,apache,17.0,Merged,6,4,
+incubator-pinot,1238,description,0,non_debt,-,apache,0.0,Merged,1,4,
+kafka,5221,comment,399157359,code_debt,slow_algorithm,apache,61.0,Closed,8,19,"core, performance"
+arrow,7233,description,0,non_debt,-,apache,22.0,Closed,8,4,
+spark,18223,comment,306912908,non_debt,-,apache,1.0,Closed,1,0,
+incubator-mxnet,14350,description,0,non_debt,-,apache,29.0,Closed,3,0,"Gluon, pr-work-in-progress"
+iceberg,1213,review,460611333,non_debt,-,apache,15.0,Merged,16,30,
+hive,1756,review,550923905,non_debt,-,apache,30.0,Merged,1,30,tests passed
+incubator-mxnet,13889,summary,0,non_debt,-,apache,0.0,Merged,1,0,pr-awaiting-review
+spark,15363,comment,285187051,non_debt,-,apache,165.0,Closed,17,30,
+arrow,2536,review,216379398,non_debt,-,apache,3.0,Closed,30,30,
+hbase,2726,description,0,non_debt,-,apache,8.0,Merged,1,2,
+trafficserver,1864,comment,300671004,non_debt,-,apache,0.0,Merged,1,0,"HTTP/2, Backport"
+cloudstack,1716,summary,0,non_debt,-,apache,228.0,Merged,1,0,
+apisix-dashboard,1128,description,0,non_debt,-,apache,17.0,Merged,10,4,
+beam,7133,comment,442169281,non_debt,-,apache,0.0,Merged,1,0,
+flink,9558,review,319847769,non_debt,-,apache,6.0,Merged,1,4,"review=description?, component=Runtime/Coordination, component=Runtime/REST"
+tajo,1041,review,75109669,non_debt,-,apache,31.0,Closed,12,6,
+pulsar,460,comment,307470264,non_debt,-,apache,1.0,Merged,1,0,component/test
+incubator-mxnet,6144,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+kafka,6012,comment,456244123,non_debt,-,apache,47.0,Merged,7,13,streams
+kafka,1672,comment,245139145,non_debt,-,apache,40.0,Closed,3,0,
+hadoop,1041,comment,507326715,non_debt,-,apache,424.0,Closed,1,0,fs/s3
+spark,18014,description,0,non_debt,-,apache,163.0,Closed,4,11,
+spark,26980,review,360782760,non_debt,-,apache,7.0,Closed,13,30,
+camel,2908,comment,491535472,non_debt,-,apache,0.0,Closed,1,0,
+druid,1076,comment,72532858,non_debt,-,apache,3.0,Merged,1,12,
+tvm,4657,comment,572378913,non_debt,-,apache,2.0,Merged,1,30,status: accepted
+spark,7298,comment,119747662,non_debt,-,apache,0.0,Closed,1,0,
+nifi,1279,comment,263946052,non_debt,-,apache,1.0,Closed,2,0,
+spark,30214,summary,0,non_debt,-,apache,0.0,Closed,2,0,
+spark,29566,comment,682280358,non_debt,-,apache,1.0,Closed,2,8,SQL
+airflow,8974,review,436378446,non_debt,-,apache,27.0,Merged,1,30,area:secrets
+airflow,8962,review,441010609,non_debt,-,apache,33.0,Merged,30,30,AIP-31
+spark,26656,review,350726522,non_debt,-,apache,31.0,Closed,30,30,SQL
+spark,11152,review,52630690,non_debt,-,apache,73.0,Closed,6,20,
+flink,10399,review,353576967,non_debt,-,apache,3.0,Closed,21,30,"review=description?, component=TableSQL/Planner"
+kafka,616,comment,167126036,non_debt,-,apache,35.0,Closed,1,30,
+spark,7509,comment,122723571,non_debt,-,apache,1.0,Closed,6,3,
+spark,22421,review,217792214,non_debt,-,apache,0.0,Closed,1,2,
+trafficcontrol,4959,review,470844261,code_debt,low_quality_code,apache,4.0,Merged,30,30,"new feature, tests, automation"
+hudi,1727,review,438953612,non_debt,-,apache,35.0,Closed,2,30,
+kylin,1237,comment,635086959,non_debt,-,apache,7.0,Merged,1,0,
+spark,1222,comment,58242932,non_debt,-,apache,177.0,Closed,29,30,
+lucene-solr,1157,comment,573680544,non_debt,-,apache,5.0,Merged,5,18,
+accumulo,25,comment,91049205,non_debt,-,apache,17.0,Closed,30,30,
+superset,4620,comment,373494350,non_debt,-,apache,0.0,Merged,1,0,
+skywalking,191,review,115411237,non_debt,-,apache,4.0,Merged,5,24,
+kafka,151,review,38279239,non_debt,-,apache,14.0,Closed,29,30,
+spark,14914,review,77128029,non_debt,-,apache,6.0,Closed,4,6,

@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+camel,1114,comment,239095564,non_debt,-,apache,2.0,Closed,1,0,
+karaf,728,comment,456086960,non_debt,-,apache,625.0,Closed,1,0,
+spark,5736,comment,97282994,non_debt,-,apache,0.0,Closed,1,1,
+spark,23271,comment,445728476,non_debt,-,apache,9.0,Closed,1,12,
+beam,12762,review,489745304,non_debt,-,apache,19.0,Merged,7,11,"python, io, gcp"
+arrow,1180,summary,0,non_debt,-,apache,0.0,Closed,1,1,
+tvm,7559,review,585981227,non_debt,-,apache,7.0,Merged,13,6,
+kafka,2832,comment,293337249,non_debt,-,apache,23.0,Closed,30,30,
+trafodion,646,comment,239472021,non_debt,-,apache,42.0,Merged,1,0,
+reef,1178,review,87037022,non_debt,-,apache,6.0,Closed,1,23,
+openwhisk,4782,review,361962838,non_debt,-,apache,17.0,Merged,19,27,
+camel,4496,description,0,test_debt,low_coverage,apache,0.0,Merged,1,0,
+carbondata,2207,comment,394710103,non_debt,-,apache,54.0,Closed,1,14,
+carbondata,3382,comment,530653898,non_debt,-,apache,42.0,Closed,1,2,
+spark,7304,comment,119761734,non_debt,-,apache,0.0,Closed,1,0,
+incubator-pinot,6009,review,487584167,non_debt,-,apache,4.0,Merged,3,12,
+airflow,10380,comment,679216493,non_debt,-,apache,6.0,Merged,1,4,"area:dev-tools, type:misc/internal"
+incubator-mxnet,13654,review,241911517,test_debt,lack_of_tests,apache,13.0,Merged,4,17,"ONNX, pr-awaiting-merge"
+pulsar,9064,comment,752293183,non_debt,-,apache,31.0,Merged,12,2,"component/security, release/2.7.1, cherry-picked/branch-2.7"
+druid,1306,review,28990774,non_debt,-,apache,1.0,Merged,1,30,
+flink,2093,review,66788457,non_debt,-,apache,9.0,Closed,5,15,component=API/DataStream
+cloudstack,1021,comment,152996985,non_debt,-,apache,21.0,Merged,1,15,
+incubator-brooklyn,525,comment,75642639,non_debt,-,apache,7.0,Merged,2,1,
+orc,25,description,0,non_debt,-,apache,3.0,Closed,1,0,
+gobblin,3140,review,512079641,non_debt,-,apache,2.0,Closed,4,11,
+spark,19763,review,152914613,code_debt,low_quality_code,apache,8.0,Closed,13,30,
+parquet-mr,341,review,60160998,non_debt,-,apache,2.0,Closed,6,17,
+airflow,3806,description,0,non_debt,-,apache,48.0,Merged,1,0,
+jmeter,337,description,0,code_debt,low_quality_code,apache,1.0,Closed,1,0,
+pulsar,5043,comment,535733584,non_debt,-,apache,66.0,Merged,4,0,
+spark,27845,comment,596042225,non_debt,-,apache,101.0,Closed,1,0,Stale
+druid,222,review,5907138,non_debt,-,apache,1.0,Merged,3,4,
+incubator-mxnet,18688,comment,656859038,non_debt,-,apache,0.0,Merged,1,0,
+beam,10835,comment,587648002,non_debt,-,apache,7.0,Merged,2,2,python
+carbondata,1810,review,162288811,non_debt,-,apache,2.0,Closed,2,4,
+superset,6719,comment,458423396,non_debt,-,apache,18.0,Merged,1,19,"enhancement:request, change:backend"
+spark,3670,review,23883301,non_debt,-,apache,56.0,Closed,9,25,
+hbase,1627,review,418984035,code_debt,complex_code,apache,1.0,Merged,1,5,
+spark,18797,description,0,non_debt,-,apache,7.0,Closed,4,2,
+incubator-mxnet,15161,review,292706143,build_debt,over-declared_dependencies,apache,13.0,Merged,24,6,"Operator, pr-awaiting-review, Numpy"
+airflow,7516,review,383040768,design_debt,non-optimal_design,apache,0.0,Merged,1,2,"provider:google, area:performance"
+druid,1374,comment,123751832,non_debt,-,apache,91.0,Merged,7,30,Feature
+accumulo,1000,review,262118131,non_debt,-,apache,3.0,Merged,6,8,
+tajo,454,comment,96620163,non_debt,-,apache,,Not Closed or Merged,22,30,
+beam,11145,comment,599899591,non_debt,-,apache,0.0,Merged,3,0,python
+systemds,131,summary,0,non_debt,-,apache,6.0,Closed,0,0,
+incubator-mxnet,17808,comment,605590914,test_debt,flaky_test,apache,36.0,Closed,30,30,
+incubator-pinot,5700,review,459633576,code_debt,dead_code,apache,10.0,Merged,8,14,
+accumulo,1330,review,316892853,code_debt,low_quality_code,apache,28.0,Merged,6,30,
+spark,13737,comment,229593343,non_debt,-,apache,13.0,Closed,5,0,

@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+zeppelin,2753,summary,0,code_debt,low_quality_code,apache,0.0,Closed,1,0,
+nifi,2194,comment,337127297,non_debt,-,apache,12.0,Closed,1,17,
+arrow,965,summary,0,non_debt,-,apache,5.0,Closed,30,30,
+spark,15868,comment,262039578,non_debt,-,apache,8.0,Closed,7,30,
+flink,13410,comment,697080083,non_debt,-,apache,24.0,Merged,4,14,"review=description?, component=Documentation, component=Connectors/Kafka, component=chinese-translation"
+spark,15664,review,94098595,non_debt,-,apache,63.0,Closed,13,30,
+arrow,6257,comment,577263359,non_debt,-,apache,1.0,Closed,1,2,
+beam,5433,comment,395838547,non_debt,-,apache,19.0,Merged,1,8,
+beam,13252,summary,0,non_debt,-,apache,1.0,Merged,6,7,
+hawq,1169,summary,0,non_debt,-,apache,2.0,Closed,1,0,
+incubator-doris,4984,review,557010119,non_debt,-,apache,45.0,Merged,30,3,approved
+kafka,7248,review,338615161,non_debt,-,apache,69.0,Merged,7,30,streams
+kafka,7616,description,0,non_debt,-,apache,169.0,Merged,6,1,
+openwhisk,3072,comment,350013610,non_debt,-,apache,80.0,Merged,1,17,"review, kafka, pgapproved"
+spark,29660,summary,0,non_debt,-,apache,2.0,Closed,6,10,"SQL, CORE"
+beam,8381,comment,487884491,non_debt,-,apache,7.0,Merged,1,0,
+dubbo,2209,review,208792691,non_debt,-,apache,6.0,Closed,3,5,status/waiting-for-feedback
+spark,14079,review,92103779,non_debt,-,apache,161.0,Closed,30,30,
+flink,1640,review,52993965,code_debt,low_quality_code,apache,21.0,Closed,13,30,component=Connectors/Common
+storm,1113,description,0,non_debt,-,apache,2.0,Merged,3,5,
+guacamole-client,79,summary,0,non_debt,-,apache,0.0,Merged,2,0,
+airflow,4751,review,346970934,code_debt,low_quality_code,apache,329.0,Merged,1,30,"area:Scheduler, type:improvement"
+hudi,191,comment,309609191,non_debt,-,apache,210.0,Closed,1,2,
+spark,30987,review,550769916,non_debt,-,apache,2.0,Closed,2,1,SQL
+beam,5028,review,181501125,code_debt,low_quality_code,apache,9.0,Closed,1,30,
+spark,17582,comment,294933906,code_debt,low_quality_code,apache,14.0,Closed,3,6,
+accumulo,402,comment,451432262,non_debt,-,apache,293.0,Closed,9,26,bug
+trafficserver,3900,review,201539689,non_debt,-,apache,35.0,Merged,1,30,Parent Proxy
+hadoop,1772,summary,0,non_debt,-,apache,3.0,Merged,5,0,
+spark,3200,review,23271303,non_debt,-,apache,78.0,Closed,24,30,
+spark,20787,review,175982564,code_debt,low_quality_code,apache,63.0,Closed,30,24,
+cloudstack,2606,description,0,non_debt,-,apache,6.0,Merged,5,4,"type:bug, component:api"
+kafka,8706,review,432145121,code_debt,low_quality_code,apache,11.0,Merged,12,14,streams
+nifi,4099,comment,612131178,non_debt,-,apache,62.0,Closed,6,12,
+spark,1172,comment,46767431,non_debt,-,apache,1.0,Closed,2,4,
+kafka,2849,review,111517818,non_debt,-,apache,13.0,Closed,30,30,
+fluo,1050,comment,426470056,non_debt,-,apache,5.0,Merged,4,6,
+beam,6306,comment,427053619,non_debt,-,apache,105.0,Closed,1,30,
+spark,1958,comment,52810248,non_debt,-,apache,5.0,Closed,10,21,
+beam,2101,comment,282419722,non_debt,-,apache,5.0,Closed,1,6,
+spark,24357,comment,483576370,non_debt,-,apache,4.0,Closed,4,15,
+trafficcontrol,1799,comment,369348511,non_debt,-,apache,45.0,Merged,1,11,"new feature, Traffic Ops"
+skywalking,845,comment,375132498,non_debt,-,apache,43.0,Merged,15,12,"agent, feature"
+druid,9810,comment,657778727,non_debt,-,apache,89.0,Merged,5,9,"Area - Querying, Release Notes"
+cloudstack,1495,summary,0,non_debt,-,apache,29.0,Merged,1,0,
+spark,21121,review,183237073,non_debt,-,apache,109.0,Closed,9,17,
+beam,4127,review,152140809,non_debt,-,apache,13.0,Merged,3,19,
+spark,26379,review,342354865,non_debt,-,apache,1.0,Closed,5,9,SQL
+flink,8001,review,266840147,non_debt,-,apache,1.0,Merged,4,30,"review=description?, component=TableSQL/Planner"
+zeppelin,1574,comment,257544952,non_debt,-,apache,177.0,Closed,1,4,

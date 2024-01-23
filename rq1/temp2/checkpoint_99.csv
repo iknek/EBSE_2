@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+airflow,12530,review,528867848,non_debt,-,apache,2.0,Merged,3,11,"area:serialization, full tests needed"
+storm,3381,summary,0,non_debt,-,apache,903.0,Closed,3,0,
+druid,10267,review,600967002,non_debt,-,apache,225.0,Merged,30,20,"Bug, Incompatible, Release Notes"
+pulsar,4311,review,285428211,non_debt,-,apache,14.0,Merged,6,19,component/function
+qpid-dispatch,1027,comment,777126228,non_debt,-,apache,5.0,Closed,4,9,
+spark,3778,review,22297307,non_debt,-,apache,24.0,Closed,9,14,
+druid,2806,review,59071300,code_debt,low_quality_code,apache,1062.0,Closed,6,17,"Improvement, Area - Segment Balancing/Coordination, stale"
+spark,19495,review,144992379,code_debt,low_quality_code,apache,4.0,Closed,8,23,
+hbase,2810,comment,751321209,non_debt,-,apache,6.0,Merged,1,0,
+activemq-artemis,3104,comment,621179877,non_debt,-,apache,5.0,Closed,1,1,DO-NOT-MERGE-YET
+trafodion,1401,comment,358168176,non_debt,-,apache,1.0,Merged,1,0,
+camel-quarkus,1159,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+airflow,10947,review,497376687,non_debt,-,apache,15.0,Merged,4,30,"provider:google, provider:amazon-aws, area:providers"
+incubator-pinot,5081,summary,0,non_debt,-,apache,0.0,Merged,4,0,
+trafodion,405,description,0,non_debt,-,apache,1.0,Closed,1,5,
+airflow,1435,comment,215288030,code_debt,low_quality_code,apache,22.0,Closed,8,10,
+hive,1261,description,0,non_debt,-,apache,0.0,Merged,1,0,tests passed
+accumulo,368,review,165091158,non_debt,-,apache,6.0,Closed,3,15,
+systemds,963,comment,640634259,non_debt,-,apache,0.0,Merged,1,0,
+beam,12241,review,454528596,documentation_debt,low_quality_documentation,apache,1.0,Merged,2,11,python
+helix,653,review,362586939,non_debt,-,apache,40.0,Merged,20,30,
+kafka,1608,description,0,non_debt,-,apache,,Not Closed or Merged,1,0,
+accumulo,371,description,0,non_debt,-,apache,14.0,Merged,3,7,
+geode-native,615,review,443683084,test_debt,expensive_tests,apache,14.0,Merged,3,11,
+tvm,1973,review,243703973,non_debt,-,apache,75.0,Merged,1,15,status: accepted
+airflow,4348,summary,0,non_debt,-,apache,5.0,Merged,1,0,
+drill,348,comment,177013054,non_debt,-,apache,0.0,Merged,1,0,
+arrow,2366,review,208745187,non_debt,-,apache,6.0,Closed,28,30,
+incubator-pinot,484,comment,244438160,non_debt,-,apache,0.0,Merged,1,12,
+flink,2807,summary,0,non_debt,-,apache,7.0,Closed,4,0,component=<none>
+thrift,139,summary,0,non_debt,-,apache,1.0,Closed,3,0,
+ambari,2707,description,0,code_debt,low_quality_code,apache,0.0,Merged,1,0,cleanup
+hudi,360,comment,377576044,code_debt,low_quality_code,apache,8.0,Merged,1,2,
+flink,1553,comment,191752181,non_debt,-,apache,54.0,Closed,4,30,component=API/DataSet
+zookeeper,32,comment,110500112,non_debt,-,apache,1335.0,Closed,30,0,
+tvm,1716,summary,0,documentation_debt,low_quality_documentation,apache,0.0,Merged,2,0,
+superset,6030,summary,0,non_debt,-,apache,4.0,Merged,3,0,
+trafficserver,1717,comment,296241153,non_debt,-,apache,11.0,Merged,1,0,CPP API
+guacamole-client,375,review,261795640,non_debt,-,apache,214.0,Merged,4,30,
+flink,10748,review,362788785,non_debt,-,apache,16.0,Merged,4,15,"review=description?, component=Documentation, component=Runtime/Configuration"
+hadoop,1752,comment,566876917,non_debt,-,apache,43.0,Merged,13,16,fs/s3
+airflow,3773,comment,414979183,non_debt,-,apache,1.0,Merged,1,2,
+arrow,1744,comment,373059009,non_debt,-,apache,15.0,Closed,2,0,
+spark,10208,comment,164531611,non_debt,-,apache,8.0,Closed,2,19,
+trafficserver,276,description,0,non_debt,-,apache,3.0,Closed,1,0,
+incubator-doris,3513,review,422451684,non_debt,-,apache,3.0,Merged,4,6,"kind/fix, area/sql/execution, area/doris-on-es, approved"
+druid,2683,comment,198480289,documentation_debt,outdated_documentation,apache,10.0,Merged,1,0,Improvement
+ozone,702,comment,608511555,non_debt,-,apache,16.0,Closed,4,0,
+spark,23260,comment,446345304,code_debt,low_quality_code,apache,53.0,Closed,28,30,
+trafficserver,1946,review,117639097,non_debt,-,apache,11.0,Merged,1,29,"Plugins, Documentation"

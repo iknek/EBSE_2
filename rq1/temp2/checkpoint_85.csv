@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+iceberg,1096,review,438271764,non_debt,-,apache,12.0,Merged,7,30,
+spark,13758,comment,239747204,non_debt,-,apache,193.0,Closed,30,30,
+flink,15314,review,603761487,non_debt,-,apache,8.0,Closed,3,30,"review=description?, component=Runtime/Coordination"
+skywalking,1723,description,0,non_debt,-,apache,0.0,Merged,1,0,"backend, feature"
+activemq-artemis,2427,review,233197168,non_debt,-,apache,73.0,Closed,2,30,
+ambari,406,summary,0,non_debt,-,apache,1.0,Merged,1,0,
+arrow,98,review,97407368,non_debt,-,apache,478.0,Closed,1,9,
+carbondata,3542,comment,569505754,non_debt,-,apache,1.0,Closed,1,15,
+pulsar,4403,comment,504319874,non_debt,-,apache,34.0,Merged,20,17,component/tieredstorage
+trafficcontrol,3733,summary,0,non_debt,-,apache,51.0,Merged,2,0,"cdn-in-a-box, improvement"
+samza,30,review,93352730,non_debt,-,apache,53.0,Closed,16,30,
+drill,1618,review,250595479,non_debt,-,apache,34.0,Closed,6,30,
+reef,1313,review,120169945,non_debt,-,apache,5.0,Closed,1,16,
+spark,28105,review,402905582,non_debt,-,apache,3.0,Closed,3,22,
+spark,29767,review,501476018,non_debt,-,apache,23.0,Closed,5,30,"SQL, STRUCTURED STREAMING"
+spark,29298,review,462797732,non_debt,-,apache,0.0,Closed,3,8,CORE
+ignite,854,description,0,non_debt,-,apache,44.0,Closed,28,0,
+shardingsphere,1252,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+spark,26330,review,341407750,non_debt,-,apache,14.0,Closed,30,24,
+couchdb,1658,summary,0,non_debt,-,apache,25.0,Merged,9,6,
+guacamole-client,200,description,0,non_debt,-,apache,2.0,Closed,4,0,
+hbase,645,review,326464585,non_debt,-,apache,10.0,Merged,2,4,
+spark,316,comment,39515943,non_debt,-,apache,0.0,Closed,1,0,
+activemq-artemis,2241,comment,412575863,architecture_debt,violation_of_modularity,apache,2.0,Closed,1,1,
+cloudstack,3055,description,0,non_debt,-,apache,3.0,Merged,1,0,
+daffodil,282,summary,0,non_debt,-,apache,5.0,Merged,1,0,
+spark,10753,comment,171546245,non_debt,-,apache,153.0,Closed,2,0,
+beam,697,comment,234148097,non_debt,-,apache,5.0,Merged,3,4,
+activemq-artemis,2786,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+flink,14120,description,0,non_debt,-,apache,14.0,Closed,3,7,"review=description?, component=API/Core"
+apisix-dashboard,651,review,516443012,non_debt,-,apache,3.0,Merged,8,13,
+cloudstack,2637,review,187600417,non_debt,-,apache,4.0,Closed,2,1,
+spark,18037,comment,302808740,non_debt,-,apache,2.0,Closed,2,0,
+activemq-artemis,3448,review,574070715,non_debt,-,apache,0.0,Closed,1,30,
+flink,7550,comment,509489301,non_debt,-,apache,169.0,Closed,1,11,component=Connectors/HBase
+cloudstack,3165,comment,460543956,non_debt,-,apache,49.0,Merged,1,0,type:cleanup
+spark,29496,comment,679314749,non_debt,-,apache,3.0,Closed,1,10,"SQL, ML, STRUCTURED STREAMING, INFRA, R"
+reef,1360,review,132061606,non_debt,-,apache,0.0,Closed,3,18,
+cloudstack,617,comment,124027175,non_debt,-,apache,0.0,Closed,1,1,
+incubator-brooklyn,910,review,41485190,design_debt,non-optimal_design,apache,37.0,Merged,4,12,
+beam,5253,comment,388164781,non_debt,-,apache,10.0,Merged,3,14,
+incubator-doris,2222,review,347693807,non_debt,-,apache,7.0,Closed,1,18,
+spark,9432,comment,154740151,code_debt,complex_code,apache,6.0,Closed,5,2,
+pulsar,7555,summary,0,non_debt,-,apache,876.0,Closed,6,5,"component/function, lifecycle/stale"
+incubator-mxnet,19602,comment,753847526,non_debt,-,apache,34.0,Merged,13,1,pr-awaiting-review
+arrow,5723,comment,546202890,non_debt,-,apache,18.0,Closed,7,20,Component: Java
+kafka,2143,review,94173222,test_debt,lack_of_tests,apache,,Not Closed or Merged,1,3,connect
+airflow,4409,comment,451617211,non_debt,-,apache,6.0,Closed,30,0,
+nifi,4645,summary,0,non_debt,-,apache,0.0,Closed,2,0,
+hawq,1251,comment,306961322,non_debt,-,apache,7.0,Closed,2,6,

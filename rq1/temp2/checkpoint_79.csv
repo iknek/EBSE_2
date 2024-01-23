@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+arrow,7507,review,562065051,architecture_debt,violation_of_modularity,apache,240.0,Closed,30,30,"Type: enhancement, Component: Parquet, Component: C++, Component: C++ - Gandiva"
+incubator-weex,1550,summary,0,non_debt,-,apache,76.0,Closed,1,0,
+fineract,1599,description,0,non_debt,-,apache,5.0,Merged,1,0,renovate
+kafka,7848,description,0,non_debt,-,apache,123.0,Closed,2,6,streams
+openwhisk,4031,review,255882825,code_debt,low_quality_code,apache,148.0,Merged,3,2,"review, artifactstore"
+openwhisk,638,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+nutch,131,description,0,non_debt,-,apache,10.0,Merged,1,0,
+arrow,2314,comment,407287310,non_debt,-,apache,0.0,Closed,5,3,
+spark,11006,comment,178279347,code_debt,low_quality_code,apache,0.0,Closed,30,29,
+druid,9618,description,0,non_debt,-,apache,225.0,Closed,1,0,stale
+kafka,2303,comment,270284340,non_debt,-,apache,55.0,Closed,3,0,
+carbondata,2634,comment,412819112,non_debt,-,apache,0.0,Closed,1,0,
+skywalking,4443,comment,597527424,non_debt,-,apache,8.0,Closed,30,20,"bug, plugin"
+flink,15195,review,594017064,non_debt,-,apache,3.0,Merged,6,30,"review=description?, component=TableSQL/Planner"
+incubator-heron,2793,review,176873377,non_debt,-,apache,757.0,Closed,1,7,
+cloudstack,2464,comment,367304540,non_debt,-,apache,6.0,Merged,2,6,"type:bug, component:UI"
+beam,13161,comment,726411143,non_debt,-,apache,22.0,Merged,3,4,
+camel-quarkus,1137,summary,0,non_debt,-,apache,0.0,Merged,2,0,
+arrow,9777,summary,0,non_debt,-,apache,0.0,Closed,1,0,Component: GLib
+spark,22007,comment,411514466,non_debt,-,apache,6.0,Closed,3,0,
+spark,11673,comment,196234027,non_debt,-,apache,239.0,Closed,1,3,
+incubator-pinot,6239,review,518946846,non_debt,-,apache,5.0,Merged,1,8,
+spark,20681,review,171910649,non_debt,-,apache,3.0,Closed,4,7,
+carbondata,4039,comment,745974586,non_debt,-,apache,13.0,Closed,1,2,
+beam,13411,description,0,non_debt,-,apache,8.0,Merged,1,3,
+arrow,9141,comment,756918737,non_debt,-,apache,0.0,Closed,1,0,Component: C++
+ignite,1558,description,0,non_debt,-,apache,510.0,Closed,30,12,
+superset,3346,review,134524525,non_debt,-,apache,244.0,Closed,2,3,
+kafka,7881,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+ignite,8686,review,586497377,non_debt,-,apache,52.0,Merged,30,30,
+cloudstack,3795,review,363682565,non_debt,-,apache,8.0,Merged,4,9,"type:bug, component:ssvm, component:csvm"
+superset,3852,comment,344171641,non_debt,-,apache,3.0,Merged,1,0,
+zeppelin,80,comment,111033924,non_debt,-,apache,26.0,Closed,4,3,
+servicecomb-java-chassis,1761,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+zookeeper,1417,comment,665952705,code_debt,low_quality_code,apache,5.0,Closed,9,30,
+pulsar,9481,comment,775964246,non_debt,-,apache,12.0,Closed,10,17,
+spark,2931,review,19454808,non_debt,-,apache,6.0,Closed,13,30,
+storm,237,review,24169370,non_debt,-,apache,186.0,Merged,5,5,
+spark,22960,review,231413853,code_debt,complex_code,apache,1.0,Closed,5,4,
+trafficserver,7142,review,488118370,non_debt,-,apache,35.0,Merged,4,2,"New Feature, Incompatible"
+flink,59,description,0,non_debt,-,apache,63.0,Closed,1,0,component=<none>
+thrift,1039,comment,238129818,test_debt,flaky_test,apache,68.0,Closed,28,10,
+flink,12176,review,426165664,code_debt,complex_code,apache,2.0,Closed,5,30,"review=description?, component=Connectors/JDBC, component=TableSQL/Ecosystem"
+ambari,2048,description,0,non_debt,-,apache,0.0,Merged,1,0,
+arrow,8371,comment,706095916,non_debt,-,apache,29.0,Closed,14,6,
+iceberg,1083,review,438894029,non_debt,-,apache,10.0,Merged,7,30,
+dubbo,4655,summary,0,code_debt,low_quality_code,apache,0.0,Merged,1,0,
+thrift,221,comment,57221845,non_debt,-,apache,9.0,Closed,1,0,
+shardingsphere,7753,summary,0,non_debt,-,apache,0.0,Merged,1,0,"type: refactor, in: kernel"
+spark,16464,description,0,non_debt,-,apache,12.0,Closed,9,21,

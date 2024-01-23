@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+beam,4541,description,0,non_debt,-,apache,0.0,Merged,1,0,
+flink,15049,review,597725353,non_debt,-,apache,22.0,Merged,2,30,"review=description?, component=Runtime/WebFrontend"
+incubator-dolphinscheduler,1629,comment,569509881,non_debt,-,apache,0.0,Merged,5,0,
+calcite,1688,review,361354388,non_debt,-,apache,791.0,Closed,2,7,
+kafka,10039,review,571271791,code_debt,low_quality_code,apache,4.0,Merged,11,16,kraft
+spark,4557,comment,74170332,non_debt,-,apache,0.0,Closed,7,3,
+pulsar,2101,review,202403205,code_debt,low_quality_code,apache,11.0,Merged,1,30,component/test
+spark,29104,review,459789858,non_debt,-,apache,13.0,Closed,24,30,"SQL, CORE"
+samza,753,review,232373594,non_debt,-,apache,18.0,Closed,30,30,
+incubator-pinot,2475,review,167364254,non_debt,-,apache,2.0,Merged,3,27,
+groovy,735,description,0,non_debt,-,apache,2.0,Closed,1,2,
+arrow,6671,comment,604239799,non_debt,-,apache,13.0,Closed,3,10,
+madlib,77,review,93534065,non_debt,-,apache,23.0,Closed,4,8,
+thrift,1411,comment,343609905,non_debt,-,apache,12.0,Closed,1,0,
+spark,15443,review,83371347,non_debt,-,apache,14.0,Closed,1,6,
+storm,168,comment,51805865,non_debt,-,apache,58.0,Merged,4,0,
+nifi,536,summary,0,non_debt,-,apache,0.0,Closed,1,0,
+spark,16680,comment,277992951,non_debt,-,apache,14.0,Closed,1,13,
+flink,5239,review,162584582,non_debt,-,apache,52.0,Closed,30,30,component=Runtime/StateBackends
+incubator-weex,910,description,0,non_debt,-,apache,0.0,Closed,1,0,
+kylin,1063,description,0,non_debt,-,apache,5.0,Merged,1,0,
+ignite,821,summary,0,non_debt,-,apache,0.0,Closed,30,0,
+samza,284,review,135369813,non_debt,-,apache,4.0,Closed,29,15,
+kafka,8367,description,0,non_debt,-,apache,4.0,Merged,3,13,"streams, kip"
+skywalking,3074,comment,512103984,non_debt,-,apache,2.0,Merged,16,6,"bug, backend"
+incubator-mxnet,8227,review,144140978,non_debt,-,apache,4.0,Merged,4,4,
+spark,6558,review,31485428,code_debt,low_quality_code,apache,0.0,Closed,4,1,
+beam,1048,review,82713525,non_debt,-,apache,120.0,Closed,1,17,
+pulsar,6196,review,374325392,code_debt,low_quality_code,apache,164.0,Closed,1,2,
+spark,22258,description,0,non_debt,-,apache,0.0,Closed,1,0,
+arrow,5028,review,311448316,non_debt,-,apache,2.0,Closed,1,5,
+beam,2791,comment,298267241,non_debt,-,apache,0.0,Closed,1,0,
+trafficserver,803,comment,239984516,non_debt,-,apache,48.0,Merged,1,0,
+ignite,5774,review,246697079,non_debt,-,apache,19.0,Closed,30,4,
+iceberg,1145,review,465467211,non_debt,-,apache,38.0,Merged,5,30,
+kafka,7223,description,0,non_debt,-,apache,7.0,Merged,4,16,streams
+cloudstack,1098,comment,158686367,non_debt,-,apache,67.0,Closed,5,0,
+couchdb,2338,description,0,non_debt,-,apache,3.0,Merged,1,4,
+phoenix,325,description,0,non_debt,-,apache,1811.0,Closed,1,0,
+incubator-pinot,5766,comment,667437954,non_debt,-,apache,3.0,Merged,1,10,
+accumulo,221,review,103497233,non_debt,-,apache,4.0,Merged,1,30,
+flink,2016,comment,222136775,non_debt,-,apache,6.0,Closed,2,8,"component=Connectors/Common, component=Connectors/Kinesis"
+dubbo,3448,description,0,non_debt,-,apache,0.0,Merged,1,0,
+trafficserver,2458,description,0,non_debt,-,apache,0.0,Merged,1,0,Coverity
+spark,1270,review,17257206,design_debt,non-optimal_design,apache,123.0,Closed,10,24,
+accumulo,501,review,191754179,non_debt,-,apache,5.0,Merged,5,15,
+druid,8231,comment,517966932,non_debt,-,apache,3.0,Merged,4,0,Area - Web Console
+cloudstack,2896,comment,433614900,non_debt,-,apache,25.0,Merged,6,4,type:enhancement
+carbondata,2508,comment,424884106,non_debt,-,apache,,Not Closed or Merged,1,2,
+pulsar,4714,review,302887349,non_debt,-,apache,7.0,Merged,3,1,"bug, doc"

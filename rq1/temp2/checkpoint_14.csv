@@ -1,0 +1,51 @@
+project,pull_number,pull_type,id,classification,indicator,repo_owner,pr_duration_days,pr_status,commits_count,comments_count,labels
+flink,12758,comment,649547883,non_debt,-,apache,4.0,Closed,2,6,"review=description?, component=Documentation, component=chinese-translation, component=TableSQL/Ecosystem"
+cloudstack,2721,review,201307689,non_debt,-,apache,17.0,Merged,6,8,
+beam,329,description,0,non_debt,-,apache,0.0,Merged,1,0,
+flink,5367,review,165039357,code_debt,complex_code,apache,10.0,Closed,2,13,component=TableSQL/API
+netbeans,449,description,0,non_debt,-,apache,104.0,Closed,1,2,
+hudi,1149,comment,669295110,non_debt,-,apache,216.0,Merged,12,30,
+flink,8449,comment,492630818,non_debt,-,apache,8.0,Closed,13,30,"review=description?, component=TableSQL/API"
+trafodion,309,comment,180436567,non_debt,-,apache,0.0,Merged,1,0,
+kafka,4855,comment,383759105,non_debt,-,apache,44.0,Merged,30,30,
+druid,10070,review,445155089,code_debt,low_quality_code,apache,0.0,Merged,6,2,"Bug, Release Notes, Area - Segment Balancing/Coordination"
+cloudstack,3600,comment,580152807,non_debt,-,apache,617.0,Merged,3,11,"type:enhancement, component:management-server, status:ready-for-merge, age:1year_plus"
+beam,7174,review,238478822,non_debt,-,apache,12.0,Merged,1,4,
+trafodion,294,comment,178076645,documentation_debt,low_quality_documentation,apache,4.0,Merged,2,4,
+ozone,2000,review,600354804,non_debt,-,apache,23.0,Merged,18,30,
+calcite,552,review,275722923,non_debt,-,apache,736.0,Closed,3,7,LGTM-will-merge-soon
+spark,10734,review,49557801,non_debt,-,apache,0.0,Closed,6,9,
+trafficserver,833,comment,237111945,non_debt,-,apache,44.0,Merged,0,0,
+arrow,4613,review,296764162,non_debt,-,apache,5.0,Closed,13,2,
+spark,23272,description,0,non_debt,-,apache,1.0,Closed,5,20,
+trafficcontrol,1480,comment,366315191,non_debt,-,apache,128.0,Merged,5,0,"new feature, Traffic Router"
+incubator-mxnet,5336,description,0,non_debt,-,apache,1.0,Merged,1,0,
+druid,5278,review,164339035,non_debt,-,apache,29.0,Merged,19,30,"Area - Batch Ingestion, Area - Querying, Design Review, Area - Segment Format and Ser/De, Development Blocker"
+spark,6157,comment,102176652,non_debt,-,apache,0.0,Closed,1,0,
+tvm,1403,review,201886571,code_debt,low_quality_code,apache,4.0,Merged,30,30,status: accepted
+kafka,7799,review,364476808,code_debt,low_quality_code,apache,32.0,Merged,5,4,
+netbeans-website,473,review,430013474,code_debt,slow_algorithm,apache,17.0,Merged,1,3,
+geode-native,634,review,471802267,non_debt,-,apache,2.0,Merged,4,30,
+flink,854,comment,114331577,non_debt,-,apache,22.0,Closed,5,5,component=Runtime/Task
+kafka,2314,comment,270717795,non_debt,-,apache,1.0,Closed,1,6,
+incubator-mxnet,9810,review,170436506,non_debt,-,apache,8.0,Merged,8,23,
+spark,16810,comment,278314048,non_debt,-,apache,3.0,Closed,4,10,
+kafka,3188,review,137854355,non_debt,-,apache,111.0,Closed,15,30,
+apisix,3894,review,600109033,non_debt,-,apache,203.0,Merged,30,30,
+netbeans,968,comment,430955215,documentation_debt,low_quality_documentation,apache,104.0,Closed,1,0,
+kafka,3269,comment,307775797,non_debt,-,apache,42.0,Closed,1,0,connect
+hawq,90,review,44373709,non_debt,-,apache,0.0,Closed,2,6,
+tvm,5044,summary,0,non_debt,-,apache,0.0,Merged,1,0,
+druid,1862,summary,0,non_debt,-,apache,1.0,Merged,2,15,
+spark,19468,review,148569836,non_debt,-,apache,49.0,Closed,29,30,
+hudi,1114,review,360699643,non_debt,-,apache,18.0,Merged,9,5,
+skywalking,5685,comment,711190648,documentation_debt,outdated_documentation,apache,13.0,Merged,30,30,"agent, feature"
+airflow,1270,description,0,code_debt,low_quality_code,apache,0.0,Merged,1,0,
+kafka,4805,review,183132149,non_debt,-,apache,31.0,Merged,1,17,streams
+kafka,2525,summary,0,non_debt,-,apache,7.0,Closed,1,0,
+incubator-weex,1794,description,0,non_debt,-,apache,0.0,Closed,0,0,
+incubator-pinot,2304,review,160811762,non_debt,-,apache,0.0,Merged,3,5,
+carbondata,3208,review,282835607,non_debt,-,apache,22.0,Closed,1,6,
+spark,24382,comment,517798684,non_debt,-,apache,124.0,Closed,21,30,STRUCTURED STREAMING
+kafka,2675,comment,285844277,non_debt,-,apache,414.0,Closed,1,0,connect
+spark,8823,comment,141555821,non_debt,-,apache,0.0,Closed,3,0,
