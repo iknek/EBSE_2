@@ -8,7 +8,7 @@ import os
 sns.set(style="whitegrid")
 
 # Load environment variables
-load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+load_dotenv(os.path.join(os.path.dirname(__file__), '../..', '.env'))
 
 # Get the absolute path to the folder where the CSV file is located
 absolute_path_to_folder = os.getenv('ABSOLUTE_PATH_TO_FOLDER')
