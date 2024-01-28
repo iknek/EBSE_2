@@ -37,7 +37,7 @@ plt.xticks(fontsize=10)
 plt.yticks(fontsize=10)
 
 plt.tight_layout()  # Adjust the layout
-plt.savefig(os.path.join(absolute_path_to_folder, '../../rq1/rq1_1.png'))
+plt.savefig(os.path.join(absolute_path_to_folder, '../../rq1/1.1/rq1_1OLD.png'))
 
 print("Graph generation complete. PNG file saved.")
 
@@ -52,5 +52,5 @@ grouped_data2['acceptance_rate'] = grouped_data['Merged'] / (grouped_data2['Merg
 grouped_data2.reset_index(inplace=True)
 
 # Exporting to a new CSV
-grouped_data2.to_csv(os.path.join(absolute_path_to_folder, '../../rq1/rq1_1.csv'), index=False)
+grouped_data2.to_csv(os.path.join(absolute_path_to_folder, '../../rq1/1.1/rq1_1OLD.csv'), index=False)
 print("CSV Saved")
