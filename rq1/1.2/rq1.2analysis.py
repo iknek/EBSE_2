@@ -59,7 +59,6 @@ class PRResolutionTimeAnalysis:
         table.rename(columns={'mean': 'Mean Duration (days)', 'std': 'Standard Deviation for Mean (days)',
                             'Relative_Mean_Duration': 'Relative Mean Duration (days)',
                             'Relative_Std_Duration': 'Relative Standard Deviation for Mean (days)'}, inplace=True)
-
         return table
 
 

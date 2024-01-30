@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 class SATDAnalysis:
     def __init__(self):
         # Load environment variables
-        load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+        load_dotenv(os.path.join(os.path.dirname(__file__), '../..', '.env'))
 
         # Get the absolute path to the folder where the CSV file is located
         absolute_path_to_folder = os.getenv('ABSOLUTE_PATH_TO_FOLDER')
-        csv_file_path = os.path.join(absolute_path_to_folder, '../../rq2/rq2_1.csv')
+        csv_file_path = os.path.join(absolute_path_to_folder, '../../rq2/rq2.csv')
 
         # Load the data
         self.data = pd.read_csv(csv_file_path)
