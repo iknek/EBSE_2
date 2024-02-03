@@ -26,7 +26,7 @@ class PRCommentCountAnalysis:
     def analyze_comment_counts(self, exclude_outliers=False):
         df = self.load_data()
         df_filtered = df[df['classification'] != 'defect_debt']
-        removed_counts = pd.Series(dtype=int)
+        removed_counts = None
 
         if exclude_outliers:
             df_filtered, removed_counts = self.filter_outliers(df_filtered)
@@ -38,20 +38,21 @@ class PRCommentCountAnalysis:
         grouped['Relative_Std_Comments'] = grouped['std'] - non_debt_std
 
         if exclude_outliers:
-            grouped = grouped.assign(Removed_Counts=removed_counts)
+            grouped['Removed_Counts'] = removed_counts
 
         return grouped
 
     def generate_comment_count_table(self, grouped):
         columns = ['mean', 'std', 'Relative_Mean_Comments', 'Relative_Std_Comments']
-        if 'Removed_Counts' in grouped:
+        if 'Removed_Counts' in grouped.columns:
             columns.append('Removed_Counts')
-        table = grouped[columns].rename(columns={
+        table = grouped[columns]
+        table.rename(columns={
             'mean': 'Comment_Count_Mean', 
             'std': 'Comment_Count_Std',
             'Relative_Mean_Comments': 'Relative Comment_Count_Mean',
             'Relative_Std_Comments': 'Relative Comment_Count_Std',
-            'Removed_Counts': 'Removed Data Points'})
+            'Removed_Counts': 'Removed Data Points'}, inplace=True)
         return table
 
     def plot_comment_counts(self, grouped):
@@ -73,21 +74,17 @@ class PRCommentCountAnalysis:
         plt.tight_layout()
         plt.show()
 
-    def perform_analysis(self, exclude_outliers):
+    def perform_analysis(self):
+        exclude_outliers_input = input("Would you like to exclude outliers based on z-score? (yes/no): ").lower()
+        exclude_outliers = exclude_outliers_input == 'yes'
+
         grouped = self.analyze_comment_counts(exclude_outliers)
         self.plot_comment_counts(grouped)
+
         table = self.generate_comment_count_table(grouped)
         print("Comment Counts Table:")
         print(table)
 
 if __name__ == "__main__":
-    analyzer = PRCommentCountAnalysis()
-    grouped_comment_counts = analyzer.analyze_comment_counts()
-    
-    # Ask the user if they want to exclude outliers
-    exclude_outliers = input("Do you want to exclude outliers? (yes/no): ").lower()
-    if exclude_outliers == "yes":
-        exclude_outliers = True
-    else:
-        exclude_outliers = False
-    analyzer.perform_analysis(exclude_outliers)
+    analyzer = PRCommentCountAnalysis() 
+    analyzer.perform_analysis()

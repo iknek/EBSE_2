@@ -1,110 +1,83 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
+from scipy import stats
 from dotenv import load_dotenv
 
 class PRResolutionTimeAnalysis:
     def __init__(self):
         load_dotenv(os.path.join(os.path.dirname(__file__), '../..', '.env'))
-        # Get the absolute path to the folder where the CSV file is located
         absolute_path_to_folder = os.getenv('ABSOLUTE_PATH_TO_FOLDER')
-        self.csv_file_path = os.path.join(absolute_path_to_folder, 'combined_checkpoints.csv')
+        self.csv_file_path = os.path.join(absolute_path_to_folder, '../../rq2/rq2.csv')
 
     def load_data(self):
-        # Load the data from the CSV file
         df = pd.read_csv(self.csv_file_path)
+        return df
 
-        # Filter out rows where classification is 'defect_debt' since we only have 1 of those
-        df_filtered = df[df['classification'] != 'defect_debt']
+    def filter_outliers(self, df, z_score_threshold=2):
+        outliers_indices = pd.Series([], dtype=bool)
+        
+        for classification, group in df.groupby('classification'):
+            pr_duration = group['pr_duration_days']
+            valid_indices = ~pr_duration.isna()  # Filter out rows with missing values
+            pr_duration_valid = pr_duration[valid_indices]
+            
+            if len(pr_duration_valid) > 1:  # Check if there are enough data points for z-score calculation
+                z_scores = stats.zscore(pr_duration_valid, nan_policy='omit')
+                is_outlier = abs(z_scores) > z_score_threshold
+                outliers_indices = outliers_indices | (valid_indices & is_outlier)
 
-        return df_filtered
+        df_filtered = df[~outliers_indices]
+        removed_counts = df.shape[0] - df_filtered.shape[0]
+        return df_filtered, removed_counts
 
     def analyze_resolution_time(self, df, exclude_outliers=False):
-        # Group by classification and calculate mean and standard deviation of PR duration
         if exclude_outliers:
-            # Exclude outliers based on z-score for each classification
-            df_filtered = self.calculate_z_scores(df)
-            df = df_filtered[(df_filtered['z_score'] >= -2) & (df_filtered['z_score'] <= 2)]
-            count_removed = df_filtered.shape[0] - df.shape[0]  # Count removed when excluding outliers
+            df, removed_counts = self.filter_outliers(df)
         else:
-            count_removed = 0  # No data points removed when not excluding outliers
+            removed_counts = 0
 
-        grouped = df.groupby('classification')['pr_duration_days'].agg(['mean', 'std', 'count'])
-
-        # Calculate the mean and standard deviation of PR duration for all classifications
-        overall_mean = df['pr_duration_days'].mean()
-        overall_std = df['pr_duration_days'].std()
-
-        # Calculate the mean and standard deviation relative to the 'non_debt' classification
+        grouped = df.groupby('classification')['pr_duration_days'].agg(['mean', 'std'])
         non_debt_mean = grouped.loc['non_debt', 'mean']
         non_debt_std = grouped.loc['non_debt', 'std']
 
-        grouped['Relative_Mean_Duration'] = grouped['mean'] - non_debt_mean
-        grouped['Relative_Std_Duration'] = grouped['std'] - non_debt_std
-        grouped['Data Points Removed'] = count_removed
-        print(count_removed)
+        grouped['Relative Mean Duration (days)'] = grouped['mean'] - non_debt_mean
+        grouped['Relative Standard Deviation for Mean (days)'] = grouped['std'] - non_debt_std
+        grouped['Data Points Removed'] = removed_counts
+
         return grouped
-
-    def calculate_z_scores(self, df):
-        df['z_score'] = (df['pr_duration_days'] - df.groupby('classification')['pr_duration_days'].transform('mean')) / df.groupby('classification')['pr_duration_days'].transform('std')
-        return df
-
-    def generate_table(self, grouped, df_filtered, exclude_outliers):
-        # Create a table
-        table = grouped[['mean', 'std', 'Relative_Mean_Duration', 'Relative_Std_Duration']]
-
-        # Rename existing columns
-        table.rename(columns={'mean': 'Mean Duration (days)', 'std': 'Standard Deviation for Mean (days)',
-                            'Relative_Mean_Duration': 'Relative Mean Duration (days)',
-                            'Relative_Std_Duration': 'Relative Standard Deviation for Mean (days)'}, inplace=True)
-        return table
-
-
-    def plot_resolution_time(self, grouped):
-        # Calculate Relative Mean Duration (days) for each classification
-        grouped['Relative Mean Duration (days)'] = grouped['mean'] - grouped.loc['non_debt', 'mean']
-
-        # Plotting
-        plt.figure(figsize=(12, 6))
-
-        # Mean PR Duration Plot
-        plt.subplot(1, 2, 1)  # 1 row, 2 columns, 1st subplot
-        ax1 = sns.barplot(x='mean', y='classification', data=grouped, palette="coolwarm")
-        plt.title('Mean PR Duration by Classification')
-        plt.xlabel('Mean PR Duration (days)')
-        plt.ylabel('Classification')
-
-        # Relative Mean Duration Plot
-        plt.subplot(1, 2, 2)  # 1 row, 2 columns, 2nd subplot
-        ax2 = sns.barplot(x='Relative Mean Duration (days)', y='classification', data=grouped, palette="coolwarm")
-        plt.title('Relative Mean Duration by Classification')
-        plt.xlabel('Relative Mean Duration (days)')
-        plt.ylabel('Classification')
-
-        plt.tight_layout()
-        plt.show()
-
-
 
     def perform_analysis(self, exclude_outliers=False):
         df = self.load_data()
-        grouped = self.analyze_resolution_time(df, exclude_outliers)
-        self.plot_resolution_time(grouped)
+        df = df[df['classification'] != 'defect_debt']  # Exclude defect_debt
 
-        # Generate and print the table
-        table = self.generate_table(grouped, df, exclude_outliers)
-        print(table)
+        grouped = self.analyze_resolution_time(df, exclude_outliers)
+
+        print("Resolution Time Analysis Table:")
+        print(grouped)
+
+        if exclude_outliers:
+            print("Total Outliers Removed:", grouped['Data Points Removed'].sum())
+
+        # Plot the results
+        plt.figure(figsize=(12, 6))
+        plt.subplot(1, 2, 1)
+        sns.barplot(x='mean', y='classification', data=grouped.reset_index(), palette="coolwarm")
+        plt.title('Mean PR Resolution Time by Classification')
+        plt.xlabel('Mean PR Resolution Time (days)')
+        plt.ylabel('Classification')
+
+        plt.subplot(1, 2, 2)
+        sns.barplot(x='Relative Mean Duration (days)', y='classification', data=grouped.reset_index(), palette="coolwarm")
+        plt.title('Relative Mean PR Resolution Time by Classification')
+        plt.xlabel('Relative Mean PR Resolution Time (days)')
+        plt.ylabel('')
+        plt.tight_layout()
+        plt.show()
 
 if __name__ == "__main__":
     analyzer = PRResolutionTimeAnalysis()
-
-    # Ask the user if they want to exclude outliers
-    exclude_outliers = input("Do you want to exclude outliers? (yes/no): ").lower()
-    if exclude_outliers == "yes":
-        exclude_outliers = True
-    else:
-        exclude_outliers = False
-
+    exclude_outliers_input = input("Do you want to exclude outliers? (yes/no): ").lower()
+    exclude_outliers = exclude_outliers_input == 'yes'
     analyzer.perform_analysis(exclude_outliers)
